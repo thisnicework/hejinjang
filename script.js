@@ -160,20 +160,35 @@ document.querySelectorAll('a[href]').forEach(link => {
   if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto')) {
     link.addEventListener('click', (e) => {
       e.preventDefault();
+      document.body.style.transition = 'opacity 0.28s ease';
       document.body.style.opacity = '0';
-      document.body.style.transition = 'opacity 0.3s ease';
       setTimeout(() => {
         window.location.href = href;
-      }, 280);
+      }, 300);
     });
   }
 });
 
-// Fade in on load
-window.addEventListener('load', () => {
+// 페이드인 함수 — load와 pageshow(bfcache 복원) 양쪽에서 사용
+function fadePageIn() {
+  // transition 일시 제거 후 opacity 0 확정 → 그 다음 프레임에서 트랜지션 적용
+  document.body.style.transition = 'none';
   document.body.style.opacity = '0';
+  // 이중 rAF: 첫 번째 rAF에서 opacity:0이 렌더링된 뒤, 두 번째 rAF에서 트랜지션 시작
   requestAnimationFrame(() => {
-    document.body.style.transition = 'opacity 0.4s ease';
-    document.body.style.opacity = '1';
+    requestAnimationFrame(() => {
+      document.body.style.transition = 'opacity 0.4s ease';
+      document.body.style.opacity = '1';
+    });
   });
+}
+
+// 일반 페이지 로드
+window.addEventListener('load', fadePageIn);
+
+// bfcache(뒤로/앞으로 이동) 복원 시 — load 이벤트가 재실행되지 않으므로 별도 처리
+window.addEventListener('pageshow', (e) => {
+  if (e.persisted) {
+    fadePageIn();
+  }
 });
