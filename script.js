@@ -160,10 +160,12 @@ document.querySelectorAll('a[href]').forEach(link => {
   if (href && !href.startsWith('http') && !href.startsWith('#') && !href.startsWith('mailto')) {
     link.addEventListener('click', (e) => {
       e.preventDefault();
+      // Vercel cleanUrls: .html 확장자 제거
+      const cleanHref = href.replace(/\.html$/, '') || '/';
       document.body.style.transition = 'opacity 0.28s ease';
       document.body.style.opacity = '0';
       setTimeout(() => {
-        window.location.href = href;
+        window.location.href = cleanHref;
       }, 300);
     });
   }
