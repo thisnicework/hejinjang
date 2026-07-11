@@ -3003,8 +3003,7 @@ function bindLinks() {
 
     link.addEventListener('click', e => {
       e.preventDefault();
-      // FIX: use data-link instead of href
-      const targetPath = link.getAttribute('data-link');
+      const targetPath = link.getAttribute('href');
       if (targetPath && targetPath !== window.location.pathname) {
         window.history.pushState(null, '', targetPath);
         route();
