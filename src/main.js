@@ -3003,9 +3003,10 @@ function bindLinks() {
 
     link.addEventListener('click', e => {
       e.preventDefault();
-      const href = link.getAttribute('href');
-      if (href && href !== window.location.pathname) {
-        window.history.pushState(null, '', href);
+      // FIX: use data-link instead of href
+      const targetPath = link.getAttribute('data-link');
+      if (targetPath && targetPath !== window.location.pathname) {
+        window.history.pushState(null, '', targetPath);
         route();
       }
     });
@@ -3015,9 +3016,8 @@ function bindLinks() {
 // Listen to navigation events
 window.addEventListener('popstate', route);
 
-// Initialize Three.js and Router
+// Initialize Router
 document.addEventListener('DOMContentLoaded', () => {
-  new IridescentFabric();
   route();
   bindLinks();
 });
