@@ -177,11 +177,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text"><span style="font-weight:bold;" class="wixui-rich-text__text"><span class="color_38 wixui-rich-text__text"><span style="text-decoration:underline;" class="wixui-rich-text__text">국문 CV</span></span></span><span style="color:#000000;" class="wixui-rich-text__text">​</span>​</span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -304,11 +300,7 @@ const routes = {
       <div class="content-page">
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -378,11 +370,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span><span style="font-size:14px;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -449,11 +437,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">2008 Im_flieger, WUK, 오스트리아</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -506,11 +490,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -584,11 +564,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -635,11 +611,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. 온수공간, 한국​​​</p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -673,11 +645,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -758,11 +726,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span>​</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -850,11 +814,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. 옵/신 스페이스, 한국​​</p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -940,11 +900,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -956,10 +912,6 @@ const routes = {
       <div class="content-page">
         <div class="N8MGzv _v6ohL PO9MfV comp-maqdv91u wixui-rich-text" data-testid="richTextElement" id="comp-maqdv91u"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span class="wixui-rich-text__text" style="font-size:25px;"><span class="wixui-rich-text__text" style="color:#000000;">Latent in Pre-chaos (2024)</span></span><br class="wixui-rich-text__text"/>
 <span class="wixui-rich-text__text" style="font-size:25px;"><span class="wixui-rich-text__text" style="color:#000000;">태역에 속도가 묻어있어서</span></span></h6></div>
-
-                <div class="about-image-container">
-                  <img src="/images/073f40_0d08db23991b4ebcb2c09ef9ec900efd_mv2.jpg" style="width: 100%; aspect-ratio: 700/466; max-width: 700px; height: auto;" alt="Image" loading="lazy">
-                </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-maqdv93f1 wixui-rich-text" data-testid="richTextElement" id="comp-maqdv93f1"><p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text">​</span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">Latent in Pre-chaos is video installation works that expands upon the research on the "Eunhyeongbeop" from Dongui Bogam (The Principles and Practice of Eastern Medicine) (1610), which began in 2023. Choreographer He Jin Jang regards the practice of "the method of concealing the body’s form," rehearsed during times of war and epidemic 400 years ago, as a kind of score. Together with her collaborators, she engaged in speculative dialogue, literature research, movement studies, storytelling, and personal insights, culminating in a multisensory performance in August 2023 that invited the audience into this process. The remaining questions from this project were: "What were the notions of body, community, and care to our ancestors during moments of disaster and disease? What might this indigenous wisdom have to say in the current era of the 'Ontological Turn'?"</span></span></span></p>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"> </p>
@@ -1010,10 +962,6 @@ const routes = {
  </p>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">제작지원. 아트프로젝트 보라 </span></span></span></p>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">베뉴. 2024 코레오-그래피 @ 서울대학교 파워플랜트, 한국</span></span></span></p></div>
-
-                <div class="about-image-container">
-                  <img src="/images/073f40_2c50be3925714d9980b2e709b0304515_mv2.png" style="width: 100%; aspect-ratio: 687/387; max-width: 687px; height: auto;" alt="Image" loading="lazy">
-                </div>
                 
       </div>
     `
@@ -1052,11 +1000,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1113,11 +1057,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">베뉴. 문화비축기지, 한국</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1203,11 +1143,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2020 한국문화예술위원 창작의 과정, 문화비축기지, 한국​​</p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1260,11 +1196,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1301,11 +1233,7 @@ const routes = {
         베뉴. 서울무용센터</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1335,11 +1263,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1454,21 +1378,17 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="letter-spacing:0em;" class="wixui-rich-text__text">​</span></span></span><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="letter-spacing:0em;" class="wixui-rich-text__text">​</span></span></span><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="letter-spacing:0em;" class="wixui-rich-text__text">​</span></span></span><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="letter-spacing:0em;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/073f40_83a928ccfa9c43e4aff2e9b58acabd1c_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/073f40_bddbd9d0c9734d2a9a786a031190518a_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_83a928ccfa9c43e4aff2e9b58acabd1c_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="letter-spacing:0em;" class="wixui-rich-text__text">​​</span></span></span><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="letter-spacing:0em;" class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_bddbd9d0c9734d2a9a786a031190518a_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1503,11 +1423,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">2008 Congress on Research in Dance, 미국</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1584,15 +1500,11 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">​</p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                    </div>
+        
+                    <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_52d74d0e88884ea0b96ce6f9e7dcb4e2_mv2.jpeg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1768,11 +1680,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">2009 제 41회 Congress on Research in Dance 학회: 예술 연구와 글로벌 페미니즘, 미국&nbsp;</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1877,19 +1785,15 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">베뉴. 플랫폼엘 컨템포러리 아트센터 - PLAP 기획공모 선정작, 플랫폼 라이브, 한국​​​​​​​​​</span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                    </div>
+        
+                    <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_261ea56ceb6e44309f169f08a26763be_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_8d599132147d41179f4bbacdefa80e1d_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -1988,11 +1892,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-weight:normal;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:15px;" class="wixui-rich-text__text">2025 Anthologies Assembly, London South Bank University, 영국</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2040,11 +1940,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2136,11 +2032,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2023 ProSeries 페스티벌, 캘거리대학교, 캐나다​​​​​<a href="https://mybox.naver.com/share/list/viewer/3472569161967081808?shareKey=_Ptwu1g-7gl6OfeCMT8ZAUmZ23OkMG6WR1fnzMSrsSKgizhhh6dm7GAMwif7I7S-Dg%3D%3D" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text">​​</a>​</p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2167,11 +2059,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2267,11 +2155,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">후원. 예술경영지원센터, 문화체육관광부</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2308,11 +2192,7 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. Movement Research at Judson Church, 미국<span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span></span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text">​</span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span></span></span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span><a href="https://mybox.naver.com/share/list/viewer/3472569162129446480?shareKey=_Ptwu1g-7gl6OfeCMT8ZAUmZ23OkMG6WR1fnzMSrsSKgizhhh6dm7GAMwif7I7S-Dg%3D%3D" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-weight:400;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="color:#00B3FF;" class="wixui-rich-text__text"><span style="text-decoration:underline;" class="wixui-rich-text__text">​</span></span></span></span></span></a></span><span style="font-size:14px;" class="wixui-rich-text__text"><span class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span>​</span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2378,15 +2258,6 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">​</span></span></span></p>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">제작지원. 아트프로젝트 보라</span></span></span></p>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">베뉴. 2024 코레오-그래피 @ 서울대학교 파워플랜트, 한국</span></span></span></p></div>
-
-                <div class="about-image-container">
-                  <img src="/images/073f40_9ba5afe03be845a28dcacc07c0a7d523_mv2.jpg" style="width: 100%; aspect-ratio: 503/600; max-width: 503px; height: auto;" alt="Image" loading="lazy">
-                </div>
-                
-
-                <div class="about-image-container">
-                  <img src="/images/073f40_0a19d7e1a40e45f184481e4d59e61bed_mv2.jpg" style="width: 100%; aspect-ratio: 600/600; max-width: 600px; height: auto;" alt="Image" loading="lazy">
-                </div>
                 
       </div>
     `
@@ -2412,11 +2283,7 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-size:14px;" class="wixui-rich-text__text">이 워크숍은 동시대적 맥락에서 움직임에 기반한 공연과 춤을 만드는 창작 과정에 초점을 맞춘다. 실험실이라는 틀 안에서 ‘안무적임'과 여러 다른 차원들 것들 간의 간섭과 혼선을 환영한다. 그 차원의 층위에는 작업을 만들어 내는 것, 그리고 현존을 살아가는 것, 철학을 사유하는 것이 모두 포함되어 있다. 공동 연구의 환경을 통해 우리가 서로를 어떻게 활용할 수 있는지 실험하며, 시스템의 구조를 만드는 안무의 과정을 탐구한다. ‘만들기’, ‘퍼포밍하기’, ‘서로의 작업을 보기’, ‘글 읽기’ 이 4가지를 상호 연결함으로써 사적인 상상력과 공적인 실현을 연결하는 방법을 찾는다. ‘만드는 자’인 동시에 ‘감상하는 자’로서의 과정을 명확하게 발화하는 것을 시도하며, 때로는 공동의 책임의식과을 통해 집단의 지성을 통한(특정)집단의 문제의 해결을 시도한다. ‘나를 보여주기/나의 것을 나누기’를 연습하며, 비판적 사고, 맥락화, 체화 사이를 횡단한다. 창작과 즉흥의 과정 안에서 개인의 스타일과 선호를 긴밀히 이해하며, 동시에 동료 참가자와의참가자과의 작업에 대한 심도있는 대화를 통해 자신의 창작 과정에 질문을 던지기도 한다. 우리는 집단으로서의 공유의 순간을 시민적 순간으로 간주한다. 안무가 유령 같은 자율적 생명체, 환각적인 것, 일상 생활의 과잉으로 등장할 수 있도록 우리는 무엇을 허락할 수 있을까? 우리는 작업하기 위한 방법을 포착/위치/상황/실증할 수 있는 안무 도구를 알아차리게 될 것이다.</span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2443,11 +2310,7 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixGuard wixui-rich-text__text">​</span></span></span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
@@ -2567,11 +2430,7 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/01c3aff52f2a4dffa526d7a9843d46ea.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
-                    </div>
-        
-                    <div class="about-image-container" style="margin-bottom: 24px;">
-                      <img src="/images/11062b_6fc54c8957474101ba6e80b01907ae50_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
+                      <img src="/images/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
     </div>
