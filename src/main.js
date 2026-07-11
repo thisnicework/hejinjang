@@ -779,7 +779,7 @@ const routes = {
         
 
         <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/BhRuqMtvJf4?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fi-bet-you-d-put-that-on-2022&aoriginsup=1&vf=4" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/BhRuqMtvJf4?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
     `
@@ -1096,7 +1096,7 @@ const routes = {
         
 
         <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/3t-qSTpvxZI?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fmicrohabitat-body-last-words-2020&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/3t-qSTpvxZI?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
     `
@@ -1694,7 +1694,7 @@ const routes = {
         
 
         <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/_vyyTk5vK4o?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fslow-carnival-world-2023&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/_vyyTk5vK4o?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
     `
@@ -1925,7 +1925,7 @@ const routes = {
         
 
         <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/98_ENPuQF3w?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fthe-flowing-2021-23&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/98_ENPuQF3w?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
     `
@@ -2077,7 +2077,7 @@ const routes = {
         
 
         <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/txeRO7ZwbYU?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fweekly-weakly-2020&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/txeRO7ZwbYU?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
     `
@@ -2307,7 +2307,7 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
         
 
         <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/9iheH5OntoA?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fyou-cannot-disinvite-x-being-2021&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/9iheH5OntoA?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         </div>
     `
@@ -2335,7 +2335,7 @@ function renderGenericWork(path) {
 
 // Router Logic
 function route() {
-  const path = decodeURIComponent(window.location.pathname);
+  const path = decodeURIComponent(window.location.pathname).replace(/\/+/g, '/');
   const page = routes[path] || {
     title: 'Project | He Jin Jang Dance',
     render: () => renderGenericWork(path)
