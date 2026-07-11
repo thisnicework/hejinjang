@@ -144,11 +144,13 @@ ul {
 
 .dropdown li a {
   font-family: 'Gothic A1', sans-serif;
-  font-size: 16px;
-  line-height: normal;
+  font-size: 15px;
+  line-height: 21px;
+  height: 38px;
   font-weight: 500;
-  display: block;
-  padding: 2.5px 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
   color: #000000;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -265,7 +267,7 @@ ul {
 
 .about-text {
   font-size: 15px;
-  line-height: 1.85;
+  line-height: 1.8;
   text-align: justify;
   margin-bottom: 24px;
   font-weight: 400;

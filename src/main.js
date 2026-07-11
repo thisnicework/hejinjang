@@ -204,9 +204,7 @@ const routes = {
 <p class="font_9 wixui-rich-text__text" style="font-size:15px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:bold;"><span class="color_38 wixui-rich-text__text"><span class="wixui-rich-text__text" style="text-decoration:underline;">국문 CV</span></span></span><span class="wixui-rich-text__text" style="color:#000000;">​</span>​</span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 849/566; max-width: 849px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_2297e8f0e68e48f89b1818f21e2028ee~mv2.jpeg/v1/fill/w_849,h_566,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_2297e8f0e68e48f89b1818f21e2028ee~mv2.jpeg">
-                    <span class="placeholder-label">Image:  (849x566)</span>
-                  </div>
+                  <img src="/images/073f40_2297e8f0e68e48f89b1818f21e2028ee_mv2.jpeg" style="width: 100%; aspect-ratio: 849/566; max-width: 849px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-j8lb81gy wixui-rich-text" data-testid="richTextElement" id="comp-j8lb81gy"><p class="font_9 color_14 wixui-rich-text__text" style="line-height:normal; font-size:15px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-family:din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;"><span class="wixui-rich-text__text" style="color:rgb(255, 0, 203);">© 2024 by He Jin J</span><span class="wixui-rich-text__text" style="color:rgb(255, 0, 203);">ang</span><span class="wixui-rich-text__text" style="color:rgb(255, 0, 203);"> Dance. all right reserved.</span></span></p></div>
@@ -327,9 +325,7 @@ Instagram / <a class="wixui-rich-text__text" href="https://www.instagram.com/hej
 <span class="wixui-rich-text__text" style="font-size:20px;">with Cosmin Manolescu and Gabriella Maiorino</span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 783/508; max-width: 783px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_25775b60301b43cead3f8a79a14dad60~mv2.jpg/v1/crop/x_0,y_0,w_1200,h_778/fill/w_783,h_508,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-01-22%20%EC%98%A4%ED%9B%84%201_01_51%20copy.jpg">
-                    <span class="placeholder-label">Image: 스크린샷 2024-01-22 오후 1.01.51 copy.jpg (783x508)</span>
-                  </div>
+                  <img src="/images/_____2024-01-22____1_01_51_copy.jpg" style="width: 100%; aspect-ratio: 783/508; max-width: 783px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzclmbqp4 wixui-rich-text" data-testid="richTextElement" id="comp-lzclmbqp4"><p class="font_8 wixui-rich-text__text" style="font-size:14px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:13px;">​</span><span class="wixui-rich-text__text">​​</span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;">Three choreographers from three different cities – Bucharest, Amsterdam, Seoul – engage in creating a co-authorship performance entirely based on online communication during a 4-month period. Each of them makes themselves “available” to the others, committing to developing a solo performance based on Facebook communication, Skype calls, YouTube links, messages, and photos proposed by the others. The three solos clashed and developed into an evening-length performance during a two-week-long residency at the National Contemporary Art Museum of Bucharest in Romania.</span></span></p>
@@ -401,23 +397,17 @@ Supported by Dancemakers Amsterdam, Danslab The Hague, Museum of Contemporary Ar
  </h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 428/384; max-width: 428px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_ec21a97b53644aab993500bc888e461c~mv2.jpg/v1/crop/x_29,y_74,w_738,h_662/fill/w_428,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6210.jpg">
-                    <span class="placeholder-label">Image: IMG_6210.jpg (428x384)</span>
-                  </div>
+                  <img src="/images/IMG_6210.jpg" style="width: 100%; aspect-ratio: 428/384; max-width: 428px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 404/384; max-width: 404px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_039b2cb675bd48a6a43dbeff14d99422~mv2.jpg/v1/crop/x_0,y_102,w_828,h_787/fill/w_404,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9_%20Im_6212.jpg">
-                    <span class="placeholder-label">Image: 9. Im_6212.jpg (404x384)</span>
-                  </div>
+                  <img src="/images/9__Im_6212.jpg" style="width: 100%; aspect-ratio: 404/384; max-width: 404px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/473; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_94e7c700cfe04abe909235c30a2007dc~mv2.jpg/v1/crop/x_1,y_226,w_827,h_463/fill/w_827,h_463,al_c,q_85,enc_avif,quality_auto/IMG_6209.jpg">
-                    <span class="placeholder-label">Image: IMG_6209.jpg (845x473)</span>
-                  </div>
+                  <img src="/images/IMG_6209.jpg" style="width: 100%; aspect-ratio: 845/473; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzp3gcnl1 wixui-rich-text" data-testid="richTextElement" id="comp-lzp3gcnl1"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em; text-align:center;"><span class="wixui-rich-text__text" style="font-style:italic;"><span class="wixui-rich-text__text" style="letter-spacing:-0.02em;"><span class="wixui-rich-text__text" style="font-size:14px;">Open and Write the Flatten Choreography - I want you to read these last words out loud (2022)</span></span></span></p>
@@ -440,23 +430,17 @@ Publication: Gidaran</span></span></span></span></p>
 <p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em;; text-align: justify;"><span class="wixui-rich-text__text">​</span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/757; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_d8c70ece8a17426996518bd6d273e8e9~mv2.jpg/v1/crop/x_0,y_49,w_960,h_861/fill/w_845,h_757,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7674_JPG.jpg">
-                    <span class="placeholder-label">Image: IMG_7674.JPG (845x757)</span>
-                  </div>
+                  <img src="/images/IMG_7674_JPG.jpg" style="width: 100%; aspect-ratio: 845/757; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 422/412; max-width: 422px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_b75d8a94f0fd4cd09e36a79128ba28fc~mv2.jpg/v1/crop/x_0,y_6,w_828,h_808/fill/w_422,h_412,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EB%AF%B8%EC%86%8C%EB%AA%B8%ED%88%B4%EB%B0%95%EC%8A%A4_%EC%B1%85%EC%82%AC%EC%A7%84.jpg">
-                    <span class="placeholder-label">Image: 미소몸툴박스_책사진.jpg (422x412)</span>
-                  </div>
+                  <img src="/images/__________.jpg" style="width: 100%; aspect-ratio: 422/412; max-width: 422px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 414/412; max-width: 414px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_4fd249395f4c4e40aa20d6f36c89a711~mv2.jpg/v1/crop/x_4,y_0,w_822,h_818/fill/w_414,h_412,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9431.jpg">
-                    <span class="placeholder-label">Image: IMG_9431.jpg (414x412)</span>
-                  </div>
+                  <img src="/images/IMG_9431.jpg" style="width: 100%; aspect-ratio: 414/412; max-width: 414px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzqieuv3 wixui-rich-text" data-testid="richTextElement" id="comp-lzqieuv3"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em; text-align:center;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_1f307ac8494347558b0b9bc87c9e05cf,wf_1f307ac8494347558b0b9bc87,orig_noto_sans_kr_medium;"><span class="wixui-rich-text__text" style="letter-spacing:-0.02em;"><span class="wixui-rich-text__text" style="font-style:italic;">Microhabitat Body Tool Box</span> (2019)</span></span></span><br class="wixui-rich-text__text"/>
@@ -519,9 +503,7 @@ Publication: He Jin Jang Dance</span></span></p>
 기대지 마시오 (2008-09)</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/600; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_7ce8d0c0acae442ca3d12eecbc4432c2~mv2.jpg/v1/crop/x_37,y_0,w_1127,h_800/fill/w_845,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/080927_61_H_Jang_022.jpg">
-                    <span class="placeholder-label">Image: 080927_61_H_Jang_022.jpg (845x600)</span>
-                  </div>
+                  <img src="/images/080927_61_H_Jang_022.jpg" style="width: 100%; aspect-ratio: 845/600; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lypg8lix wixui-rich-text" data-testid="richTextElement" id="comp-lypg8lix"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:13px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">​</span></span><span class="wixui-rich-text__text" style="font-size:13px;">​</span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-style:italic;">Do not lean on door </span>deals with the phenomenon of 'no place' and ‘no voice’ inside transnational female bodies. In imagining altered ways to exit and speak out in the in-between space, the female performers create a fantasy world through repetitive movements.</span></span></p>
@@ -557,23 +539,17 @@ Publication: He Jin Jang Dance</span></span></p>
 표류하는 몸 (2015-17)</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/801; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_4bb4c14427ea4b8b8f10ff4afe65cf24~mv2.jpeg/v1/crop/x_0,y_278,w_720,h_682/fill/w_719,h_682,al_c,q_85,enc_avif,quality_auto/3_%20%ED%91%9C%EB%A5%98%ED%95%98%EB%8A%94%EB%AA%B8_%EC%9E%A5%ED%98%9C%EC%A7%84.jpeg">
-                    <span class="placeholder-label">Image: 3. 표류하는몸_장혜진.jpeg (845x801)</span>
-                  </div>
+                  <img src="/images/3___________.jpeg" style="width: 100%; aspect-ratio: 845/801; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/600; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_fc4599b32d274a31b93f470fe2adcf1c~mv2.jpeg/v1/crop/x_1,y_0,w_959,h_682/fill/w_845,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%ED%91%9C%EB%A5%98%ED%95%98%EB%8A%94%EB%AA%B8_%EC%84%9C%EC%9A%B8%EB%8C%80.jpeg">
-                    <span class="placeholder-label">Image: 표류하는몸_서울대.jpeg (845x600)</span>
-                  </div>
+                  <img src="/images/_________.jpeg" style="width: 100%; aspect-ratio: 845/600; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1132; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_4182819c1c0347bc9c751ebc7f1256b8~mv2.jpg/v1/crop/x_39,y_86,w_1130,h_1514/fill/w_845,h_1132,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/process38_arko.jpg">
-                    <span class="placeholder-label">Image: process38_arko.jpg (845x1132)</span>
-                  </div>
+                  <img src="/images/process38_arko.jpg" style="width: 100%; aspect-ratio: 845/1132; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lyo74cm61 wixui-rich-text" data-testid="richTextElement" id="comp-lyo74cm61"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">In this lecture performance, three Korean artists share their ruptured and empathetic sense of body-life in the era of the refugee crisis. The discourse among choreographer He Jin Jang, media artist Jiwon Kim, and dramaturg Ziyea Hyun morphs into a lecture performance as they realize this (dis)organizing act of trying-to-have-difficult-conversation resembles a choreographic process. There are three creative methods they integrate to manifest and facilitate this private conversations into the choreographic: 1) Find choreographic devices that can capture the non-linear thinking and feeling process, 2) Finding a structure of writing/archiving that can mirror the complexity of the discourse, 3) Welcoming any spontaneous embodied reactions to each other. They call this act as a choreographic questioning of the refugee body. As they share and articulate kinesthetic thoughts and empathy, they encounter the eventfulness of how they find choreography in social crises. How  are the concepts of body without citizenship, body as mass, and missing body felt here?</span></span></p>
@@ -620,9 +596,7 @@ Publication: He Jin Jang Dance</span></span></p>
 <span class="wixui-rich-text__text" style="font-size:20px;">with Tangerine Collective</span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 783/743; max-width: 783px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_f32187e58d7b44d3a7f1bebc6689a851~mv2.jpg/v1/crop/x_54,y_64,w_844,h_801/fill/w_783,h_743,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%96%BD%ED%9E%98%EB%A0%88%EC%A7%80%EB%8D%98%EC%8B%9C%EB%A1%9C%EA%B3%A0_JPG.jpg">
-                    <span class="placeholder-label">Image: 얽힘레지던시로고.JPG (783x743)</span>
-                  </div>
+                  <img src="/images/_________JPG.jpg" style="width: 100%; aspect-ratio: 783/743; max-width: 783px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzch3ztw2 wixui-rich-text" data-testid="richTextElement" id="comp-lzch3ztw2"><p class="font_8 wixui-rich-text__text" style="font-size:14px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;">There are forces and connections that operate even within distance. The phenomenon of the force is called “quantum entanglement,” a physics theory that unfolds on the premise that two separate entities were originally one, allowing simultaneous communication even in the absence of direct contact. What does a project that explores the movement of entanglement in and out of distance look like? Can a virtual residency that utilizes telepathic, non-face-to-face sensations create a kind of sense of companionship? This project, exploring these questions, is also an experiment on 'curation,' bringing artists together to generate common social and artistic meaning.<br class="wixui-rich-text__text"/>
@@ -678,9 +652,7 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <p class="font_8 wixui-rich-text__text" style="font-size:14px; text-align:justify;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text">​</span></span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/562; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_32049a24a48743a4b26188b7004ff077~mv2.jpg/v1/crop/x_0,y_50,w_2500,h_1663/fill/w_845,h_562,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0747_JPG.jpg">
-                    <span class="placeholder-label">Image: IMG_0747.JPG (845x562)</span>
-                  </div>
+                  <img src="/images/IMG_0747_JPG.jpg" style="width: 100%; aspect-ratio: 845/562; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -694,23 +666,17 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <span class="wixui-rich-text__text" style="color:#000000;"><span class="wixui-rich-text__text" style="font-style:italic;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;">Exhibition: Weekly Weakly </span></span></span><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;">(2020) </span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/643; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_2d1d7645b1934ebb8f2540662253c35d~mv2.jpg/v1/crop/x_225,y_129,w_1051,h_799/fill/w_845,h_643,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6303_JPG.jpg">
-                    <span class="placeholder-label">Image: IMG_6303.JPG (845x643)</span>
-                  </div>
+                  <img src="/images/IMG_6303_JPG.jpg" style="width: 100%; aspect-ratio: 845/643; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1153; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_efd55d5cca0f4f97a2e0b5c94b9fa126~mv2.png/v1/crop/x_35,y_0,w_2955,h_4032/fill/w_845,h_1153,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6241%202.png">
-                    <span class="placeholder-label">Image: IMG_6241 2.jpg (845x1153)</span>
-                  </div>
+                  <img src="/images/IMG_6241_2.png" style="width: 100%; aspect-ratio: 845/1153; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1153; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_81ffbccc1ddc47418715ab04953e7612~mv2.jpg/v1/crop/x_0,y_81,w_1200,h_1637/fill/w_845,h_1153,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0791_JPG.jpg">
-                    <span class="placeholder-label">Image: IMG_0791.JPG (845x1153)</span>
-                  </div>
+                  <img src="/images/IMG_0791_JPG.jpg" style="width: 100%; aspect-ratio: 845/1153; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lyo3nzff1 wixui-rich-text" data-testid="richTextElement" id="comp-lyo3nzff1"><p class="font_9 wixui-rich-text__text" style="text-align:justify; font-size:15px;">What if weakness were not a limitation, but a choreographic condition? Weekly Weakly is a weekly laboratory for choreography and feminist thinking, where precarity, softness, slowness, and hesitation are practiced not as failure, but as form. For its 23rd iteration, this shared practice entered a gallery space—not as documentation, but as practice-as-exhibition.</p>
@@ -748,16 +714,12 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
  </h1></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 231/244; max-width: 231px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_550d963d6e634fbdb605d9b0b01a4f57~mv2.png/v1/fill/w_231,h_244,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/FM_Logo.png">
-                    <span class="placeholder-label">Image: FM_Logo.png (231x244)</span>
-                  </div>
+                  <img src="/images/FM_Logo.png" style="width: 100%; aspect-ratio: 231/244; max-width: 231px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 559/244; max-width: 559px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_df6c452a19a54a78a329d5301a3985b2~mv2.png/v1/fill/w_559,h_244,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo_dni.png">
-                    <span class="placeholder-label">Image: logo_dni.png (559x244)</span>
-                  </div>
+                  <img src="/images/logo_dni.png" style="width: 100%; aspect-ratio: 559/244; max-width: 559px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzqp09vi1 wixui-rich-text" data-testid="richTextElement" id="comp-lzqp09vi1"><p class="font_8 wixui-rich-text__text" style="font-size:14px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;">​He Jin Jang is certified in the Franklin Method®. The Franklin Method® is a somatic method and modern therapy exercise that integrates imagery, experiential anatomy, touch, self-talk, and movement. Developed by Eric Franklin of Switzerland, it was originally designed to help dancers to activate the body and mind function, and later it has evolved to cater to all disciplines of movement. The Franklin Method® teaches how the body is naturally designed to move, enhancing function, releasing tension, improving balance, coordination and strength, and fostering awareness that can be applied to all aspects of our life.</span></span></p>
@@ -786,9 +748,7 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <span class="wixui-rich-text__text" style="font-size:20px;">with Sleungst and Friends</span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 843/725; max-width: 843px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_681ce271fdf540d69ac54bcf9894d1cc~mv2.jpg/v1/crop/x_0,y_0,w_828,h_712/fill/w_828,h_712,al_c,q_85,enc_avif,quality_auto/IMG_4293%20copy.jpg">
-                    <span class="placeholder-label">Image: IMG_4293 copy.jpg (843x725)</span>
-                  </div>
+                  <img src="/images/IMG_4293_copy.jpg" style="width: 100%; aspect-ratio: 843/725; max-width: 843px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzao63c33 wixui-rich-text" data-testid="richTextElement" id="comp-lzao63c33"><p class="font_8 wixui-rich-text__text" style="font-size:14px; text-align:justify;"><span class="wixui-rich-text__text">​</span><span class="wixui-rich-text__text">​​​</span><span class="wixui-rich-text__text">​</span></p>
@@ -847,23 +807,17 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <p class="wixui-rich-text__text" dir="ltr" style="font-size:14px; line-height:1.5em;; text-align: justify;"><span class="color_39 wixui-rich-text__text"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="text-decoration:underline;"><span class="wixui-rich-text__text" style="background-color:transparent; font-family:arial,sans-serif; font-style:normal; font-weight:400;"><span class="wixGuard wixui-rich-text__text">​</span></span></span></span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 277/600; max-width: 277px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_ffaa9df8d21b4c32b39015d41dbc52c3~mv2.jpg/v1/fill/w_277,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9C%A0%EB%A0%B9%EA%B8%B0%EB%A5%98_%EB%A9%94%EB%89%B4%ED%8E%98%EC%9D%B4%EC%A7%80%20copy.jpg">
-                    <span class="placeholder-label">Image: 유령기류_메뉴페이지 copy.jpg (277x600)</span>
-                  </div>
+                  <img src="/images/___________copy.jpg" style="width: 100%; aspect-ratio: 277/600; max-width: 277px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 277/600; max-width: 277px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_dd84b7763db246169ad373fef9f8e764~mv2.jpg/v1/fill/w_277,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9C%A0%EB%A0%B9%EA%B8%B0%EB%A5%98_%EC%98%88%EB%B3%B4%EB%AC%B4%EB%A6%AC%20copy.jpg">
-                    <span class="placeholder-label">Image: 유령기류_예보무리 copy.jpg (277x600)</span>
-                  </div>
+                  <img src="/images/__________copy.jpg" style="width: 100%; aspect-ratio: 277/600; max-width: 277px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 277/600; max-width: 277px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_7302fd679c0644038d479d138cf2ec24~mv2.jpg/v1/fill/w_277,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_2777%20copy.jpg">
-                    <span class="placeholder-label">Image: IMG_2777 copy.jpg (277x600)</span>
-                  </div>
+                  <img src="/images/IMG_2777_copy.jpg" style="width: 100%; aspect-ratio: 277/600; max-width: 277px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -877,23 +831,17 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;">당신이 그런 것을 입게 될 줄 알았어 </span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 459/637; max-width: 459px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_a20af54c445143adbcfb5c5a16b40dc4~mv2.png/v1/fill/w_459,h_637,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/poster-for-web-big-ver_edited.png">
-                    <span class="placeholder-label">Image: poster-for-web-big-ver_edited.png (459x637)</span>
-                  </div>
+                  <img src="/images/poster-for-web-big-ver_edited.png" style="width: 100%; aspect-ratio: 459/637; max-width: 459px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 382/637; max-width: 382px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_cbf308103cb0442cbdd25e5083d647ae~mv2.jpg/v1/crop/x_52,y_0,w_539,h_900/fill/w_382,h_637,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/14_%20hjdance28_edited.jpg">
-                    <span class="placeholder-label">Image: 14_ hjdance28_edited.jpg (382x637)</span>
-                  </div>
+                  <img src="/images/14__hjdance28_edited.jpg" style="width: 100%; aspect-ratio: 382/637; max-width: 382px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 852/515; max-width: 852px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_fc7733ced44f4321916eb039ab999968~mv2.png/v1/fill/w_840,h_508,al_c,lg_1,q_90,enc_avif,quality_auto/hjdance3_edited.png">
-                    <span class="placeholder-label">Image: hjdance3_edited.png (852x515)</span>
-                  </div>
+                  <img src="/images/hjdance3_edited.png" style="width: 100%; aspect-ratio: 852/515; max-width: 852px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lsk08g7f wixui-rich-text" data-testid="richTextElement" id="comp-lsk08g7f"><blockquote class="font_8 wixui-rich-text__text" style="font-size:18px;">
@@ -1002,9 +950,7 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <p class="font_9 wixui-rich-text__text" style="line-height:1.8em; text-align:justify; font-size:15px;">베뉴. 옵/신 스페이스, 한국​​</p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 852/568; max-width: 852px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_56cc95be09c946c39dc1ae0e6baa59af~mv2.jpg/v1/fill/w_852,h_568,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_56cc95be09c946c39dc1ae0e6baa59af~mv2.jpg">
-                    <span class="placeholder-label">Image:  (852x568)</span>
-                  </div>
+                  <img src="/images/073f40_56cc95be09c946c39dc1ae0e6baa59af_mv2.jpg" style="width: 100%; aspect-ratio: 852/568; max-width: 852px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -1019,9 +965,7 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <span class="wixui-rich-text__text" style="font-size:20px;">with Judson Drama</span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 627/889; max-width: 627px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_6bfb60ea16f24e61aa9e0e9913175c21~mv2.jpg/v1/fill/w_627,h_889,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0247%20copy.jpg">
-                    <span class="placeholder-label">Image: IMG_0247 copy.jpg (627x889)</span>
-                  </div>
+                  <img src="/images/IMG_0247_copy.jpg" style="width: 100%; aspect-ratio: 627/889; max-width: 627px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzchei9p1 wixui-rich-text" data-testid="richTextElement" id="comp-lzchei9p1"><p class="font_8 wixui-rich-text__text" style="font-size:14px; text-align:justify;"><span class="wixui-rich-text__text">​</span><span class="wixui-rich-text__text">​</span><span class="wixui-rich-text__text">​​​</span><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-style:italic;">Judson Drama</span> is a transdisciplinary work co-created by 11 Korean transdisciplinary artists. The Collective was founded to initiate the “New Judson Church Movement” in Korea, inspired by the groundbreaking, adventurous collective that pioneered the post-modern dance era back in the 1970s. To re-create Judson Drama here in Seoul in 2020, the collective placed performative objects hidden around the city during September and October 2020 and invited audience/users to find these objects using the GPS-based application, providing directions and information. In this participatory treasure-hunting performance, the city of Seoul becomes the site for drama and performance, reminiscent of the Judson Church Movement back in the days.</span></span></p>
@@ -1102,23 +1046,17 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <p class="font_9 wixui-rich-text__text" style="font-size:13px; line-height:1.8em; text-align:justify;"><span class="wixui-rich-text__text">​</span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 321/468; max-width: 321px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_7b21a2cb943045659cacf4c35b600329~mv2.jpg/v1/fill/w_321,h_468,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%A0%80%EB%93%9C%EC%8A%A8%EB%93%9C%EB%9D%BC%EB%A7%88_%EB%BD%91%EA%B8%B0%EA%B3%B5_%ED%8D%BC%EC%A6%90%20copy.jpg">
-                    <span class="placeholder-label">Image: 저드슨드라마_뽑기공_퍼즐 copy.jpg (321x468)</span>
-                  </div>
+                  <img src="/images/______________copy.jpg" style="width: 100%; aspect-ratio: 321/468; max-width: 321px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 314/466; max-width: 314px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_451a4a8ff1be4878818ef75fbdad06c0~mv2.jpg/v1/fill/w_314,h_466,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0234%20copy.jpg">
-                    <span class="placeholder-label">Image: IMG_0234 copy.jpg (314x466)</span>
-                  </div>
+                  <img src="/images/IMG_0234_copy.jpg" style="width: 100%; aspect-ratio: 314/466; max-width: 314px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 649/486; max-width: 649px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_8d53f19a9740466a81eae1d4e4c9db02~mv2.jpg/v1/crop/x_0,y_2,w_1200,h_898/fill/w_649,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_0187%20copy.jpg">
-                    <span class="placeholder-label">Image: IMG_0187 copy.jpg (649x486)</span>
-                  </div>
+                  <img src="/images/IMG_0187_copy.jpg" style="width: 100%; aspect-ratio: 649/486; max-width: 649px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -1132,9 +1070,7 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <span class="wixui-rich-text__text" style="font-size:25px;"><span class="wixui-rich-text__text" style="color:#000000;">태역에 속도가 묻어있어서</span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 700/466; max-width: 700px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_0d08db23991b4ebcb2c09ef9ec900efd~mv2.jpg/v1/fill/w_700,h_466,al_c,lg_1,q_80,enc_avif,quality_auto/073f40_0d08db23991b4ebcb2c09ef9ec900efd~mv2.jpg">
-                    <span class="placeholder-label">Image: 태역에 속도가 묻어있어서.JPG (700x466)</span>
-                  </div>
+                  <img src="/images/073f40_0d08db23991b4ebcb2c09ef9ec900efd_mv2.jpg" style="width: 100%; aspect-ratio: 700/466; max-width: 700px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-maqdv93f1 wixui-rich-text" data-testid="richTextElement" id="comp-maqdv93f1"><p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text">​</span><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">Latent in Pre-chaos is video installation works that expands upon the research on the "Eunhyeongbeop" from Dongui Bogam (The Principles and Practice of Eastern Medicine) (1610), which began in 2023. Choreographer He Jin Jang regards the practice of "the method of concealing the body’s form," rehearsed during times of war and epidemic 400 years ago, as a kind of score. Together with her collaborators, she engaged in speculative dialogue, literature research, movement studies, storytelling, and personal insights, culminating in a multisensory performance in August 2023 that invited the audience into this process. The remaining questions from this project were: "What were the notions of body, community, and care to our ancestors during moments of disaster and disease? What might this indigenous wisdom have to say in the current era of the 'Ontological Turn'?"</span></span></span></p>
@@ -1188,9 +1124,7 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">베뉴. 2024 코레오-그래피 @ 서울대학교 파워플랜트, 한국</span></span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 687/387; max-width: 687px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_2c50be3925714d9980b2e709b0304515~mv2.png/v1/fill/w_687,h_387,al_c,lg_1,q_85,enc_avif,quality_auto/073f40_2c50be3925714d9980b2e709b0304515~mv2.png">
-                    <span class="placeholder-label">Image: 태역속도_스크립트 사진.png (687x387)</span>
-                  </div>
+                  <img src="/images/073f40_2c50be3925714d9980b2e709b0304515_mv2.png" style="width: 100%; aspect-ratio: 687/387; max-width: 687px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -1204,16 +1138,12 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 괄호 없이 살기 (2017)</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/473; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_fe6910cafea14583bc5c57e22bd5b189~mv2.png/v1/crop/x_0,y_0,w_1200,h_672/fill/w_845,h_473,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202017-03-28%20at%206_26_47%20AM.png">
-                    <span class="placeholder-label">Image: Screen Shot 2017-03-28 at 6.26.47 AM.png (845x473)</span>
-                  </div>
+                  <img src="/images/Screen_Shot_2017-03-28_at_6_26_47_AM.png" style="width: 100%; aspect-ratio: 845/473; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/473; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_fa30c2d235f6422b9adc7a2ddd654285~mv2.png/v1/crop/x_2,y_0,w_1195,h_669/fill/w_845,h_473,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screen%20Shot%202017-03-28%20at%206_30_38%20AM.png">
-                    <span class="placeholder-label">Image: Screen Shot 2017-03-28 at 6.30.38 AM.png (845x473)</span>
-                  </div>
+                  <img src="/images/Screen_Shot_2017-03-28_at_6_30_38_AM.png" style="width: 100%; aspect-ratio: 845/473; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
@@ -1234,30 +1164,22 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 미소서식지 몸 (2018) </span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/563; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_4feeb573a14a49f188116fdc652c2107~mv2.jpg/v1/crop/x_0,y_0,w_1199,h_800/fill/w_845,h_563,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E2%88%9A%C2%A2%C2%BF%E2%82%AC%CE%A9%C2%AB%C2%AB%C3%8B_20180223-HeJinJangDance009_JPG.jpg">
-                    <span class="placeholder-label">Image: √¢¿€Ω««Ë_20180223-HeJinJangDance009.JPG (845x563)</span>
-                  </div>
+                  <img src="/images/_________20180223-HeJinJangDance009_JPG.jpg" style="width: 100%; aspect-ratio: 845/563; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/563; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_f4d1e18337254f158a24f7f7f6279812~mv2.jpg/v1/fill/w_845,h_563,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E2%88%9A%C2%A2%C2%BF%E2%82%AC%CE%A9%C2%AB%C2%AB%C3%8B_20180223-HeJinJangDance006_JPG.jpg">
-                    <span class="placeholder-label">Image: √¢¿€Ω««Ë_20180223-HeJinJangDance006.JPG (845x563)</span>
-                  </div>
+                  <img src="/images/_________20180223-HeJinJangDance006_JPG.jpg" style="width: 100%; aspect-ratio: 845/563; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/563; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_0364cbef036f4a23b89a85292cfa0c3d~mv2.jpg/v1/fill/w_845,h_563,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E2%88%9A%C2%A2%C2%BF%E2%82%AC%CE%A9%C2%AB%C2%AB%C3%8B_20180223-HeJinJangDance001_JPG.jpg">
-                    <span class="placeholder-label">Image: √¢¿€Ω««Ë_20180223-HeJinJangDance001.JPG (845x563)</span>
-                  </div>
+                  <img src="/images/_________20180223-HeJinJangDance001_JPG.jpg" style="width: 100%; aspect-ratio: 845/563; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/563; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_9600d228b59b44208f48f151ec8e0ef7~mv2.jpg/v1/crop/x_0,y_1,w_6568,h_4376/fill/w_845,h_563,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E2%88%9A%C2%A2%C2%BF%E2%82%AC%CE%A9%C2%AB%C2%AB%C3%8B_20180223-HeJinJangDance011_JPG.jpg">
-                    <span class="placeholder-label">Image: √¢¿€Ω««Ë_20180223-HeJinJangDance011.JPG (845x563)</span>
-                  </div>
+                  <img src="/images/_________20180223-HeJinJangDance011_JPG.jpg" style="width: 100%; aspect-ratio: 845/563; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lyo5gbey wixui-rich-text" data-testid="richTextElement" id="comp-lyo5gbey"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-style:italic;">Microhabitat Body </span>is a project that explores the minimum conditions for choreography to emerge. The choreographer creates a situation where the audience and performers can see ‘missing/not-yet-manifested bodies’ and their bodies that are seeing what is missing are once again seen. In this one-on-one performance, the concept of 'taa or atta', a Korean phrase meaning ‘you are me and I am you,’ is embodied through the kinetics of viewing nothing from each other. The moment is being seen and commented on by primate scientists and cultural scholars again. The sense of symbiosis is explored in multiple layers with a sense of play.</span></span></p>
@@ -1302,16 +1224,12 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <span class="color_37 wixui-rich-text__text"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;">미소서식지 몸: 유언</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/525; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_144fe7f548924126a0470e4408988ac3~mv2.jpg/v1/crop/x_0,y_0,w_1200,h_746/fill/w_845,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1%EA%B3%BC7%ED%8C%9D%EC%BD%98.jpg">
-                    <span class="placeholder-label">Image: 1과7팝콘.jpg (845x525)</span>
-                  </div>
+                  <img src="/images/1_7__.jpg" style="width: 100%; aspect-ratio: 845/525; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/400; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_bba2993de89746f3b6cc4b0e8349487e~mv2.jpg/v1/fill/w_845,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5_%202%EC%9B%94%EC%87%BC%EC%BC%80%EC%9D%B4%EC%8A%A4%EC%82%AC%EC%A7%84%ED%81%AC%EB%A0%88%EB%94%A76_%ED%8C%9D%EC%BD%98.jpg">
-                    <span class="placeholder-label">Image: 5. 2월쇼케이스사진크레 딧6_팝콘.jpg (845x400)</span>
-                  </div>
+                  <img src="/images/5__2__________6___.jpg" style="width: 100%; aspect-ratio: 845/400; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lymqf2kj2 wixui-rich-text" data-testid="richTextElement" id="comp-lymqf2kj2"><blockquote class="font_8 wixui-rich-text__text" style="font-size:18px;">
@@ -1407,9 +1325,7 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <p class="font_9 wixui-rich-text__text" style="text-align:justify; font-size:15px;">2020 한국문화예술위원 창작의 과정, 문화비축기지, 한국​​</p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/525; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_4acdb35352fe429b8c363a89b05181de~mv2.jpg/v1/fill/w_845,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_4acdb35352fe429b8c363a89b05181de~mv2.jpg">
-                    <span class="placeholder-label">Image:  (845x525)</span>
-                  </div>
+                  <img src="/images/073f40_4acdb35352fe429b8c363a89b05181de_mv2.jpg" style="width: 100%; aspect-ratio: 845/525; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -1423,16 +1339,12 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 이주하는 자아 문의 속도 (2012-16)</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/600; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_6d155c3abcb345dca707e124499b2ec7~mv2.jpg/v1/crop/x_37,y_0,w_1127,h_800/fill/w_845,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/migrantself2.jpg">
-                    <span class="placeholder-label">Image: migrantself2.jpg (845x600)</span>
-                  </div>
+                  <img src="/images/migrantself2.jpg" style="width: 100%; aspect-ratio: 845/600; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1132; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_301d991a3d2e4816a8bf6bce3e8252a9~mv2.jpg/v1/crop/x_30,y_0,w_899,h_1204/fill/w_845,h_1132,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_6474.jpg">
-                    <span class="placeholder-label">Image: IMG_6474.jpg (845x1132)</span>
-                  </div>
+                  <img src="/images/IMG_6474.jpg" style="width: 100%; aspect-ratio: 845/1132; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lypf9zbs2 wixui-rich-text" data-testid="richTextElement" id="comp-lypf9zbs2"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-style:italic;">migrant-self the speed of a door </span>explores perceptible and imperceptible timing and aging in relation to migrating. In the act of traveling home and abroad for 5 years, time becomes hybrid, fictional and bendable. Bruised by time, one faces fragile becoming in the waiting room. By reflecting the sense of paradoxical time into the choreographic process, the choreographer asks the following questions: How do certain body parts reflect this ruptured sense of time and duration? What if coming and going happen in the same doorway metaphysically and corporeally? This solo work migrated and toured more than 15 times over 5 years. It is a practice-as-performance as well as a ‘diagnostic artistic work’ of which structure and contents shift as time passes by. Each version is unique as the body ages.</span></span></p>
@@ -1480,16 +1392,12 @@ Supported by Seoul Foundation for Arts and Culture, Seoul Metropolitan City</spa
 <span class="wixui-rich-text__text" style="font-size:20px;">with Ursula Eagly</span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/743; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_5e4d35ee0a514e62b5aeb88db881e52f~mv2.jpeg/v1/crop/x_0,y_25,w_960,h_911/fill/w_845,h_743,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EA%B1%B0%EC%9A%B8%EB%89%B4%EB%9F%B0%EC%82%B4%EB%A1%B1.jpeg">
-                    <span class="placeholder-label">Image: 거울뉴런살롱.jpeg (845x743)</span>
-                  </div>
+                  <img src="/images/______.jpeg" style="width: 100%; aspect-ratio: 845/743; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/743; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_b033ce27628843a5bfc4c47b1af21ae4~mv2.jpeg/v1/crop/x_0,y_48,w_800,h_703/fill/w_800,h_703,al_c,q_85,enc_avif,quality_auto/%EA%B1%B0%EC%9A%B8%EB%89%B4%EB%9F%B0%EC%82%B4%EB%A1%B12.jpeg">
-                    <span class="placeholder-label">Image: 거울뉴런살롱2.jpeg (845x743)</span>
-                  </div>
+                  <img src="/images/______2.jpeg" style="width: 100%; aspect-ratio: 845/743; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzchyarl1 wixui-rich-text" data-testid="richTextElement" id="comp-lzchyarl1"><p class="font_8 wixui-rich-text__text" style="font-size:14px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:13px;"><span class="wixui-rich-text__text" style="text-decoration:none;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;">Two dance artists from the East and West dig into the concept of mirror neurons. Using score activate them, they share thoughts and questions with the audience. What is the link between mirror neurons and empathy? Between empathy and morality? How can mirror neurons be agents of dance? How would interpersonal neurological responses operate across the roles of performer and audience? This is a salon-type performance.</span></p>
@@ -1519,16 +1427,12 @@ Venue. Seoul Dance Center, Korea</span></span></p>
 움직임 수업: 근막 그리고 생체역학과 함께 춤추기</span></h1></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 465/462; max-width: 465px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_61391cae730545e083986203e3b6fcfc~mv2.jpg/v1/fill/w_465,h_462,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7186.jpg">
-                    <span class="placeholder-label">Image: IMG_7186.jpg (465x462)</span>
-                  </div>
+                  <img src="/images/IMG_7186.jpg" style="width: 100%; aspect-ratio: 465/462; max-width: 465px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 307/462; max-width: 307px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_9116f8b5c0494b6fb543761e11d386e7~mv2.jpg/v1/fill/w_307,h_462,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/hejinjang_photo_credit_gibeom_kim%20(1).jpg">
-                    <span class="placeholder-label">Image: hejinjang_photo_credit_gibeom_kim (1).jpg (307x462)</span>
-                  </div>
+                  <img src="/images/hejinjang_photo_credit_gibeom_kim__1_.jpg" style="width: 100%; aspect-ratio: 307/462; max-width: 307px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzqp0jbi1 wixui-rich-text" data-testid="richTextElement" id="comp-lzqp0jbi1"><p class="font_8 wixui-rich-text__text" style="font-size:14px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">Wise body is strong and political. Body wisdom awakens our bodily voices and artistic citizenship. Incorporating some of the concepts in fascial anatomy and biomechanics of our bodies (potential/kinetic energy, inertia, centripetal force, wavelength, elasticity of fascia,etc.), we move to free and empower the individuals in us in this workshop. This class explores the pathway of a released and off-balanced dancing body while finding stillness and surprise in it.<br class="wixui-rich-text__text"/>
@@ -1551,9 +1455,7 @@ Why fascia and biomechanics? Fascia is a soft membrane that surrounds and suppor
 <p class="font_8 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span class="wixui-rich-text__text" style="font-size:20px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;">with in-between space lab</span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 517/647; max-width: 517px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_4583c9366a7c40ca9af45616bed6c585~mv2.jpeg/v1/crop/x_2,y_0,w_1022,h_1280/fill/w_517,h_647,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%89%90%EC%96%B4%EB%A7%81%20%ED%8F%AC%EC%8A%A4%ED%84%B0%20%EC%B5%9C%EC%A2%85.jpeg">
-                    <span class="placeholder-label">Image: 쉐어링 포스터 최종.jpeg (517x647)</span>
-                  </div>
+                  <img src="/images/__________.jpeg" style="width: 100%; aspect-ratio: 517/647; max-width: 517px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lsu0vly71 wixui-rich-text" data-testid="richTextElement" id="comp-lsu0vly71"><p class="font_8 wixui-rich-text__text" style="font-size:18px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;">2023 in-between space lab</span></p>
@@ -1673,30 +1575,22 @@ Organized and Hosted by He Jin Jang Dance</span></span></p>
 <p class="font_9 wixui-rich-text__text" style="font-size:13px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:13px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">​</span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 300/400; max-width: 300px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_83a928ccfa9c43e4aff2e9b58acabd1c~mv2.png/v1/fill/w_300,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_5335_HEIC.png">
-                    <span class="placeholder-label">Image: IMG_5335.HEIC (300x400)</span>
-                  </div>
+                  <img src="/images/IMG_5335_HEIC.png" style="width: 100%; aspect-ratio: 300/400; max-width: 300px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 538/400; max-width: 538px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_bddbd9d0c9734d2a9a786a031190518a~mv2.jpg/v1/fill/w_538,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_1732%20copy.jpg">
-                    <span class="placeholder-label">Image: IMG_1732 copy.jpg (538x400)</span>
-                  </div>
+                  <img src="/images/IMG_1732_copy.jpg" style="width: 100%; aspect-ratio: 538/400; max-width: 538px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 300/400; max-width: 300px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_31329f1cece54e858fa3ed7a38211860~mv2.png/v1/fill/w_300,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EB%AC%B8%ED%99%94%EB%B9%84%EC%B6%95%EA%B8%B0%EC%A7%80_%EB%92%A4%EB%A1%9C%20%EA%B1%B7%EA%B8%B0_HEIC.png">
-                    <span class="placeholder-label">Image: 문화비축기지_뒤로 걷기.HEIC (300x400)</span>
-                  </div>
+                  <img src="/images/_____________HEIC.png" style="width: 100%; aspect-ratio: 300/400; max-width: 300px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 538/400; max-width: 538px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_a502673f31214784bee172cfc413b88c~mv2.jpg/v1/fill/w_538,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9B%8C%ED%81%AC%EC%88%8D%20%EC%A7%84%ED%96%89%20%EC%9D%B4%EB%AF%B8%EC%A7%80_JPG.jpg">
-                    <span class="placeholder-label">Image: 워크숍 진행 이미지.JPG (538x400)</span>
-                  </div>
+                  <img src="/images/___________JPG.jpg" style="width: 100%; aspect-ratio: 538/400; max-width: 538px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -1710,9 +1604,7 @@ Organized and Hosted by He Jin Jang Dance</span></span></p>
 열린 피부에 적힌 (2008)</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/542; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_09e1cf8f62be4ec39a084865d9143270~mv2.png/v1/crop/x_0,y_82,w_1728,h_1108/fill/w_845,h_542,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-05-15%20%EC%98%A4%EC%A0%84%2010_26_56.png">
-                    <span class="placeholder-label">Image: 스크린샷 2020-05-15 오전 10.26.56.png (845x542)</span>
-                  </div>
+                  <img src="/images/_____2020-05-15____10_26_56.png" style="width: 100%; aspect-ratio: 845/542; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lypgdzgw wixui-rich-text" data-testid="richTextElement" id="comp-lypgdzgw"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:13px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-style:italic;">open skin inscribed </span>is a performance that explores the skin as  a surface that constitutes a thin line between the body and society. The choreographer delves into the open wounds within her family’s medical history, discovering accumulated narratives inscribed on the skin. Through tactile choreography, the story unfolds.</span></span></p>
@@ -1747,9 +1639,7 @@ Organized and Hosted by He Jin Jang Dance</span></span></p>
 <span class="wixui-rich-text__text" style="color:#000000;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;">뚫린 연구:  투명인간의 회복탄력성 춤</span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 534/755; max-width: 534px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_a65bd9f5faee4572a9dde6b26cb9ae8b~mv2.jpeg/v1/crop/x_0,y_1,w_1200,h_1697/fill/w_534,h_755,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16856817941.jpeg">
-                    <span class="placeholder-label">Image: 16856817941.jpeg (534x755)</span>
-                  </div>
+                  <img src="/images/16856817941.jpeg" style="width: 100%; aspect-ratio: 534/755; max-width: 534px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lyphhn1l1 wixui-rich-text" data-testid="richTextElement" id="comp-lyphhn1l1"><p class="font_9 wixui-rich-text__text" style="text-align:justify; font-size:15px;">As part of the development of Slow Carnival World, this seven-week residency at Sinchon Arts Space became a site for what we called “porous research”—a choreographic investigation that questioned closed systems of rehearsal and production. Rather than generating knowledge through finalized performance, the research emphasized the minor, the disrupted, and the relational as sites of knowledge production. Through talks and movement-based sessions, the process unfolded ‘transparently, by making holes’—releasing what had been obscured or held in. The sessions invited participants not as passive observers, but as transparent presences: sensing, reflecting, and embodying the porous rhythms of the research itself. This residency did not conceal trial and friction, but honored them as generative. Mistakes, interruptions, and care became methodologies. What emerged was not a polished product, but an opening: a perforated field of slow-thinking, bodily intuition, and shared inquiry.</p>
@@ -1857,30 +1747,22 @@ He Jin Jang Dance, in partnership with Sinchon Arts Space</p>
 </ul></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 843/467; max-width: 843px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_f195fa811dd24f63a4273e38a07a25f5~mv2.jpg/v1/fill/w_843,h_467,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9B%8C%ED%81%AC%EC%88%8D4_edited.jpg">
-                    <span class="placeholder-label">Image: 워크숍4_edited.jpg (843x467)</span>
-                  </div>
+                  <img src="/images/___4_edited.jpg" style="width: 100%; aspect-ratio: 843/467; max-width: 843px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 843/561; max-width: 843px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_7b9d211ddd8e46b2844af0ec297ef4c3~mv2.jpg/v1/fill/w_843,h_561,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_7b9d211ddd8e46b2844af0ec297ef4c3~mv2.jpg">
-                    <span class="placeholder-label">Image:  (843x561)</span>
-                  </div>
+                  <img src="/images/073f40_7b9d211ddd8e46b2844af0ec297ef4c3_mv2.jpg" style="width: 100%; aspect-ratio: 843/561; max-width: 843px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 850/567; max-width: 850px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_57b5c90fef664cfa99d3815bc9930812~mv2.jpg/v1/fill/w_850,h_567,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_57b5c90fef664cfa99d3815bc9930812~mv2.jpg">
-                    <span class="placeholder-label">Image:  (850x567)</span>
-                  </div>
+                  <img src="/images/073f40_57b5c90fef664cfa99d3815bc9930812_mv2.jpg" style="width: 100%; aspect-ratio: 850/567; max-width: 850px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 850/638; max-width: 850px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_52d74d0e88884ea0b96ce6f9e7dcb4e2~mv2.jpeg/v1/fill/w_850,h_638,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_52d74d0e88884ea0b96ce6f9e7dcb4e2~mv2.jpeg">
-                    <span class="placeholder-label">Image:  (850x638)</span>
-                  </div>
+                  <img src="/images/073f40_52d74d0e88884ea0b96ce6f9e7dcb4e2_mv2.jpeg" style="width: 100%; aspect-ratio: 850/638; max-width: 850px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -2014,9 +1896,7 @@ He Jin Jang Dance, in partnership with Sinchon Arts Space</p>
 대체된 침묵: (2009-12)</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/600; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_d7684d96713e407ba45a4e24fd7a3f87~mv2.jpg/v1/crop/x_126,y_0,w_570,h_405/fill/w_684,h_486,al_c,lg_1,q_80,enc_avif,quality_auto/silencereplaced.jpg">
-                    <span class="placeholder-label">Image: silencereplaced.jpg (845x600)</span>
-                  </div>
+                  <img src="/images/silencereplaced.jpg" style="width: 100%; aspect-ratio: 845/600; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lypfv2sj1 wixui-rich-text" data-testid="richTextElement" id="comp-lypfv2sj1"><p class="font_8 wixui-rich-text__text" style="font-size:14px; line-height:1.8em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:13px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">​</span></span><span class="wixui-rich-text__text" style="font-size:13px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">​</span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">A performative act to problematize the expectation of silence imposed on Asian women. A woman and her bizarre preparations for going-out create a space of slow voicing. With a lit candle placed on her hair spread across the floor, she becomes the voice of feminist speculative fabulation. The synesthesia of the voice flips the space and time upside down.</span></span></p>
@@ -2054,16 +1934,12 @@ He Jin Jang Dance, in partnership with Sinchon Arts Space</p>
 <span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;">투명인간이 되든, 춤을 추든</span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 282/438; max-width: 282px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_df8de628b39f4398a75f3382ae4f4ee1~mv2.jpg/v1/fill/w_282,h_438,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9E%A5%ED%98%9C%EC%A7%84%20%EC%95%88%EB%AC%B4%EA%B0%80_%EC%88%98%EC%A0%95_-22.jpg">
-                    <span class="placeholder-label">Image: 장혜진 안무가_수정_-22.jpg (282x438)</span>
-                  </div>
+                  <img src="/images/___________-22.jpg" style="width: 100%; aspect-ratio: 282/438; max-width: 282px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 555/438; max-width: 555px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_82a46ee449aa4acabfee8f54d10fbabb~mv2.jpg/v1/fill/w_555,h_438,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9E%A5%ED%98%9C%EC%A7%84%20%EC%95%88%EB%AC%B4%EA%B0%80_%EC%88%98%EC%A0%95_-19.jpg">
-                    <span class="placeholder-label">Image: 장혜진 안무가_수정_-19.jpg (555x438)</span>
-                  </div>
+                  <img src="/images/___________-19.jpg" style="width: 100%; aspect-ratio: 555/438; max-width: 555px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lsssk29o wixui-rich-text" data-testid="richTextElement" id="comp-lsssk29o"><p class="font_9 wixui-rich-text__text" style="font-size:15px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-style:italic;">“Jang’s works offer a multisensory experience through the body, reflecting a new social role assigned to contemporary dancers. The spontaneous rhythm of the space enables a unique solidarity among participants on the spot.” </span></span></p>
@@ -2176,16 +2052,12 @@ Sponsored by: Platform-L Contemporary Art Center, Arts Council Korea, Shinchon A
 <p class="font_9 wixui-rich-text__text" style="font-size:15px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:15px;">베뉴. 플랫폼엘 컨템포러리 아트센터 - PLAP 기획공모 선정작, 플랫폼 라이브, 한국​​​​​​​​​</span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 556/439; max-width: 556px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_261ea56ceb6e44309f169f08a26763be~mv2.jpg/v1/fill/w_556,h_439,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9E%A5%ED%98%9C%EC%A7%84%20%EC%95%88%EB%AC%B4%EA%B0%80_%EC%88%98%EC%A0%95_-8.jpg">
-                    <span class="placeholder-label">Image: 장혜진 안무가_수정_-8.jpg (556x439)</span>
-                  </div>
+                  <img src="/images/___________-8.jpg" style="width: 100%; aspect-ratio: 556/439; max-width: 556px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 283/439; max-width: 283px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_8d599132147d41179f4bbacdefa80e1d~mv2.jpg/v1/fill/w_283,h_439,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9E%A5%ED%98%9C%EC%A7%84%20%EC%95%88%EB%AC%B4%EA%B0%80_%EC%88%98%EC%A0%95_-3.jpg">
-                    <span class="placeholder-label">Image: 장혜진 안무가_수정_-3.jpg (283x439)</span>
-                  </div>
+                  <img src="/images/___________-3.jpg" style="width: 100%; aspect-ratio: 283/439; max-width: 283px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -2199,16 +2071,12 @@ Sponsored by: Platform-L Contemporary Art Center, Arts Council Korea, Shinchon A
 <span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;">렉쳐 퍼포먼스: 은신하는 감각들의 모임을 위한 리허설</span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 351/441; max-width: 351px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_21965012ddd4440782e1211a9775c45a~mv2.jpg/v1/fill/w_351,h_441,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_21965012ddd4440782e1211a9775c45a~mv2.jpg">
-                    <span class="placeholder-label">Image: 은신감각렉쳐_사진4 포스터.JPG (351x441)</span>
-                  </div>
+                  <img src="/images/073f40_21965012ddd4440782e1211a9775c45a_mv2.jpg" style="width: 100%; aspect-ratio: 351/441; max-width: 351px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 313/417; max-width: 313px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_9920f267b649452cb2fd216808fbf66a~mv2.jpg/v1/fill/w_313,h_417,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_9920f267b649452cb2fd216808fbf66a~mv2.jpg">
-                    <span class="placeholder-label">Image: 은신감각렉쳐_사진1 스탠딩샷.JPG (313x417)</span>
-                  </div>
+                  <img src="/images/073f40_9920f267b649452cb2fd216808fbf66a_mv2.jpg" style="width: 100%; aspect-ratio: 313/417; max-width: 313px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-mfm5wf292 wixui-rich-text" data-testid="richTextElement" id="comp-mfm5wf292"><p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-style:italic;"><span class="wixui-rich-text__text" style="font-size:15px;">What if a body becomes invisible not through erasure—but through softness?<br class="wixui-rich-text__text"/>
@@ -2290,16 +2158,12 @@ What if healing isn’t a return to form, but a rehearsal of dissolution?</span>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:15px;">2025 Anthologies Assembly, London South Bank University, 영국</span></span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 600/400; max-width: 600px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_c1e619c0a55e4bd18d4c8bf1a35f1d9f~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/073f40_c1e619c0a55e4bd18d4c8bf1a35f1d9f~mv2.jpg">
-                    <span class="placeholder-label">Image: 은신감각렉쳐_사진3 혜진 솔로샷.jpg (600x400)</span>
-                  </div>
+                  <img src="/images/073f40_c1e619c0a55e4bd18d4c8bf1a35f1d9f_mv2.jpg" style="width: 100%; aspect-ratio: 600/400; max-width: 600px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 600/400; max-width: 600px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_7878775c05504d25bcfbbb1e54cf0c50~mv2.jpg/v1/fill/w_600,h_400,al_c,q_80,enc_avif,quality_auto/073f40_7878775c05504d25bcfbbb1e54cf0c50~mv2.jpg">
-                    <span class="placeholder-label">Image: 은신감각렉쳐_ 사진2 관객 눈감샷.jpg (600x400)</span>
-                  </div>
+                  <img src="/images/073f40_7878775c05504d25bcfbbb1e54cf0c50_mv2.jpg" style="width: 100%; aspect-ratio: 600/400; max-width: 600px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -2312,9 +2176,7 @@ What if healing isn’t a return to form, but a rehearsal of dissolution?</span>
         <div class="N8MGzv _v6ohL PO9MfV comp-lzqozk40 wixui-rich-text" data-testid="richTextElement" id="comp-lzqozk40"><h1 class="font_6 wixui-rich-text__text" style="font-size:28px;"><span class="wixui-rich-text__text" style="color:#000000;">Teaching Bio</span></h1></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 801/534; max-width: 801px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_f50b7b1d7a364f588d0e5f0219c20f66~mv2.jpg/v1/fill/w_801,h_534,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC08990_edit.jpg">
-                    <span class="placeholder-label">Image: DSC08990_edit.jpg (801x534)</span>
-                  </div>
+                  <img src="/images/DSC08990_edit.jpg" style="width: 100%; aspect-ratio: 801/534; max-width: 801px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzqozk4f1 wixui-rich-text" data-testid="richTextElement" id="comp-lzqozk4f1"><p class="font_8 wixui-rich-text__text" style="font-size:14px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">As a teaching artist, He Jin Jang has over 20 years of experience in academic and professional teaching across the world. Jang has worked as a full-time Assistant Professor of Dance/Assistant Director of the MFA program at Hollins University (US) from 2011 to 2014, where she was honored with the Webb Bierley Teaching Award. During her appointment, she taught Contemporary Technique, Improvisation, Composition, Repertory, Critique &amp; Showing, Senior Seminar, and Pedagogy Seminar to both undergraduate and graduate students.Additionally, she served as a mentor/advisor for multiple students’ senior and thesis projects. Jang’s other teaching credits include University of Michigan (US), Anderson University (US), American Dance Festival (US), Movement Research (US), Dance New Amsterdam (US), University of Calgary (Canada), Centro de Produccion de Danza Contemporanea (Mexico), UDLAP (Mexico), Korea National Contemporary Dance Company (Korea), Seoul International Choreography Workshop (Korea), Seoul Tanz Station (Korea), National Museum of Modern and Contemporary Art Changdong Residency (Korea), and numerous universities in Korea, including Seoul Institute of the Arts, Sungkyungwan University, Kookmin University, Kyunghee University, Sungshin Women’s University, Seoul National University of Education, Jeonbok National University, and Keimyung University.<br class="wixui-rich-text__text"/>
@@ -2367,23 +2229,17 @@ a somatics method based on Dynamic Neuro-cognitive Imagery™.</span></span></p>
 <span class="color_37 wixui-rich-text__text"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;">흐르는.</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1178; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_b7317bff577543c09724cf84e305c7f6~mv2.jpg/v1/crop/x_0,y_28,w_1060,h_1477/fill/w_845,h_1178,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6_%20%ED%9D%90%EB%A5%B4%EB%8A%94_%EC%9E%91%ED%92%88%EC%82%AC%EC%A7%845_%EC%82%AC%EC%A7%84%EC%A0%9C%EA%B3%B5_%EC%8B%A0%EC%B4%8C%EB%AC%B8%ED%99%94%EB%B0%9C%EC%A0%84%EC%86%8C.jpg">
-                    <span class="placeholder-label">Image: 6. 흐르는.작품사진5_사진제공_신촌문화발전소.jpg (845x1178)</span>
-                  </div>
+                  <img src="/images/6__________5_____________.jpg" style="width: 100%; aspect-ratio: 845/1178; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1178; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_ace372e1978b4869a3d476629fcac81a~mv2.jpg/v1/crop/x_0,y_53,w_1000,h_1394/fill/w_845,h_1178,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%ED%9D%90%EB%A5%B4%EB%8A%94_%EC%9E%91%ED%92%88%EC%82%AC%EC%A7%843_%EC%82%AC%EC%A7%84%EC%A0%9C%EA%B3%B5_SIDance2021%20_%20%E2%93%92Sang%20Hoon%20Ok_JPG.jpg">
-                    <span class="placeholder-label">Image: 흐르는.작품사진3_사진제공_SIDance2021 _ ⓒSang Hoon Ok.JPG (845x1178)</span>
-                  </div>
+                  <img src="/images/________3______SIDance2021____Sang_Hoon_Ok_JPG.jpg" style="width: 100%; aspect-ratio: 845/1178; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1178; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_a573d8a198764e52b06cf4bb751ffac6~mv2.jpg/v1/crop/x_5,y_0,w_989,h_1379/fill/w_845,h_1178,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%ED%9D%90%EB%A5%B4%EB%8A%94__%EC%82%AC%EC%A7%84%EC%A0%9C%EA%B3%B5_%EC%8B%A0%EC%B4%8C%EB%AC%B8%ED%99%94%EB%B0%9C%EC%A0%84%EC%86%8C.jpg">
-                    <span class="placeholder-label">Image: 흐르는._사진제공_신촌문화발전소.jpg (845x1178)</span>
-                  </div>
+                  <img src="/images/_________________.jpg" style="width: 100%; aspect-ratio: 845/1178; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lympcn591 wixui-rich-text" data-testid="richTextElement" id="comp-lympcn591"><p class="font_9 wixui-rich-text__text" style="line-height:1.8em; text-align:justify; font-size:15px;"><span class="wixui-rich-text__text" style="font-style:italic;">“Jang opens a space where the audience, standing on the direct tremors of nerves, lights one’s own torch—jointly rupturing, or being ruptured, within the dark resonance... This is a masterpiece that needs to be slowly savored during the contemplative time ahead.”<br class="wixui-rich-text__text"/>
@@ -2473,16 +2329,12 @@ a somatics method based on Dynamic Neuro-cognitive Imagery™.</span></span></p>
 시각예술가를 위한 워크숍: 비써럴 바디</span></h1></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 388/383; max-width: 388px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_04a5362b22074f43b064edd4f716f398~mv2.jpg/v1/crop/x_0,y_6,w_1179,h_1163/fill/w_388,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7188.jpg">
-                    <span class="placeholder-label">Image: IMG_7188.jpg (388x383)</span>
-                  </div>
+                  <img src="/images/IMG_7188.jpg" style="width: 100%; aspect-ratio: 388/383; max-width: 388px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 388/383; max-width: 388px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_55d8630810ed4d9492c838bfad581d6f~mv2.jpg/v1/fill/w_388,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7185.jpg">
-                    <span class="placeholder-label">Image: IMG_7185.jpg (388x383)</span>
-                  </div>
+                  <img src="/images/IMG_7185.jpg" style="width: 100%; aspect-ratio: 388/383; max-width: 388px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzqp4vn31 wixui-rich-text" data-testid="richTextElement" id="comp-lzqp4vn31"><p class="font_8 wixui-rich-text__text" style="font-size:14px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;">This workshop is for visual artists to experiment with movement, welcoming the interference and entanglement between body and affect. It includes practices of thinking through bodies, moving, discussing the viewing materials. We aim to capture what the body and affect can do, without questioning what they are. We will pay attention to the interconnections and gaps between the two, and attempt to orchestrate a 'felt sense' through movement. To understand affect as a biological/physical response, the workshop begins with movement that activates the nervous system, moving into scores and structures to weave time through embodied improvisational practices. How can we, as bodies, attune to the rise of affective tonalities, attractions and transpositions? Visual artists are welcome to participate in this ongoing process of encountering and exceeding the body's visceral response.</span></span><br class="wixui-rich-text__text"/>
@@ -2502,9 +2354,7 @@ a somatics method based on Dynamic Neuro-cognitive Imagery™.</span></span></p>
 <span class="wixui-rich-text__text" style="font-size:20px;">with Tangerine Collective</span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 364/513; max-width: 364px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_cbffd7a96f7a4be495d6ef38d29396cc~mv2.jpg/v1/crop/x_0,y_2,w_800,h_1126/fill/w_364,h_513,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9B%B9%ED%8F%AC%EC%8A%A4%ED%84%B02_edited.jpg">
-                    <span class="placeholder-label">Image: 웹포스터2_edited.jpg (364x513)</span>
-                  </div>
+                  <img src="/images/____2_edited.jpg" style="width: 100%; aspect-ratio: 364/513; max-width: 364px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lsvf2ehi wixui-rich-text" data-testid="richTextElement" id="comp-lsvf2ehi"><p class="font_8 wixui-rich-text__text" style="font-size:14px; text-align:justify;"><span class="wixui-rich-text__text">​​</span><span class="wixui-rich-text__text">​</span><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-style:italic;">We need 9 dance songs, Seriously</span> sings the love of dance that is not-yet-performed. We listen to the stories of others and contemplate ways to spend time together around dance, reflecting on symbiosis, solidarity, and care. We welcome unproductive laziness, taboos, and hatred in dance,  along with its dark chronicles. We summon dance that exists but is invisible. The more it gets forbidden, the more it dances with desire. The 9 songs are a practice to subvert the recursive 'Choreophobia' that occurs across borders. It is an act of escape from colonial thinking by using materials with no mass so they don’t occupy space. The AVP lab is a relational room where the dancing dialogue evolves through experiments and practices of being together, exchanging, and sharing differences. In what way can bodies, roles, relationships, and knowledge coexist within the time and space where the dance songs flow?</span></span></p>
@@ -2578,16 +2428,12 @@ a somatics method based on Dynamic Neuro-cognitive Imagery™.</span></span></p>
 <p class="font_8 wixui-rich-text__text" style="font-size:13px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:13px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">후원. 예술경영지원센터, 문화체육관광부</span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 844/466; max-width: 844px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_7c641a05e0054b97a4e8b76ad3722af0~mv2.jpg/v1/crop/x_30,y_39,w_667,h_369/fill/w_800,h_442,al_c,lg_1,q_80,enc_avif,quality_auto/5_edited.jpg">
-                    <span class="placeholder-label">Image: 5_edited.jpg (844x466)</span>
-                  </div>
+                  <img src="/images/5_edited.jpg" style="width: 100%; aspect-ratio: 844/466; max-width: 844px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 844/466; max-width: 844px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_bcefc66b2c104d0b9a0dcd1c531ea7ca~mv2.jpg/v1/crop/x_0,y_65,w_800,h_442/fill/w_844,h_466,al_c,lg_1,q_85,enc_avif,quality_auto/_GIH1663_edited.jpg">
-                    <span class="placeholder-label">Image: _GIH1663_edited.jpg (844x466)</span>
-                  </div>
+                  <img src="/images/_GIH1663_edited.jpg" style="width: 100%; aspect-ratio: 844/466; max-width: 844px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -2601,16 +2447,12 @@ a somatics method based on Dynamic Neuro-cognitive Imagery™.</span></span></p>
 <span class="wixui-rich-text__text" style="color:#000000;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;">위클리 위-클리</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1153; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_b1b258545e8a4cf1806e83065dbdf052~mv2.jpg/v1/crop/x_14,y_0,w_1172,h_1600/fill/w_845,h_1153,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20200203_HeJinJang_1055474_IN.jpg">
-                    <span class="placeholder-label">Image: 20200203_HeJinJang_1055474_IN.jpg (845x1153)</span>
-                  </div>
+                  <img src="/images/20200203_HeJinJang_1055474_IN.jpg" style="width: 100%; aspect-ratio: 845/1153; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/1153; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_3e475cd839534e98bd7b60e0fd1307d3~mv2.jpg/v1/crop/x_14,y_0,w_1173,h_1600/fill/w_845,h_1153,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/2%EC%9B%94%EB%AF%B8%EA%B5%AD%EA%B3%B5%EC%97%B0%EC%82%AC%EC%A7%84%ED%81%AC%EB%A0%88%EB%94%A7_Iki%20Nakagawa.jpg">
-                    <span class="placeholder-label">Image: 2월미국공연사진크레딧_Iki Nakagawa.jpg (845x1153)</span>
-                  </div>
+                  <img src="/images/2___________Iki_Nakagawa.jpg" style="width: 100%; aspect-ratio: 845/1153; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lyo3549c wixui-rich-text" data-testid="richTextElement" id="comp-lyo3549c"><p class="font_9 wixui-rich-text__text" style="text-align:justify; font-size:15px;">What if weakness were not a limitation, but a choreographic condition? Weekly Weakly is a weekly laboratory for choreography and feminist thinking, where softness, slowness, and hesitation are practiced not as failure, but as form. Over 27 weeks, the lab unfolded as a poetic framework: one where minor sensations, delays, and hesitations became both score and method. This performance, marking the 27th week of the lab, asked: how can a sustained practice of feminist weakness be staged without becoming spectacle? What does it mean to perform slowness, porousness, or pause—without resolving them? Emerging as a practice-as-performance, <span class="wixui-rich-text__text" style="font-style:italic;">Weekly Weakly</span> lingered between workshop and stage, rehearsal and ritual. The result was a quietly potent exploration of choreography not as mastery, but as soft attention.</p>
@@ -2696,16 +2538,12 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
 <p class="font_8 wixui-rich-text__text" style="font-size:15px; line-height:1.6em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:normal;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">베뉴. 2024 코레오-그래피 @ 서울대학교 파워플랜트, 한국</span></span></span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 503/600; max-width: 503px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_9ba5afe03be845a28dcacc07c0a7d523~mv2.jpg/v1/fill/w_503,h_600,al_c,lg_1,q_80,enc_avif,quality_auto/073f40_9ba5afe03be845a28dcacc07c0a7d523~mv2.jpg">
-                    <span class="placeholder-label">Image: 혼륜 피부 사진.jpg (503x600)</span>
-                  </div>
+                  <img src="/images/073f40_9ba5afe03be845a28dcacc07c0a7d523_mv2.jpg" style="width: 100%; aspect-ratio: 503/600; max-width: 503px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 600/600; max-width: 600px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_0a19d7e1a40e45f184481e4d59e61bed~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,enc_avif,quality_auto/073f40_0a19d7e1a40e45f184481e4d59e61bed~mv2.jpg">
-                    <span class="placeholder-label">Image: 아트보라 포스터.JPG (600x600)</span>
-                  </div>
+                  <img src="/images/073f40_0a19d7e1a40e45f184481e4d59e61bed_mv2.jpg" style="width: 100%; aspect-ratio: 600/600; max-width: 600px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
@@ -2720,16 +2558,12 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
  </h1></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 443/336; max-width: 443px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_dabdea10da53431bbaddd636564f2124~mv2.jpg/v1/fill/w_443,h_336,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7184.jpg">
-                    <span class="placeholder-label">Image: IMG_7184.jpg (443x336)</span>
-                  </div>
+                  <img src="/images/IMG_7184.jpg" style="width: 100%; aspect-ratio: 443/336; max-width: 443px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 337/336; max-width: 337px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_55d8630810ed4d9492c838bfad581d6f~mv2.jpg/v1/fill/w_337,h_336,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7185.jpg">
-                    <span class="placeholder-label">Image: IMG_7185.jpg (337x336)</span>
-                  </div>
+                  <img src="/images/IMG_7185.jpg" style="width: 100%; aspect-ratio: 337/336; max-width: 337px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzqp3u0b1 wixui-rich-text" data-testid="richTextElement" id="comp-lzqp3u0b1"><p class="font_8 wixui-rich-text__text" style="font-size:14px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text" style="font-size:14px;">This workshop focuses on the creative process of making movement-based performance/dance in a contemporary context. It invites an interference of choreographic planes, within the frame of a laboratory, the planes encompassing making, living presences, and thinking philosophy. Through a co-researching setting, we experiment with tapping into each other’s making. Together, we explore the concept of the ‘choreographer as a system designer.’ By interconnecting the acts of creating, performing, viewing (each other’s work), and reading article’s, we find ways to bridge the gap between private imagination and public actualization. Here, we aim to articulate the process both as makers and viewers. We practice group problem-solving based on joint responsibility, simultaneously engaging in sharing, exposing, and being seen. This is an interplay between critical thoughts, contextualization, and embodiment. To gain a better understanding of personal style and preferences through composition and improvisation studies, we question our creative process through the in-depth dialogue about the work of fellow participants. We consider the moment of sharing as a civic moment. What can we allow to appear to let choreography emerge as a ghostly autonomous creature, the hallucinatory, the excess of everyday living? We will recognize tools to capture/locate/situate/instantiate ways to ‘make it work’ for ourselves.</span></span></p>
@@ -2747,16 +2581,12 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
 <span class="wixui-rich-text__text" style="font-style:normal;"><span class="wixui-rich-text__text" style="font-weight:400;">워크숍: 위클리 위-클리 (매주 연약하게)</span></span></span></span></span></h1></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 540/361; max-width: 540px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_c83f116384e74ea2855cc6d31a9e3586~mv2.jpg/v1/fill/w_540,h_361,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%EC%9B%8C%ED%81%AC%EC%88%8D2_5.jpg">
-                    <span class="placeholder-label">Image: 워크숍2_5.jpg (540x361)</span>
-                  </div>
+                  <img src="/images/___2_5.jpg" style="width: 100%; aspect-ratio: 540/361; max-width: 540px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 240/361; max-width: 240px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_32376a4bbf6349e7afd8ed1666e516b2~mv2.jpg/v1/fill/w_240,h_361,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8642.jpg">
-                    <span class="placeholder-label">Image: IMG_8642.jpg (240x361)</span>
-                  </div>
+                  <img src="/images/IMG_8642.jpg" style="width: 100%; aspect-ratio: 240/361; max-width: 240px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzqp6kbx1 wixui-rich-text" data-testid="richTextElement" id="comp-lzqp6kbx1"><p class="font_8 wixui-rich-text__text" style="font-size:14px;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;"><span class="wixui-rich-text__text">​</span></span></span><span class="wixui-rich-text__text" style="font-size:14px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;">Weekly Weakly’ is a weekly laboratory of weakness designed by He Jin Jang Dance. Every week since August 2019, the choreographer He Jin Jang has been running a 'poetic frame of research salon' where she practices and philosophizes through weakness with fellow artists or alone. This laboratory is a space of practice itself, and sometimes becomes a public workshop/exhibition/performance. ‘Weekly Weakly’ was shared publicly as an exhibition at ONSU GONG-GAN (Korea), as a lecture at the Oil Tank Culture Park (Korea), as a workshop at Seoul Dance Center (Korea), Sinchon Arts Space in Korea (Korea), Saison Foundation (Japan), and as a performance at Movement Research at Judson Church in the United States. This workshop realizes weakness as a very special state of energy. In Weekly Weakly, weakness is not the opposite of strength, nor a flaw or a blemish. Rather, it is something that permeates all of us. Weakness becomes a precarious magic carpet, taking us to strange moments of performance. Participants are welcome to come join to move, talk, write, read, and touch the fragile. No previous movement experience is required.</span></span></p>
@@ -2775,16 +2605,12 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
 <span class="color_37 wixui-rich-text__text"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;">당신은 x-being을 초대하지 않을 수 없다</span></span></span></span></h6></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/451; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_f4742cecc7e54e27b34dff2a13d800d3~mv2.jpeg/v1/fill/w_845,h_451,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/xbeing%EC%82%AC%EC%A7%841_%ED%98%9C%EC%A7%84%EB%B0%94%EC%A7%80%EB%A7%88%EC%9D%B4%ED%81%AC.jpeg">
-                    <span class="placeholder-label">Image: xbeing사진1_혜진바지마이크.jpeg (845x451)</span>
-                  </div>
+                  <img src="/images/xbeing__1________.jpeg" style="width: 100%; aspect-ratio: 845/451; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/779; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_d31b065d0c0f4328b5c903103ed0e3a4~mv2.jpg/v1/fill/w_845,h_779,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/xbeing%EC%82%AC%EC%A7%84_%EB%AA%85%EC%8B%A0%EA%B8%B0%EC%9D%B4%ED%95%9C%ED%8F%AC%EC%A6%88_edited.jpg">
-                    <span class="placeholder-label">Image: xbeing사진_명신기이한포즈_edited.jpg (845x779)</span>
-                  </div>
+                  <img src="/images/xbeing___________edited.jpg" style="width: 100%; aspect-ratio: 845/779; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lsmuz57s1 wixui-rich-text" data-testid="richTextElement" id="comp-lsmuz57s1"><blockquote class="font_8 wixui-rich-text__text" style="line-height:1.8em; font-size:18px;">
@@ -2900,9 +2726,7 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
 <p class="font_9 wixui-rich-text__text" style="line-height:1.8em; text-align:justify; font-size:15px;"><span class="wixui-rich-text__text">​</span></p></div>
 
                 <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 845/779; max-width: 845px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_a338769225504fc98bec522c7bbcb1d9~mv2.jpg/v1/crop/x_0,y_229,w_2000,h_1843/fill/w_845,h_779,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/073f40_a338769225504fc98bec522c7bbcb1d9~mv2.jpg">
-                    <span class="placeholder-label">Image:  (845x779)</span>
-                  </div>
+                  <img src="/images/073f40_a338769225504fc98bec522c7bbcb1d9_mv2.jpg" style="width: 100%; aspect-ratio: 845/779; max-width: 845px; height: auto;" alt="Image" loading="lazy">
                 </div>
                 
       </div>
