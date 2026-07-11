@@ -124,9 +124,8 @@ ul {
   left: 100%;
   top: 10px; /* Aligns exactly with the text starting Y of the parent nav-link */
   width: 380px;
-  margin-left: 30px;
+  padding-left: 30px;
   background-color: transparent;
-  padding: 0;
   list-style: none;
   opacity: 0;
   visibility: hidden;
