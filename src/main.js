@@ -777,7 +777,11 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. 옵/신 스페이스, 한국​​</p>
         
-    </div>
+
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/BhRuqMtvJf4?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fi-bet-you-d-put-that-on-2022&aoriginsup=1&vf=4" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </div>
     `
   },
   '/judson-drama-2020': {
@@ -1090,7 +1094,11 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2020 SIDance 국제 페스티벌, 한국</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2020 한국문화예술위원 창작의 과정, 문화비축기지, 한국​​</p>
         
-    </div>
+
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/3t-qSTpvxZI?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fmicrohabitat-body-last-words-2020&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </div>
     `
   },
   '/migrant-self-the-speed-of-a-door-2012-16': {
@@ -1684,7 +1692,11 @@ const routes = {
                       <img src="/images/073f40_8d599132147d41179f4bbacdefa80e1d_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
         
-    </div>
+
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/_vyyTk5vK4o?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fslow-carnival-world-2023&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </div>
     `
   },
   '/softrehearsalforfugitivegathering': {
@@ -1911,7 +1923,11 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2021 SIDance 국제무용페스티벌, 신촌문화발전소, 한국&nbsp;</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2023 ProSeries 페스티벌, 캘거리대학교, 캐나다​​​​​<a href="https://mybox.naver.com/share/list/viewer/3472569161967081808?shareKey=_Ptwu1g-7gl6OfeCMT8ZAUmZ23OkMG6WR1fnzMSrsSKgizhhh6dm7GAMwif7I7S-Dg%3D%3D" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text">​​</a>​</p>
         
-    </div>
+
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/98_ENPuQF3w?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fthe-flowing-2021-23&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </div>
     `
   },
   '/visceral-body-workshop-for-visual-artist': {
@@ -2059,7 +2075,11 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">후원. 한국문화예술위원회, 문화체육관광부, 온수공간</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. Movement Research at Judson Church, 미국<span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span></span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text">​</span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span></span></span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span><a href="https://mybox.naver.com/share/list/viewer/3472569162129446480?shareKey=_Ptwu1g-7gl6OfeCMT8ZAUmZ23OkMG6WR1fnzMSrsSKgizhhh6dm7GAMwif7I7S-Dg%3D%3D" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-weight:400;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="color:#00B3FF;" class="wixui-rich-text__text"><span style="text-decoration:underline;" class="wixui-rich-text__text">​</span></span></span></span></span></a></span><span style="font-size:14px;" class="wixui-rich-text__text"><span class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span>​</span></p>
         
-    </div>
+
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/txeRO7ZwbYU?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fweekly-weakly-2020&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </div>
     `
   },
   '/whirling-skin-2024': {
@@ -2285,7 +2305,11 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         
-    </div>
+
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/9iheH5OntoA?autoplay=0&mute=0&controls=1&loop=0&origin=https%3A%2F%2Fwww.hejinjang.com&playsinline=1&enablejsapi=1&widgetid=1&forigin=https%3A%2F%2Fwww.hejinjang.com%2Fyou-cannot-disinvite-x-being-2021&aoriginsup=1&vf=1" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        </div>
     `
   }
 };
