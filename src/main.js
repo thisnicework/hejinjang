@@ -152,7 +152,10 @@ const routes = {
     title: 'About | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
-        <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">He Jin Jang Dance is a choreographic project group that works across contemporary dance, experimental performance, sound, writing, and installation — often involving fluid constellations of collaborators tailored to each project. Rather than functioning as a fixed ensemble, the group unfolds as a porous structure — a space that holds kinship, critical collaboration, and embodied knowledge production. At the heart of the collective lies an ongoing inquiry into the invisible: invisible bodies, unspoken grief, minor gestures, and non-linear rituals of togetherness. HJJD explores bodily vulnerability through the Eastern concept of mind-body, focusing on the four stages of life — birth, aging, illness, and death. Led by choreographer and researcher He Jin Jang, the group produces performances, writings, discourses, and workshops that blur the boundaries between contemplation and monstrosity, personal memory and collective dreaming. Since its debut in the United States with <span style="font-style:italic;" class="wixui-rich-text__text">open skin inscribed</span> (2008), which investigated inherited skin trauma as a threshold between internal and external realities, HJJD has presented works in over 30 cities worldwide — including Seoul International Dance Festival (KR), MODAFE (KR), Platform-L Live Arts Program (KR), Laboratorio Condensación (MX), National Museum of Contemporary Arts (RO), Temps d'Image Festival (RO), Musikfestival Bern (CH), New York Live Arts (US), and The Kitchen (US). Using somatic improvisation, text, imagery, and socio-political commentary — grounded in both Western and non-Western methodologies — HJJD creates spaces for collective lucid dreaming and rehearsals for survival. The group’s work has been supported by Seoul Foundation for Arts and Culture, Arts Council Korea, and Korea Arts Management Service, and has been described by the press as work that “humbles us all” (Indy Week, US).</span></p>
+                <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/98_ENPuQF3w?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+<p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">He Jin Jang Dance is a choreographic project group that works across contemporary dance, experimental performance, sound, writing, and installation — often involving fluid constellations of collaborators tailored to each project. Rather than functioning as a fixed ensemble, the group unfolds as a porous structure — a space that holds kinship, critical collaboration, and embodied knowledge production. At the heart of the collective lies an ongoing inquiry into the invisible: invisible bodies, unspoken grief, minor gestures, and non-linear rituals of togetherness. HJJD explores bodily vulnerability through the Eastern concept of mind-body, focusing on the four stages of life — birth, aging, illness, and death. Led by choreographer and researcher He Jin Jang, the group produces performances, writings, discourses, and workshops that blur the boundaries between contemplation and monstrosity, personal memory and collective dreaming. Since its debut in the United States with <span style="font-style:italic;" class="wixui-rich-text__text">open skin inscribed</span> (2008), which investigated inherited skin trauma as a threshold between internal and external realities, HJJD has presented works in over 30 cities worldwide — including Seoul International Dance Festival (KR), MODAFE (KR), Platform-L Live Arts Program (KR), Laboratorio Condensación (MX), National Museum of Contemporary Arts (RO), Temps d'Image Festival (RO), Musikfestival Bern (CH), New York Live Arts (US), and The Kitchen (US). Using somatic improvisation, text, imagery, and socio-political commentary — grounded in both Western and non-Western methodologies — HJJD creates spaces for collective lucid dreaming and rehearsals for survival. The group’s work has been supported by Seoul Foundation for Arts and Culture, Arts Council Korea, and Korea Arts Management Service, and has been described by the press as work that “humbles us all” (Indy Week, US).</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text"><span style="font-weight:bold;" class="wixui-rich-text__text"><span style="color:#FF00CB;" class="wixui-rich-text__text">He Jin Jang</span></span></span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">​</span></p>
@@ -712,6 +715,9 @@ const routes = {
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_fc7733ced44f4321916eb039ab999968_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/BhRuqMtvJf4?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">​​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="color_38 wixui-rich-text__text"><span style="font-size:15px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="text-decoration:underline;" class="wixui-rich-text__text"><a href="https://tewonderland.wixsite.com/hejinjang-dance" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text">Link to Choreographer’s Note</a></span>&nbsp;</span></span></span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​​​​</span></span><span style="font-size:15px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span></span></p>
@@ -776,11 +782,6 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">후원. 한국문화예술위원회, 문화체육관광부, 한국콘텐츠진흥원, 전문무용수지원센터</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. 옵/신 스페이스, 한국​​</p>
-        
-
-        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/BhRuqMtvJf4?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
         </div>
     `
   },
@@ -1027,6 +1028,9 @@ const routes = {
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_bba2993de89746f3b6cc4b0e8349487e_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/3t-qSTpvxZI?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span>​</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">Choreographed and Conceived by He Jin Jang in collaboration with the performers</p>
@@ -1093,11 +1097,6 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴.&nbsp;</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2020 SIDance 국제 페스티벌, 한국</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2020 한국문화예술위원 창작의 과정, 문화비축기지, 한국​​</p>
-        
-
-        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/3t-qSTpvxZI?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
         </div>
     `
   },
@@ -1604,6 +1603,9 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Slow Carnival World</span> is a multi-sensory performance rooted in the speculative reading of Eun-Hyung-beop—a 17th-century Korean healing method of hiding the body, found in the <span style="font-style:italic;" class="wixui-rich-text__text">Donguibogam</span> (1610). Here, invisibility is not disappearance, but a quiet return to the porous, collective body. What if becoming unseen was a technology of endurance—an ancestral gesture of resistance and survival passed down through generations? The work unfolds as an immersive, durational experience shaped by slowness, delay, and porous rhythms. Bodies move with temporal dissonance, entangling without clear beginnings or ends. Dance becomes a soft protest and a shared lucid dream—a slow carnival where mantra-like texts, food, fabric, sound, and gesture form a space for collective unmaking. Visitors are invited to chew, rest, drift, and listen. Together, we resist the grammar of legibility, embracing relational opacity and unbordered time. Slow Carnival World is a quiet rehearsal for surviving together—through the invisible.​&nbsp; </span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Slow Carnival World </span>is structured with two main events: Common Ritual and Floating Action; If Common Ritual is a choreographed score of repetition, stillness, and shared presence,&nbsp; Floating Action is a liminal zone of drifting attention: ambient gestures, quiet conversations, subtle shifts between performance and exhibition. &nbsp;Visitors may arrive early or linger late, choosing how to participate.</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">​​​</span></p>
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/_vyyTk5vK4o?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:15px;" class="wixui-rich-text__text">August 11 (Fri)<br class="wixui-rich-text__text">
         3–4pm: COMMON RITUAL<br class="wixui-rich-text__text">
         4–6pm: floating action<br class="wixui-rich-text__text">
@@ -1691,11 +1693,6 @@ const routes = {
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_8d599132147d41179f4bbacdefa80e1d_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
-        
-
-        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/_vyyTk5vK4o?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
         </div>
     `
   },
@@ -1922,11 +1919,6 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴.&nbsp;</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2021 SIDance 국제무용페스티벌, 신촌문화발전소, 한국&nbsp;</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">2023 ProSeries 페스티벌, 캘거리대학교, 캐나다​​​​​<a href="https://mybox.naver.com/share/list/viewer/3472569161967081808?shareKey=_Ptwu1g-7gl6OfeCMT8ZAUmZ23OkMG6WR1fnzMSrsSKgizhhh6dm7GAMwif7I7S-Dg%3D%3D" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text">​​</a>​</p>
-        
-
-        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/98_ENPuQF3w?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
         </div>
     `
   },
@@ -2057,6 +2049,9 @@ const routes = {
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_3e475cd839534e98bd7b60e0fd1307d3_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/txeRO7ZwbYU?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">What if weakness were not a limitation, but a choreographic condition? Weekly Weakly is a weekly laboratory for choreography and feminist thinking, where softness, slowness, and hesitation are practiced not as failure, but as form. Over 27 weeks, the lab unfolded as a poetic framework: one where minor sensations, delays, and hesitations became both score and method. This performance, marking the 27th week of the lab, asked: how can a sustained practice of feminist weakness be staged without becoming spectacle? What does it mean to perform slowness, porousness, or pause—without resolving them? Emerging as a practice-as-performance, <span style="font-style:italic;" class="wixui-rich-text__text">Weekly Weakly</span> lingered between workshop and stage, rehearsal and ritual. The result was a quietly potent exploration of choreography not as mastery, but as soft attention.</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">​</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">Concept and Choreography by He Jin Jang</p>
@@ -2074,11 +2069,6 @@ const routes = {
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">사운드. 장혜진</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">후원. 한국문화예술위원회, 문화체육관광부, 온수공간</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. Movement Research at Judson Church, 미국<span style="font-size:13px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span></span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span></span><span class="wixui-rich-text__text">​</span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span></span></span><span style="font-size:14px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text">​</span><a href="https://mybox.naver.com/share/list/viewer/3472569162129446480?shareKey=_Ptwu1g-7gl6OfeCMT8ZAUmZ23OkMG6WR1fnzMSrsSKgizhhh6dm7GAMwif7I7S-Dg%3D%3D" target="_blank" rel="noreferrer noopener" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_bcf5fbef13f34cda81de73a4ee8873cc,wf_bcf5fbef13f34cda81de73a4e,orig_noto_sans_kr_regular;" class="wixui-rich-text__text"><span style="font-weight:400;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="color:#00B3FF;" class="wixui-rich-text__text"><span style="text-decoration:underline;" class="wixui-rich-text__text">​</span></span></span></span></span></a></span><span style="font-size:14px;" class="wixui-rich-text__text"><span class="wixui-rich-text__text"><span class="wixui-rich-text__text">​</span>​</span>​</span></p>
-        
-
-        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/txeRO7ZwbYU?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
         </div>
     `
   },
@@ -2204,6 +2194,9 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_d31b065d0c0f4328b5c903103ed0e3a4_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
                     </div>
+        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
+          <iframe src="https://www.youtube.com/embed/9iheH5OntoA?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">At the heart of Y<span style="font-style:italic;" class="wixui-rich-text__text">ou Cannot Disinvite X-being</span> is a duet between two women. Their shared choreography builds a tense and tender architecture—of mutual listening, sonic interference, and porous alignment—that quietly summons other presences. Through hacked nervous systems, reverberating microphones, a humming engine, and onions flying in circles, they co-create a space where many x-beings might arrive—uninvited, partial, insistent.</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">In a world increasingly governed by the categorization of bodies—who counts as living, whose grief is recognized, whose voice is heard—this piece asks: What if we are already cohabiting with the uninvited? What if being-together is always haunted, incomplete, and permeable?</p>
@@ -2304,11 +2297,6 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;">베뉴. 서강대 메리홀 대극장, 한국​</p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span class="wixui-rich-text__text">​</span></p>
-        
-
-        <div class="video-container" style="margin-top: 40px; margin-bottom: 40px; display: flex; justify-content: center; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; aspect-ratio: 16/9;">
-          <iframe src="https://www.youtube.com/embed/9iheH5OntoA?rel=0" style="width: 100%; height: 100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
         </div>
     `
   }
