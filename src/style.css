@@ -122,7 +122,7 @@ ul {
 .dropdown {
   position: absolute;
   left: 100%;
-  top: 10px; /* Aligns exactly with the text starting Y of the parent nav-link */
+  top: 0; /* Aligns exactly with the bounding box top of the parent nav-link */
   width: 380px;
   padding-left: 30px;
   background-color: transparent;
