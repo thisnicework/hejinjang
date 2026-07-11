@@ -153,11 +153,7 @@ const routes = {
     render: () => `
       <div class="content-page">
         
-                <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 120/122; max-width: 120px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e~mv2.png/v1/fill/w_120,h_122,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201_edited.png">
-                    <span class="placeholder-label">Image: Artboard 1_edited.png (120x122)</span>
-                  </div>
-                </div>
+                
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-j82tiuiu wixui-rich-text" data-testid="richTextElement" id="comp-j82tiuiu"><p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:15px;"><span class="wixui-rich-text__text" style="font-weight:bold;"><span class="wixui-rich-text__text" style="color:#FF00CB;">He Jin Jang Dance​</span></span></span></p>
 <p class="font_9 wixui-rich-text__text" style="font-size:15px; text-align:justify;"><span class="wixui-rich-text__text" style="font-size:15px;">He Jin Jang Dance is a choreographic project group that works across contemporary dance, experimental performance, sound, writing, and installation — often involving fluid constellations of collaborators tailored to each project. Rather than functioning as a fixed ensemble, the group unfolds as a porous structure — a space that holds kinship, critical collaboration, and embodied knowledge production. At the heart of the collective lies an ongoing inquiry into the invisible: invisible bodies, unspoken grief, minor gestures, and non-linear rituals of togetherness. HJJD explores bodily vulnerability through the Eastern concept of mind-body, focusing on the four stages of life — birth, aging, illness, and death. Led by choreographer and researcher He Jin Jang, the group produces performances, writings, discourses, and workshops that blur the boundaries between contemplation and monstrosity, personal memory and collective dreaming. Since its debut in the United States with <span class="wixui-rich-text__text" style="font-style:italic;">open skin inscribed</span> (2008), which investigated inherited skin trauma as a threshold between internal and external realities, HJJD has presented works in over 30 cities worldwide — including Seoul International Dance Festival (KR), MODAFE (KR), Platform-L Live Arts Program (KR), Laboratorio Condensación (MX), National Museum of Contemporary Arts (RO), Temps d'Image Festival (RO), Musikfestival Bern (CH), New York Live Arts (US), and The Kitchen (US). Using somatic improvisation, text, imagery, and socio-political commentary — grounded in both Western and non-Western methodologies — HJJD creates spaces for collective lucid dreaming and rehearsals for survival. The group’s work has been supported by Seoul Foundation for Arts and Culture, Arts Council Korea, and Korea Arts Management Service, and has been described by the press as work that “humbles us all” (Indy Week, US).</span></p>
@@ -222,11 +218,7 @@ const routes = {
     render: () => `
       <div class="content-page">
         
-                <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 120/122; max-width: 120px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e~mv2.png/v1/fill/w_120,h_122,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201_edited.png">
-                    <span class="placeholder-label">Image: Artboard 1_edited.png (120x122)</span>
-                  </div>
-                </div>
+                
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-mft9un5k wixui-rich-text" data-testid="richTextElement" id="comp-mft9un5k"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span class="color_37 wixui-rich-text__text"><span class="wixui-rich-text__text" style="font-size:25px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;"><span class="wixui-rich-text__text" style="font-style:italic;">Upcoming</span></span></span></span></h6></div>
 <div class="N8MGzv _v6ohL PO9MfV comp-mft9un8x1 wixui-rich-text" data-testid="richTextElement" id="comp-mft9un8x1"><p class="font_7 wixui-rich-text__text" dir="rtl" style="line-height:1.4em; text-align:left; font-size:16px;"><span class="wixui-rich-text__text">​</span></p>
@@ -250,11 +242,7 @@ const routes = {
     render: () => `
       <div class="content-page">
         
-                <div class="about-image-container">
-                  <div class="image-placeholder" style="aspect-ratio: 120/122; max-width: 120px; height: auto;" data-original-src="https://static.wixstatic.com/media/073f40_8ccb53e25cfd4bdcb82fe37ee7f8880e~mv2.png/v1/fill/w_120,h_122,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Artboard%201_edited.png">
-                    <span class="placeholder-label">Image: Artboard 1_edited.png (120x122)</span>
-                  </div>
-                </div>
+                
                 
 <div class="N8MGzv _v6ohL PO9MfV comp-lzcs2att wixui-rich-text" data-testid="richTextElement" id="comp-lzcs2att"><p class="font_9 wixui-rich-text__text" style="font-size:13px; line-height:2em;; text-align: justify;"><span class="wixui-rich-text__text" style="font-size:20px;"><span class="wixui-rich-text__text" style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;">He Jin Jang Dance</span></span><br class="wixui-rich-text__text"/>
 <br class="wixui-rich-text__text"/>
