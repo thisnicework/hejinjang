@@ -228,10 +228,10 @@ ul {
 }
 
 .content-page {
-  margin: 0 auto;
-  padding: 100px 40px 140px 180px;
-  /* Offset to clear fixed left sidebar navigation */
-  max-width: 960px;
+  position: relative;
+  margin: 0;
+  padding: 181px 0 140px 461px; /* Exactly 461px from left screen edge */
+  max-width: 1044px; /* 395 + 649 = 1044 */
   font-family: 'Noto Sans KR', sans-serif;
   color: #080808;
   animation: fadeIn 0.4s ease forwards;
