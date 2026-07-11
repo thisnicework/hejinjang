@@ -231,7 +231,7 @@ ul {
   position: relative;
   margin: 0;
   padding: 181px 0 140px 461px; /* Exactly 461px from left screen edge */
-  max-width: 1044px; /* 395 + 649 = 1044 */
+  max-width: 1110px; /* 461 + 649 = 1110 */
   font-family: 'Noto Sans KR', sans-serif;
   color: #080808;
   animation: fadeIn 0.4s ease forwards;
