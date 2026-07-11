@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+/* ============================================
+   He Jin Jang Dance — Clone Styles
+   Matching hejinjang.com exactly
+   ============================================ */
+
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.55;
+}
+
+ul {
+  list-style: none;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ============================================
+   Header / Logo
+   ============================================ */
+.header {
+  position: fixed;
+  top: 13px;
+  left: 16px;
+  z-index: 100;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+}
+
+.logo:hover {
+  opacity: 0.85;
+}
+
+.logo-img {
+  width: 120px;
+  height: 122px;
+  display: block;
+}
+
+/* ============================================
+   Navigation — Vertical Left Sidebar
+   ============================================ */
+.nav {
+  position: fixed;
+  top: 181px;
+  left: 66px;
+  z-index: 90;
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  line-height: 38px;
+  display: inline-block;
+  padding: 0;
+  height: 38px;
+  cursor: pointer;
+  letter-spacing: normal;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.55;
+}
+
+/* Dropdown (sub-menu) — appears to the RIGHT of parent */
+.has-dropdown {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  left: 100%;
+  top: 8px;
+  width: 380px;
+  margin-left: 30px;
+  background-color: transparent;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  z-index: 95;
+}
+
+.has-dropdown:hover>.dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+.dropdown li a {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 14.5px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
+  display: block;
+  padding: 2.5px 0;
+  transition: color 0.3s ease;
+}
+
+.dropdown li a:hover {
+  color: #FF00CB;
+}
+
+/* ============================================
+   3D Canvas — Full-screen behind content
+   ============================================ */
+.canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+}
+
+.black-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 650px;
+  height: 9px;
+  background-color: #000;
+  transform: translate(-50%, -50%) rotate(-38deg);
+  z-index: 0;
+}
+
+#three-canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 678px;
+  height: 720px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+#three-video {
+  display: none;
+}
+
+/* Description Text — overlaid on the video */
+.description-text {
+  position: fixed;
+  top: 310px;
+  left: 767px;
+  max-width: 468px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #d2d2d2;
+  line-height: 22.4px;
+  z-index: 10;
+  pointer-events: none;
+  margin: 0;
+}
+
+/* ============================================
+   Page Content Containers
+   ============================================ */
+#page-content {
+  position: relative;
+  width: 100%;
+  z-index: 5;
+}
+
+.content-page {
+  margin: 0 auto;
+  padding: 100px 40px 140px 180px;
+  /* Offset to clear fixed left sidebar navigation */
+  max-width: 960px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #080808;
+  animation: fadeIn 0.4s ease forwards;
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* About Page */
+.about-section {
+  margin-bottom: 50px;
+  max-width: 649px;
+}
+
+.about-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #FF00CB;
+  margin-bottom: 18px;
+  letter-spacing: 0.3px;
+}
+
+.about-text {
+  font-size: 15px;
+  line-height: 1.85;
+  text-align: justify;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+.about-cv-link {
+  display: inline-block;
+  font-size: 15px;
+  color: #FF00CB;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  transition: opacity 0.2s ease;
+}
+
+.about-cv-link:hover {
+  opacity: 0.7;
+}
+
+.about-image-container {
+  width: 100%;
+  max-width: 849px;
+  margin: 45px 0;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Upcoming Page */
+.upcoming-page {
+  margin-left: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 120px 40px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.upcoming-title {
+  font-size: 34px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: #1a1a1a;
+}
+
+.upcoming-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 800px;
+}
+
+.upcoming-item {
+  font-size: 15px;
+  font-style: normal;
+  color: #FF00CB;
+  line-height: 1.6;
+}
+
+/* Contact Page */
+.contact-page {
+  margin: 0 auto;
+  padding: 100px 40px 140px 180px;
+  /* Offset to clear fixed left sidebar navigation */
+  max-width: 960px;
+  animation: fadeIn 0.4s ease forwards;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 35px;
+  letter-spacing: 0.3px;
+}
+
+.copyright {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 15px;
+}
+
+.contact-item {
+  font-weight: 400;
+}
+
+.contact-label {
+  display: inline-block;
+  width: 90px;
+  color: #1a1a1a;
+}
+
+.contact-value {
+  color: #FF00CB;
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
+
+.contact-value:hover {
+  opacity: 0.7;
+}
+
+/* Press Page */
+.press-page {
+  margin: 0 auto;
+  padding: 100px 40px 140px 180px;
+  /* Offset to clear fixed left sidebar navigation */
+  max-width: 1080px;
+  /* Slightly wider for the two-column grid */
+  animation: fadeIn 0.4s ease forwards;
+  box-sizing: border-box;
+}
+
+.press-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+}
+
+.press-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+.press-card {
+  display: block;
+  text-decoration: none !important;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  padding: 40px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.press-card:hover {
+  border-color: #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.press-card-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.press-card-excerpt {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555555;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 15px;
+  color: #4a5568;
+  margin-top: 20px;
+}
+
+.page-num {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.page-num.active {
+  color: #FF00CB;
+  font-weight: 700;
+}
+
+.page-num:hover:not(.active) {
+  color: #1a1a1a;
+}
+
+/* ============================================
+   Footer — Fixed at bottom
+   ============================================ */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  padding: 0 68px 22px;
+  background-color: #ffffff;
+}
+
+.footer-line {
+  width: 938px;
+  height: 1px;
+  background: #FF00CB;
+  margin: 0 auto 14px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-copyright {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #FF00CB;
+}
+
+.footer-social {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+}
+
+.social-link {
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.social-link:hover {
+  opacity: 0.55;
+}
+
+/* ============================================
+   Z-index layering for nav and logo to be
+   clickable above the canvas
+   ============================================ */
+.header,
+.nav {
+  pointer-events: auto;
+}
+
+.canvas-container {
+  pointer-events: none;
+}
+
+#three-canvas {
+  pointer-events: none;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 24px;
+  }
+
+  .nav {
+    top: 145px;
+    padding: 0 16px 0 28px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .dropdown {
+    position: relative;
+    left: 0;
+    margin-left: 18px;
+    margin-top: 4px;
+    min-width: auto;
+  }
+
+  .description-text {
+    right: 4%;
+    max-width: 180px;
+    font-size: 12px;
+  }
+
+  .content-page,
+  .contact-page,
+  .press-page {
+    margin-left: 0;
+    padding: 240px 24px 140px;
+  }
+
+  .press-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 0 16px 14px;
+  }
+
+  .footer-copyright {
+    font-size: 11px;
+  }
+}
+
+/* ============================================
+   Image Placeholders
+   ============================================ */
+.image-placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  border: 1px dashed #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  color: #64748b;
+  font-size: 13.5px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.placeholder-label {
+  pointer-events: none;
+}
+
+/* Navigation Hidden state for Subpages */
+.content-page.nav-hidden,
+.contact-page.nav-hidden,
+.press-page.nav-hidden,
+.upcoming-page.nav-hidden {
+  padding-left: 40px !important;
+}
