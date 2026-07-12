@@ -857,9 +857,11 @@ ul {
 }
 
 /* Navigation Hidden state for Subpages */
-.content-page.nav-hidden,
-.contact-page.nav-hidden,
-.press-page.nav-hidden,
-.upcoming-page.nav-hidden {
-  padding-left: 40px !important;
+@media (min-width: 901px) {
+  .content-page.nav-hidden,
+  .contact-page.nav-hidden,
+  .press-page.nav-hidden,
+  .upcoming-page.nav-hidden {
+    padding-left: 40px !important;
+  }
 }
