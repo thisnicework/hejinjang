@@ -226,108 +226,108 @@ const routes = {
       </div>
     `
   },
-        '/press-review': {
+          '/press-review': {
     title: 'Press | He Jin Jang Dance',
     render: () => `
       <div class="press-page">
         <h1 class="press-title">Press Reviews</h1>
         <div class="press-grid">
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link>Slow Carnival World, 2023, Hwahung Yu (Critic) / 2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link>Dance Webzine, February lssue, 2023, Sukjin Han (Dance Theorist), I bet you’d put that on / 2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/복제-투명인간이-되든-춤을-추든" data-link>Dance Magazine MOMM, January Issue, 2023, I bet you’d put that on, Sunghye Park (Critic) / 2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"I bet you’d put that on is not merely a simple play with blankets; it is simultaneously a play with corpses and a meticulously designed...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2023년-『아트신』-1월호-김민관-평론가-당신이-그런-것을-입게-될-줄-알았어" data-link>Art Scene, January lssue, I bet you’d put that on, 2023, Mingwan Kim (Critic) /『아트신』 1월호, <당신이 그런 것을 입게 될 줄 알았어>, 2023년, 김민관 평론가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"The audience is held on the mat and experiences the distortion of their body on the fluid ground, not through seeing or hearing. The...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/당신은x-being을-초대하지-않을-수-없다" data-link>Art Scene, January lssue, You cannot disinvite x-being, 2022, Mingwan Kim (Critic) /『아트신』 1월호, <당신은 x-being을 초대하지 않을 수 없다> 2022년, 김민관 평론가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">Art Scene , January lssue, 2022 / Min Gwan Kim ( Critic) / You cannot disinvite x-being "These movements might be a philosophical...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2021년-신빛나리-드라마터그-당신은-x-being을-초대하지-않을-수-없다" data-link>You cannot disinvite x-being, 2021, Bittnarie Shin (Dramaturgy) / <당신은 x-being을 초대하지 않을 수 없다>, 2021년, 신빛나리 드라마터그</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"He Jin Jang's artistic practice, while rejecting the ‘experiment of form’ enclosed within the traditional — dualistic — metaphysical...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2021년-『월간잡지-몸』-11월호-김남수-안무비평-흐르는" data-link>Dance Magazine MOMM,  November Issue, the flowing. , 2021, Namsoo Kim (Critic) /『월간잡지 몸』11월호, <흐르는. >, 2021년, 김남수 안무비평가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“He Jin Jang’s performance has opened a space where the audience, standing on the direct tremors of nerves, lights one’s own torch,...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2021년-조형빈-평론가-흐르는" data-link>Hyungbin Jo (Critic), 2021, the flowing. / <흐르는. > , 2021년, 조형빈 평론가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“The performance was a declaration of vulnerability and posed questions about the connection and mediation of breath, (voice) sound, and...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2021년-『춤과-사람들』-이봉헌-기자-대체된-침묵" data-link>Dance and People, 2020, silence replaced: , Bongheon Lee (Journalist) / 『춤과 사람들』, <대체된 침묵: >, 2021년, 이봉헌 기자</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">" silence replaced: is not a work where the concept is prominently displayed. To me, it was perceived as a choreographer’s humble...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2020년-『뉴욕일보』-정은실-기자-위클리-위-클리" data-link>The New York Ilbo, Weekly Weakly, 2020, Eunsil Jung (Journalist) /『뉴욕일보』, <위클리 위-클리>, 2020년, 정은실 기자</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"Invited by Movement Research in the United States, He Jin Jang's choreographic work, Weekly Weakly, was performed with great acclaim at...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2018년-현지예-드라마터그-미소서식지-몸" data-link>Microhabitat Body, 2018, Ziyea Hyun (Dramaturgy), / <미소서식지 몸>, 2018년, 현지예 드라마터그</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">" Microhabitat Body was a work in which each participant accumulated, amplified, and shared imagination perceptive cognition through the...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2016년-『춤웹진』-방희망-평론가-이주하는-자아-문의-속도" data-link>Dance Webzine, migrant-self the speed of a door, 2016, Heemang Bang (Critic) / 2016년『춤웹진』, <이주하는 자아, 문의 속도> , 방희망 평론가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“In this work, which explores the discrepancy between objective and subjective time, it seems appropriate to include even the actions and...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2015년-『춤웹진』-이윤숙-이주하는-자아-문의-속도" data-link>Dance Webzine, migrant-self the speed of a door, 2015, Yoonsook Lee / 2015년 『춤웹진』, <이주하는 자아 문의 속도> , 이윤숙</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"He Jin Jang's migrant-self the speed of a door Speed of Migrating Self-Inquiry depicts the turmoil of the self within the gap between...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2015년-『new-york-live-arts-context-notes』-제스-발바갈로-평론가-이주하는-자아-문의-속도" data-link>NEW YORK LIVE ARTS CONTEXT NOTES, migrant-self the speed of a door, 2015, 제스 바바갈로 (Critic) / 2015년 『New York Live Arts Context Notes』, <이주하는 자아 문의 속도>, 제스 발바갈로 평론가</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“I might use the word elemental. He Jin Jang’s floor-centric compositions lead her back to the ground again and again, and through time....</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/2008년-미국-『indy-week』-바이론-우즈-평론가" data-link>U.S Indy week, July 2008, Byron Woods (Critic) / 2008년 미국 『Indy Week』, 바이론 우즈 평론가 /</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“...before HeJin Jang humbled us all at the conclusion of open skin inscribed by kneeling and scrubbing the cement floor with xeroxed...</p>
-          </div>
-          <div class="press-card">
-            <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">
-              <a href="/post/인터뷰-모음" data-link>Interview / 인터뷰 모음</a>
-            </h3>
-            <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">2020년 6월 『 춤in 』 코로나와 무용수업: 방법에의 도전 w/김재리, 김옥희, 장혜진, 조주현 http://choomin.sfac.or.kr/zoom/zoom_view.asp?type=IN&zom_idx=548&div=...</p>
-          </div>
+          <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Slow Carnival World, 2023, Hwahung Yu (Critic) / 2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+            </div>
+          </a>
+          <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Dance Webzine, February lssue, 2023, Sukjin Han (Dance Theorist), I bet you’d put that on / 2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+            </div>
+          </a>
+          <a href="/post/복제-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Dance Magazine MOMM, January Issue, 2023, I bet you’d put that on, Sunghye Park (Critic) / 2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"I bet you’d put that on is not merely a simple play with blankets; it is simultaneously a play with corpses and a meticulously designed...</p>
+            </div>
+          </a>
+          <a href="/post/2023년-『아트신』-1월호-김민관-평론가-당신이-그런-것을-입게-될-줄-알았어" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Art Scene, January lssue, I bet you’d put that on, 2023, Mingwan Kim (Critic) /『아트신』 1월호, <당신이 그런 것을 입게 될 줄 알았어>, 2023년, 김민관 평론가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"The audience is held on the mat and experiences the distortion of their body on the fluid ground, not through seeing or hearing. The...</p>
+            </div>
+          </a>
+          <a href="/post/당신은x-being을-초대하지-않을-수-없다" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Art Scene, January lssue, You cannot disinvite x-being, 2022, Mingwan Kim (Critic) /『아트신』 1월호, <당신은 x-being을 초대하지 않을 수 없다> 2022년, 김민관 평론가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">Art Scene , January lssue, 2022 / Min Gwan Kim ( Critic) / You cannot disinvite x-being "These movements might be a philosophical...</p>
+            </div>
+          </a>
+          <a href="/post/2021년-신빛나리-드라마터그-당신은-x-being을-초대하지-않을-수-없다" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">You cannot disinvite x-being, 2021, Bittnarie Shin (Dramaturgy) / <당신은 x-being을 초대하지 않을 수 없다>, 2021년, 신빛나리 드라마터그</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"He Jin Jang's artistic practice, while rejecting the ‘experiment of form’ enclosed within the traditional — dualistic — metaphysical...</p>
+            </div>
+          </a>
+          <a href="/post/2021년-『월간잡지-몸』-11월호-김남수-안무비평-흐르는" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Dance Magazine MOMM,  November Issue, the flowing. , 2021, Namsoo Kim (Critic) /『월간잡지 몸』11월호, <흐르는. >, 2021년, 김남수 안무비평가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“He Jin Jang’s performance has opened a space where the audience, standing on the direct tremors of nerves, lights one’s own torch,...</p>
+            </div>
+          </a>
+          <a href="/post/2021년-조형빈-평론가-흐르는" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Hyungbin Jo (Critic), 2021, the flowing. / <흐르는. > , 2021년, 조형빈 평론가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“The performance was a declaration of vulnerability and posed questions about the connection and mediation of breath, (voice) sound, and...</p>
+            </div>
+          </a>
+          <a href="/post/2021년-『춤과-사람들』-이봉헌-기자-대체된-침묵" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Dance and People, 2020, silence replaced: , Bongheon Lee (Journalist) / 『춤과 사람들』, <대체된 침묵: >, 2021년, 이봉헌 기자</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">" silence replaced: is not a work where the concept is prominently displayed. To me, it was perceived as a choreographer’s humble...</p>
+            </div>
+          </a>
+          <a href="/post/2020년-『뉴욕일보』-정은실-기자-위클리-위-클리" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">The New York Ilbo, Weekly Weakly, 2020, Eunsil Jung (Journalist) /『뉴욕일보』, <위클리 위-클리>, 2020년, 정은실 기자</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"Invited by Movement Research in the United States, He Jin Jang's choreographic work, Weekly Weakly, was performed with great acclaim at...</p>
+            </div>
+          </a>
+          <a href="/post/2018년-현지예-드라마터그-미소서식지-몸" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Microhabitat Body, 2018, Ziyea Hyun (Dramaturgy), / <미소서식지 몸>, 2018년, 현지예 드라마터그</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">" Microhabitat Body was a work in which each participant accumulated, amplified, and shared imagination perceptive cognition through the...</p>
+            </div>
+          </a>
+          <a href="/post/2016년-『춤웹진』-방희망-평론가-이주하는-자아-문의-속도" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Dance Webzine, migrant-self the speed of a door, 2016, Heemang Bang (Critic) / 2016년『춤웹진』, <이주하는 자아, 문의 속도> , 방희망 평론가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“In this work, which explores the discrepancy between objective and subjective time, it seems appropriate to include even the actions and...</p>
+            </div>
+          </a>
+          <a href="/post/2015년-『춤웹진』-이윤숙-이주하는-자아-문의-속도" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Dance Webzine, migrant-self the speed of a door, 2015, Yoonsook Lee / 2015년 『춤웹진』, <이주하는 자아 문의 속도> , 이윤숙</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">"He Jin Jang's migrant-self the speed of a door Speed of Migrating Self-Inquiry depicts the turmoil of the self within the gap between...</p>
+            </div>
+          </a>
+          <a href="/post/2015년-『new-york-live-arts-context-notes』-제스-발바갈로-평론가-이주하는-자아-문의-속도" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">NEW YORK LIVE ARTS CONTEXT NOTES, migrant-self the speed of a door, 2015, 제스 바바갈로 (Critic) / 2015년 『New York Live Arts Context Notes』, <이주하는 자아 문의 속도>, 제스 발바갈로 평론가</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“I might use the word elemental. He Jin Jang’s floor-centric compositions lead her back to the ground again and again, and through time....</p>
+            </div>
+          </a>
+          <a href="/post/2008년-미국-『indy-week』-바이론-우즈-평론가" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">U.S Indy week, July 2008, Byron Woods (Critic) / 2008년 미국 『Indy Week』, 바이론 우즈 평론가 /</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">“...before HeJin Jang humbled us all at the conclusion of open skin inscribed by kneeling and scrubbing the cement floor with xeroxed...</p>
+            </div>
+          </a>
+          <a href="/post/인터뷰-모음" data-link style="text-decoration: none; color: inherit; display: block;">
+            <div class="press-card">
+              <h3 class="press-post-title" style="margin-bottom: 24px; font-size: 15px;">Interview / 인터뷰 모음</h3>
+              <p class="press-post-excerpt" style="font-size: 15px; margin-bottom: 24px;">2020년 6월 『 춤in 』 코로나와 무용수업: 방법에의 도전 w/김재리, 김옥희, 장혜진, 조주현 http://choomin.sfac.or.kr/zoom/zoom_view.asp?type=IN&zom_idx=548&div=...</p>
+            </div>
+          </a>
         </div>
       </div>
     `
@@ -351,15 +351,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">"I bet you’d put that on is not merely a simple play with blankets; it is simultaneously a play with corpses and a meticulously designed...</p>
-              </div>
+              <a href="/post/복제-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">"I bet you’d put that on is not merely a simple play with blankets; it is simultaneously a play with corpses and a meticulously designed...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -387,15 +391,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">"I bet you’d put that on is not merely a simple play with blankets; it is simultaneously a play with corpses and a meticulously designed...</p>
-              </div>
+              <a href="/post/복제-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">"I bet you’d put that on is not merely a simple play with blankets; it is simultaneously a play with corpses and a meticulously designed...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -423,15 +431,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -459,15 +471,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -496,15 +512,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -532,15 +552,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -568,15 +592,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -604,15 +632,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -640,15 +672,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -676,15 +712,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -712,15 +752,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -748,15 +792,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -784,15 +832,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -820,15 +872,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -856,15 +912,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
@@ -916,15 +976,19 @@ const routes = {
             </div>
             <div style="display: flex; gap: 20px;">
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="color: #000; text-decoration: none;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
-              </div>
+              <a href="/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“He Jin Jang has consistently expressed her interest in spaces where dance occurs and the social role of artists. What is woven together...</p>
+                </div>
+              </a>
 
-              <div style="flex: 1; border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff;">
-                <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;"><a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="color: #000; text-decoration: none;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></a></h3>
-                <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
-              </div>
+              <a href="/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin" data-link style="text-decoration: none; color: inherit; flex: 1; display: block;">
+                <div style="border: 1px solid #e5c9df; padding: 24px; display: flex; flex-direction: column; background-color: #fff; height: 100%; box-sizing: border-box;">
+                  <h3 style="font-size: 15px; font-weight: bold; margin-bottom: 16px; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: #000;">2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h3>
+                  <p style="font-size: 14px; line-height: 1.6; color: #333; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">“In the work, the performer's narrative operates not only on a semantic level but also on a material level, allowing some audience...</p>
+                </div>
+              </a>
 
             </div>
           </div>
