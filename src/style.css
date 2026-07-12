@@ -230,13 +230,30 @@ ul {
 .content-page {
   position: relative;
   margin: 0;
-  margin-left: 461px; /* Exactly 461px from left screen edge */
-  width: 649px; /* Exact width of the original text box */
-  padding: 181px 0 140px 0;
+  margin-left: calc(max((100vw - 980px) / 2, 0px) + 231px);
+  width: 100%;
+  max-width: 649px;
+  padding: 181px 20px 140px 0;
   font-family: 'Noto Sans KR', sans-serif;
   color: #080808;
   animation: fadeIn 0.4s ease forwards;
   box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.video-container {
+  position: relative;
+  width: calc(100% + 200px);
+  margin-left: -100px;
+  aspect-ratio: 849/566;
+  max-width: 100vw;
+}
+@media (max-width: 850px) {
+  .video-container {
+    width: 100vw;
+    margin-left: calc(-1 * (max((100vw - 980px) / 2, 0px) + 231px));
+  }
 }
 
 @keyframes fadeIn {
@@ -485,6 +502,7 @@ ul {
 
 .footer-line {
   width: 938px;
+  max-width: 100%;
   height: 1px;
   background: #FF00CB;
   margin: 0 auto 14px;
@@ -494,7 +512,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
+  width: 938px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
