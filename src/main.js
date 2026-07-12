@@ -997,6 +997,8 @@ const routes = {
       </div>
     `
   }
+};
+
 // Common generic template for other selected works/archives
 function renderGenericWork(path) {
   const cleanTitle = path.substring(1).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
