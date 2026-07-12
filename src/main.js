@@ -148,6 +148,36 @@ const routes = {
     title: 'Home | He Jin Jang Dance',
     render: () => ''
   },
+  '/works': {
+    title: 'Selected Works | He Jin Jang Dance',
+    render: () => `
+      <div class="content-page works-grid">
+        <h1 style="font-size: 24px; margin-bottom: 24px; font-weight: 600;">Selected Works</h1>
+        <div class="card-scroller">
+          <a href="/softrehearsalforfugitivegathering" class="work-card" data-link style="background-image: url('https://static.wixstatic.com/media/11062b_bbbfcdbc0bb64b8bb26cbaac466ab79c~mv2.jpeg/v1/fill/w_1348,h_899,al_c,q_85,enc_auto/11062b_bbbfcdbc0bb64b8bb26cbaac466ab79c~mv2.jpeg');">
+            <div class="card-overlay">
+              <div class="card-title">Soft Rehearsal for Fugitive Gathering</div>
+            </div>
+          </a>
+          <a href="/slow-carnival-world-2023" class="work-card" data-link style="background-image: url('https://static.wixstatic.com/media/11062b_6900cf4af8fc47e2a4a75411cbb5b045~mv2.jpeg/v1/fill/w_1348,h_899,al_c,q_85,enc_auto/11062b_6900cf4af8fc47e2a4a75411cbb5b045~mv2.jpeg');">
+            <div class="card-overlay">
+              <div class="card-title">Slow Carnival World (2023-ongoing)</div>
+            </div>
+          </a>
+          <a href="/i-bet-you-d-put-that-on-2022" class="work-card" data-link style="background-image: url('https://static.wixstatic.com/media/11062b_9fcc6c2f9e424268a7f1418bd61b40dc~mv2.jpeg/v1/fill/w_1348,h_899,al_c,q_85,enc_auto/11062b_9fcc6c2f9e424268a7f1418bd61b40dc~mv2.jpeg');">
+            <div class="card-overlay">
+              <div class="card-title">I Bet You'd Put That On (2022)</div>
+            </div>
+          </a>
+          <a href="/you-cannot-disinvite-x-being-2021" class="work-card" data-link style="background-image: url('https://static.wixstatic.com/media/11062b_d18c1df2481b4e05b530c14bdf73a115~mv2.jpg/v1/fill/w_1348,h_899,al_c,q_85,enc_auto/11062b_d18c1df2481b4e05b530c14bdf73a115~mv2.jpg');">
+            <div class="card-overlay">
+              <div class="card-title">You Cannot Disinvite X-being (2021)</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    `
+  },
   '/about-bio': {
     title: 'About | He Jin Jang Dance',
     render: () => `
@@ -2955,9 +2985,11 @@ function route() {
   const canvasContainer = document.getElementById('canvas-container');
   if (canvasContainer) {
     if (path === '/') {
+      canvasContainer.style.display = 'flex';
       canvasContainer.style.opacity = '1';
       canvasContainer.style.pointerEvents = 'auto';
     } else {
+      canvasContainer.style.display = 'none';
       canvasContainer.style.opacity = '0';
       canvasContainer.style.pointerEvents = 'none';
     }
@@ -2985,7 +3017,7 @@ function route() {
   });
 
   // Update active state in navigation
-  document.querySelectorAll('.nav-link, .dropdown a').forEach(link => {
+  document.querySelectorAll('.nav-link, .dropdown a, .bottom-nav-item').forEach(link => {
     link.classList.remove('active');
     if (link.getAttribute('href') === path) {
       link.classList.add('active');
@@ -3025,12 +3057,19 @@ window.addEventListener('popstate', route);
 
 function setupMobileNav() {
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const bottomNavMore = document.getElementById('bottom-nav-more');
   const body = document.body;
 
+  const toggleNav = () => {
+    body.classList.toggle('mobile-nav-open');
+  };
+
   if (mobileMenuBtn) {
-    mobileMenuBtn.addEventListener('click', () => {
-      body.classList.toggle('mobile-nav-open');
-    });
+    mobileMenuBtn.addEventListener('click', toggleNav);
+  }
+
+  if (bottomNavMore) {
+    bottomNavMore.addEventListener('click', toggleNav);
   }
 
   // Handle Accordion for Dropdowns on mobile
