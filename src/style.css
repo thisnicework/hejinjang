@@ -565,54 +565,207 @@ ul {
 }
 
 /* ============================================
-   Responsive
+   Mobile Menu Button
    ============================================ */
-@media (max-width: 768px) {
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 101;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  padding: 8px;
+}
+
+.hamburger-line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #000;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+}
+
+/* ============================================
+   Responsive Mobile Refactor
+   ============================================ */
+@media (max-width: 900px) {
+  /* Header & Logo */
   .header {
-    padding: 20px 24px;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
   }
 
+  .logo {
+    margin-top: 10px;
+  }
+
+  .logo-img {
+    width: 80px;
+    height: auto;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  /* Hamburger Menu Animation */
+  body.mobile-nav-open .hamburger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  body.mobile-nav-open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  body.mobile-nav-open .hamburger-line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Full Screen Navigation Overlay */
   .nav {
-    top: 145px;
-    padding: 0 16px 0 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.98);
+    z-index: 90;
+    padding: 120px 30px 40px;
+    overflow-y: auto;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.4s ease;
+  }
+
+  body.mobile-nav-open .nav {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  body.mobile-nav-open {
+    overflow: hidden;
+  }
+
+  .nav-list {
+    align-items: flex-start;
   }
 
   .nav-link {
-    font-size: 14px;
+    font-size: 24px;
+    line-height: 50px;
+    height: auto;
   }
 
+  /* Dropdown as Accordion */
   .dropdown {
     position: relative;
     left: 0;
-    margin-left: 18px;
-    margin-top: 4px;
-    min-width: auto;
+    width: 100%;
+    transform: none;
+    padding-left: 20px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 1;
+    visibility: visible;
+    transition: max-height 0.4s ease;
+    background-color: transparent;
+    pointer-events: none;
   }
 
-  .description-text {
-    right: 4%;
-    max-width: 180px;
-    font-size: 12px;
+  .has-dropdown.accordion-open > .dropdown {
+    max-height: 600px;
+    pointer-events: auto;
   }
 
+  .dropdown li a {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  /* Override hover for mobile */
+  .has-dropdown:hover > .dropdown {
+    max-height: 0;
+    pointer-events: none;
+  }
+  .has-dropdown.accordion-open:hover > .dropdown {
+    max-height: 600px;
+    pointer-events: auto;
+  }
+
+  /* Page Content */
   .content-page,
   .contact-page,
-  .press-page {
-    margin-left: 0;
-    width: auto;
-    padding: 240px 24px 140px;
+  .press-page,
+  .upcoming-page {
+    margin-left: 0 !important;
+    padding: 120px 20px 60px !important;
+    max-width: 100%;
+    width: 100%;
   }
 
+  .video-container {
+    width: 100vw;
+    margin-left: -20px;
+  }
+
+  /* 3D Canvas Adjustments */
+  .black-line {
+    width: 90vw;
+  }
+  #three-canvas {
+    width: 90vw;
+    height: 90vw;
+  }
+  .description-text {
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    max-width: calc(100% - 40px);
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    padding: 15px;
+    border-radius: 8px;
+    color: #111;
+  }
+
+  /* Footer Adjustments */
+  .footer {
+    position: relative;
+    padding: 30px 20px;
+    border-top: 1px solid #FF00CB;
+    background: #fff;
+    margin-top: 40px;
+  }
+  .footer-line {
+    display: none;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  
   .press-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
-
-  .footer {
-    padding: 0 16px 14px;
-  }
-
-  .footer-copyright {
-    font-size: 11px;
+  .press-card {
+    padding: 24px;
   }
 }
 

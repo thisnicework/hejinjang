@@ -3021,8 +3021,44 @@ function bindLinks() {
 // Listen to navigation events
 window.addEventListener('popstate', route);
 
+function setupMobileNav() {
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const body = document.body;
+
+  if (mobileMenuBtn) {
+    mobileMenuBtn.addEventListener('click', () => {
+      body.classList.toggle('mobile-nav-open');
+    });
+  }
+
+  // Handle Accordion for Dropdowns on mobile
+  const dropdownParents = document.querySelectorAll('.has-dropdown');
+  dropdownParents.forEach(parent => {
+    const link = parent.querySelector('.nav-link');
+    if (link) {
+      link.addEventListener('click', (e) => {
+        if (window.innerWidth <= 900) {
+          e.preventDefault();
+          parent.classList.toggle('accordion-open');
+        }
+      });
+    }
+  });
+
+  // Close mobile menu when a dropdown link is clicked
+  const dropdownLinks = document.querySelectorAll('.dropdown li a');
+  dropdownLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 900) {
+        body.classList.remove('mobile-nav-open');
+      }
+    });
+  });
+}
+
 // Initialize Router
 document.addEventListener('DOMContentLoaded', () => {
   route();
   bindLinks();
+  setupMobileNav();
 });
