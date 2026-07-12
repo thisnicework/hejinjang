@@ -731,20 +731,28 @@ ul {
     margin-left: -20px;
   }
 
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  #page-content {
+    flex: 1 0 auto;
+  }
+
   /* 3D Canvas Adjustments */
   .black-line {
-    width: 90vw;
+    display: none; /* Hide confusing diagonal line on mobile */
   }
   #three-canvas {
     width: 90vw;
     height: 90vw;
   }
   .description-text {
-    top: auto;
-    bottom: 20px;
+    bottom: 120px;
     left: 20px;
-    right: 20px;
-    max-width: calc(100% - 40px);
+    width: calc(100% - 40px);
+    font-size: 14px;
     text-align: center;
     background: rgba(255,255,255,0.8);
     padding: 15px;
@@ -759,6 +767,7 @@ ul {
     border-top: 1px solid #FF00CB;
     background: #fff;
     margin-top: 40px;
+    flex-shrink: 0;
   }
   .footer-line {
     display: none;
