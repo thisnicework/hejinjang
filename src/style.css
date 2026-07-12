@@ -637,7 +637,7 @@ ul {
   }
 
   .logo-img {
-    width: 80px;
+    width: 60px;
     height: auto;
   }
 
@@ -800,10 +800,9 @@ ul {
     width: calc(100% - 40px);
     font-size: 14px;
     text-align: center;
-    background: rgba(255,255,255,0.8);
+    background: transparent;
     padding: 15px;
-    border-radius: 8px;
-    color: #111;
+    color: #d2d2d2;
   }
 
   /* Footer Adjustments */
