@@ -1000,11 +1000,33 @@ const routes = {
 };
 
 function route() {
-  const path = decodeURIComponent(window.location.pathname).replace(/\/+/g, '/');
-  const page = routes[path] || {
-    title: 'Project | He Jin Jang Dance',
-    render: () => renderGenericWork(path)
-  };
+  let path = window.location.pathname;
+  try {
+    path = decodeURIComponent(path);
+  } catch (e) {
+    // ignore
+  }
+  path = path.replace(/\/+/g, '/');
+  
+  let page = routes[path];
+  if (!page) {
+    // Try to match by ignoring encoding differences
+    const matchedKey = Object.keys(routes).find(key => {
+      try {
+        return decodeURIComponent(key) === path || key === window.location.pathname;
+      } catch (e) {
+        return key === path;
+      }
+    });
+    if (matchedKey) page = routes[matchedKey];
+  }
+
+  if (!page) {
+    page = {
+      title: 'Not Found | He Jin Jang Dance',
+      render: () => '<div class="content-page" style="padding-top: 100px; text-align: center;"><h1>Page Not Found</h1><p>The requested page could not be found.</p></div>'
+    };
+  }
 
   // Update Title
   document.title = page.title;
