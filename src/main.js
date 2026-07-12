@@ -3047,11 +3047,16 @@ function setupMobileNav() {
     }
   });
 
-  // Close mobile menu when a dropdown link is clicked
-  const dropdownLinks = document.querySelectorAll('.dropdown li a');
-  dropdownLinks.forEach(link => {
-    link.addEventListener('click', () => {
+  // Close mobile menu when ANY nav link is clicked
+  const allNavLinks = document.querySelectorAll('.nav-link, .dropdown li a');
+  allNavLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      // Do not close if it's a dropdown parent link and we are expanding the accordion
       if (window.innerWidth <= 900) {
+        if (link.classList.contains('nav-link') && link.closest('.has-dropdown')) {
+          // If it's the parent, the accordion logic handles it. Just return.
+          return;
+        }
         body.classList.remove('mobile-nav-open');
       }
     });

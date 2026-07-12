@@ -589,6 +589,8 @@ ul {
   top: 25px;
   right: 20px;
   padding: 8px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .hamburger-line {
@@ -598,6 +600,7 @@ ul {
   background-color: #000;
   margin: 5px auto;
   transition: all 0.3s ease;
+  pointer-events: none;
 }
 
 /* Scroll Animation Utilities */
