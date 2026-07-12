@@ -2995,6 +2995,9 @@ function route() {
   // Re-bind dynamically rendered data-link clicks (if any)
   bindLinks();
 
+  // Initialize scroll animations for the new content
+  initScrollAnimations();
+
   // Scroll to top
   window.scrollTo(0, 0);
 }
@@ -3052,6 +3055,27 @@ function setupMobileNav() {
         body.classList.remove('mobile-nav-open');
       }
     });
+  });
+}
+
+function initScrollAnimations() {
+  const elements = document.querySelectorAll('.content-page p, .content-page img, .about-section p, .about-section img');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: "0px 0px -50px 0px"
+  });
+
+  elements.forEach(el => {
+    el.classList.add('fade-in-up');
+    observer.observe(el);
   });
 }
 
