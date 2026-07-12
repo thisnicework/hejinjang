@@ -997,7 +997,24 @@ const routes = {
       </div>
     `
   }
-};
+// Common generic template for other selected works/archives
+function renderGenericWork(path) {
+  const cleanTitle = path.substring(1).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  return `
+    <div class="content-page">
+      <div class="about-section">
+        <h2 class="about-title" style="font-size: 20px;">${cleanTitle}</h2>
+        <p class="about-text" style="font-style: italic; color: #718096; margin-bottom: 30px;">
+          Detailed project archives, performance recordings, and choreographic materials are currently being prepared for this workspace.
+        </p>
+        <p class="about-text">
+          This piece forms part of He Jin Jang Dance's ongoing inquiry into physical vulnerability, spatial somatic research, and temporal relationships. Detailed documentation includes production lists, stage research maps, and media assets.
+        </p>
+        <a href="/" class="about-cv-link" data-link>Return to Home</a>
+      </div>
+    </div>
+  `;
+}
 
 function route() {
   let path = window.location.pathname;
@@ -1023,8 +1040,8 @@ function route() {
 
   if (!page) {
     page = {
-      title: 'Not Found | He Jin Jang Dance',
-      render: () => '<div class="content-page" style="padding-top: 100px; text-align: center;"><h1>Page Not Found</h1><p>The requested page could not be found.</p></div>'
+      title: 'Project | He Jin Jang Dance',
+      render: () => renderGenericWork(path)
     };
   }
 
