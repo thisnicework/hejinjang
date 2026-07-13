@@ -2959,10 +2959,12 @@ function route() {
   const isHome = (path === '/');
   if (nav) {
     if (isHome) {
-      nav.style.display = 'block';
+      nav.classList.remove('non-home-nav');
     } else {
-      nav.style.display = 'none';
+      nav.classList.add('non-home-nav');
     }
+    // Ensure no inline style overrides our CSS
+    nav.style.display = '';
   }
 
   // Adjust padding when nav is hidden

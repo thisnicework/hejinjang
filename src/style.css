@@ -86,6 +86,12 @@ ul {
   padding: 0;
 }
 
+@media (min-width: 901px) {
+  .nav.non-home-nav {
+    display: none;
+  }
+}
+
 .nav-list {
   display: flex;
   flex-direction: column;
