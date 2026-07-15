@@ -1002,6 +1002,9 @@ const routes = {
     title: 'Available (2011) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Available (2011)</h1>
+        </div>
         
     </div>
     `
@@ -1010,6 +1013,9 @@ const routes = {
     title: 'Book Publication | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Book Publication</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_ec21a97b53644aab993500bc888e461c_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1076,6 +1082,9 @@ const routes = {
     title: 'Contributed Articles | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Contributed Articles</h1>
+        </div>
         <div class="N8MGzv _v6ohL PO9MfV comp-mejnx1du wixui-rich-text" data-testid="richTextElement" id="comp-mejnx1du"><h6 class="font_6 wixui-rich-text__text" style="text-align:center; font-size:28px;"><span class="wixui-rich-text__text" style="letter-spacing:-0.03em;"><span class="color_37 wixui-rich-text__text"><span class="wixui-rich-text__text" style="font-weight: 600; font-family: 'Gothic A1', sans-serif;"><span class="wixui-rich-text__text" style="font-size:25px;">기고글</span><span class="wixui-rich-text__text" style="font-size:24px;"> </span></span></span></span></h6></div>
 <div class="N8MGzv _v6ohL PO9MfV comp-mejnx1g6 wixui-rich-text" data-testid="richTextElement" id="comp-mejnx1g6"><ul class="font_8 wixui-rich-text__text" style="font-family: 'Gothic A1', sans-serif; font-size:14px;">
 <li class="wixui-rich-text__text" style="line-height:2.1em;">
@@ -1107,6 +1116,9 @@ const routes = {
     title: 'Do Not Lean On Door (2008-09) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Do Not Lean On Door (2008-09)</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_7ce8d0c0acae442ca3d12eecbc4432c2_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1139,6 +1151,9 @@ const routes = {
     title: 'Drifting Body (2015-17) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Drifting Body (2015-17)</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_4bb4c14427ea4b8b8f10ff4afe65cf24_mv2.jpeg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1188,6 +1203,9 @@ const routes = {
     title: 'Entanglement Residency (2020) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Entanglement Residency (2020)</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Entanglement Residency</span></span></span><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text">&nbsp;(2020)<br class="wixui-rich-text__text">
         얽힘 레지던시 (2020)</span><br class="wixui-rich-text__text">
         <span style="font-size:20px;" class="wixui-rich-text__text">with Tangerine Collective</span></span></p>
@@ -1258,6 +1276,9 @@ const routes = {
     title: 'Weekly Weakly: Exhibition (2020) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Weekly Weakly: Exhibition (2020)</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_2d1d7645b1934ebb8f2540662253c35d_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1301,6 +1322,9 @@ const routes = {
     title: 'Franklin Method Workshop & 1:1 Session | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Franklin Method Workshop & 1:1 Session</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text">Franklin Method® Workshop &amp; 1:1 Session<br class="wixui-rich-text__text">
         프랭클린 메소드® 워크숍 &amp; 1:1 세션</span><br class="wixui-rich-text__text">
         &nbsp;</p>
@@ -1331,6 +1355,9 @@ const routes = {
     title: 'Ghost Shower (2020-21) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Ghost Shower (2020-21)</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Ghost Shower </span></span></span><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text">(2021)<br class="wixui-rich-text__text">
         유령기류 (2021)</span><br class="wixui-rich-text__text">
         <span style="font-size:20px;" class="wixui-rich-text__text">with Sleungst and Friends</span></span></p>
@@ -1408,6 +1435,8 @@ const routes = {
     title: 'I Bet You’d Put That On (2022) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span style="font-size:25px;" class="wixui-rich-text__text"><span class="color_37 wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">I Bet You’d Put That On </span></span></span></span></span><span style="font-size:25px;" class="wixui-rich-text__text"><span class="color_37 wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2022)&nbsp;</span></span><br class="wixui-rich-text__text">
+<span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">당신이 그런 것을 입게 될 줄 알았어&nbsp;</span></span></span></span></h6></div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_a20af54c445143adbcfb5c5a16b40dc4_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1492,6 +1521,9 @@ const routes = {
     title: 'Judson Drama (2020) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Judson Drama (2020)</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Judson Drama </span></span></span><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text">(2020)<br class="wixui-rich-text__text">
         저드슨 드라마 (2020)</span><br class="wixui-rich-text__text">
         <span style="font-size:20px;" class="wixui-rich-text__text">with Judson Drama</span></span></p>
@@ -1574,6 +1606,9 @@ const routes = {
     title: 'Latent in Pre-Chaos (2024) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Latent in Pre-Chaos (2024)</h1>
+        </div>
         <div class="N8MGzv _v6ohL PO9MfV comp-maqdv91u wixui-rich-text" data-testid="richTextElement" id="comp-maqdv91u"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span class="wixui-rich-text__text" style="font-size:25px;"><span class="wixui-rich-text__text" style="color:#000000;">Latent in Pre-chaos (2024)</span></span><br class="wixui-rich-text__text"/>
 <span class="wixui-rich-text__text" style="font-size:25px;"><span class="wixui-rich-text__text" style="color:#000000;">태역에 속도가 묻어있어서</span></span></h6></div>
                 
@@ -1633,6 +1668,9 @@ const routes = {
     title: 'living without (      ) (2017) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">living without (      ) (2017)</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_fe6910cafea14583bc5c57e22bd5b189_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1669,6 +1707,8 @@ const routes = {
     title: 'Microhabitat Body (2018) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Microhabitat Body&nbsp;</span></span></span></span></span><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2018)<br class="wixui-rich-text__text">
+미소서식지 몸 (2018)&nbsp;</span></span></span></span></h6></div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_4feeb573a14a49f188116fdc652c2107_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1722,6 +1762,9 @@ const routes = {
     title: 'Microhabitat Body: Last Words (2020) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Microhabitat Body: Last Words (2020)</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_144fe7f548924126a0470e4408988ac3_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1804,6 +1847,26 @@ const routes = {
     title: 'migrant-self the speed of a door (2012) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+  <h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;">
+    <span style="font-size:25px;" class="wixui-rich-text__text">
+      <span style="color:#000000;" class="wixui-rich-text__text">
+        <span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text">
+          <span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">
+            <span style="font-style:italic;" class="wixui-rich-text__text">migrant-self the speed of a door </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span style="font-size:25px;" class="wixui-rich-text__text">
+      <span style="color:#000000;" class="wixui-rich-text__text">
+        <span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text">
+          <span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2012-16)<br>이주하는 자아, 문의 속도 (2012-16)</span>
+        </span>
+      </span>
+    </span>
+  </h6>
+</div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_6d155c3abcb345dca707e124499b2ec7_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -1853,6 +1916,9 @@ const routes = {
     title: 'Mirror Neuron Salon (2017) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Mirror Neuron Salon (2017)</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Mirror Neuron Salon</span></span></span><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"> (2017)<br class="wixui-rich-text__text">
         거울 뉴런 살롱 (2017)</span><br class="wixui-rich-text__text">
         <span style="font-size:20px;" class="wixui-rich-text__text">with Ursula Eagly</span></span></p>
@@ -1886,6 +1952,9 @@ const routes = {
     title: 'Movement Class: Dance with Fascia & Biom | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Movement Class: Dance with Fascia & Biom</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text">Movement Class: Dance with Fascia &amp; Biomechanics<br class="wixui-rich-text__text">
         움직임 수업: 근막 그리고 생체역학과 함께 춤추기</span></p>
         
@@ -1912,6 +1981,9 @@ const routes = {
     title: 'Navigating Uncertain.. (2023-ongoing) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Navigating Uncertain.. (2023-ongoing)</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-weight: 600; font-family: 'Gothic A1', sans-serif;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Navigating Uncertain Terrain with Generosity </span>(2023 - )</span></span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-weight: 600; font-family: 'Gothic A1', sans-serif;" class="wixui-rich-text__text">불특정한 지형을 관대하게 탐색하기 (2023 - )</span></span></p>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-size:20px;" class="wixui-rich-text__text"><span style="font-weight: 600; font-family: 'Gothic A1', sans-serif;" class="wixui-rich-text__text">with in-between space lab</span></span></p>
@@ -2033,6 +2105,8 @@ const routes = {
     title: 'Open Skin Inscribed (2008) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">open skin inscribed&nbsp;</span></span></span></span></span><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2008)<br class="wixui-rich-text__text">
+열린 피부에 적힌 (2008)</span></span></span></span></h6></div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_09e1cf8f62be4ec39a084865d9143270_mv2.png" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -2064,6 +2138,9 @@ const routes = {
     title: 'Porous Research (2023) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Porous Research (2023)</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_a65bd9f5faee4572a9dde6b26cb9ae8b_mv2.jpeg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -2141,6 +2218,8 @@ const routes = {
     title: 'Silence Replaced: (2009-12) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">silence replaced:&nbsp;</span></span></span></span></span><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2009-12)<br class="wixui-rich-text__text">
+대체된 침묵: (2009-12)</span></span></span></span></h6></div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_d7684d96713e407ba45a4e24fd7a3f87_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -2177,6 +2256,8 @@ const routes = {
     title: 'Slow Carnival World (2023-ongoing) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span class="color_37 wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Slow Carnival World&nbsp;</span>(2023 - ongoing)</span><br class="wixui-rich-text__text">
+<span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text">투명인간이 되든, 춤을 추든</span></span></span></h6></div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_df8de628b39f4398a75f3382ae4f4ee1_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -2286,6 +2367,9 @@ const routes = {
     title: 'Soft Rehearsal for Fugitive Gathering | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Soft Rehearsal for Fugitive Gathering</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_21965012ddd4440782e1211a9775c45a_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -2381,6 +2465,9 @@ const routes = {
     title: 'Teaching Bio | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Teaching Bio</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text">Teaching Bio</span></p>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
@@ -2425,6 +2512,26 @@ const routes = {
     title: 'the flowing. (2021-23) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+  <h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;">
+    <span style="font-size:25px;" class="wixui-rich-text__text">
+      <span style="color:#000000;" class="wixui-rich-text__text">
+        <span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text">
+          <span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">
+            <span style="font-style:italic;" class="wixui-rich-text__text">the flowing. </span>
+          </span>
+        </span>
+      </span>
+    </span>
+    <span style="font-size:25px;" class="wixui-rich-text__text">
+      <span style="color:#000000;" class="wixui-rich-text__text">
+        <span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text">
+          <span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2021-23)<br>흐르는. (2021-23)</span>
+        </span>
+      </span>
+    </span>
+  </h6>
+</div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_b7317bff577543c09724cf84e305c7f6_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -2513,6 +2620,9 @@ const routes = {
     title: 'Visceral Body Workshop for Visual Artist | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Visceral Body Workshop for Visual Artist</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text">Visceral Body Workshop for Visual Artists<br class="wixui-rich-text__text">
         시각예술가를 위한 워크숍: 비써럴 바디</span></p>
         
@@ -2536,6 +2646,9 @@ const routes = {
     title: 'We Need 9 Dance Songs, Seriously (2023) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">We Need 9 Dance Songs, Seriously (2023)</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">We need 9 dance songs, Seriously&nbsp;</span></span></span><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text">(2023)<br class="wixui-rich-text__text">
         춤을 위한 노래는 적어도 9개는 필요하지 (2023)</span><br class="wixui-rich-text__text">
         <span style="font-size:20px;" class="wixui-rich-text__text">with Tangerine Collective</span></span></p>
@@ -2628,6 +2741,8 @@ const routes = {
     title: 'Weekly Weakly: Performance (2020) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">Weekly Weakly&nbsp;</span></span></span><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text"> (2020)&nbsp;</span></span></span><br class="wixui-rich-text__text">
+<span style="color:#000000;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">위클리 위-클리</span></span></span></span></h6></div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_b1b258545e8a4cf1806e83065dbdf052_mv2.jpg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
@@ -2661,6 +2776,9 @@ const routes = {
     title: 'Whirling Skin (2024) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Whirling Skin (2024)</h1>
+        </div>
         <div class="N8MGzv _v6ohL PO9MfV comp-maqdwsa9 wixui-rich-text" data-testid="richTextElement" id="comp-maqdwsa9"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span class="wixui-rich-text__text" style="font-size:25px;"><span class="wixui-rich-text__text" style="color:rgb(0, 0, 0); font-weight: 600; font-family: 'Gothic A1', sans-serif; font-style:italic;">Whirling Skin (2024)<br class="wixui-rich-text__text"/>
 ​혼륜 피부</span></span></h6></div>
 <div class="N8MGzv _v6ohL PO9MfV comp-maqdwsaf1 wixui-rich-text" data-testid="richTextElement" id="comp-maqdwsaf1">
@@ -2725,6 +2843,9 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
     title: 'Workshop: Making (it) Work | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Workshop: Making (it) Work</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="color:#000000;" class="wixui-rich-text__text">Workshop: Making (it) Work<br class="wixui-rich-text__text">
         워크숍: 메이크 (잇) 워크</span><br class="wixui-rich-text__text">
         &nbsp;</p>
@@ -2748,6 +2869,9 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
     title: 'Workshop: Weekly Weakly | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">Workshop: Weekly Weakly</h1>
+        </div>
         <p class="font_8 wixui-rich-text__text" style="font-size:15px; text-align:justify; margin-bottom: 24px;"><span style="font-weight: 600; font-family: 'Gothic A1', sans-serif;" class="wixui-rich-text__text"><span style="font-size:28px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text">Workshop: Weekly Weakly<br class="wixui-rich-text__text">
         <span style="font-style:normal;" class="wixui-rich-text__text"><span style="font-weight:400;" class="wixui-rich-text__text">워크숍: 위클리 위-클리 (매주 연약하게)</span></span></span></span></span></p>
         
@@ -2771,6 +2895,9 @@ Venue: 2025 Chore-graphy, Power Plant at Seoul National University, Korea</span>
     title: 'You Cannot Disinvite X-being (2021) | He Jin Jang Dance',
     render: () => `
       <div class="content-page">
+        <div class="original-title-block" style="margin-bottom: 40px;">
+          <h1 style="font-size: 25px; text-align: center; font-weight: 600; letter-spacing: -0.03em;">You Cannot Disinvite X-being (2021)</h1>
+        </div>
         
                     <div class="about-image-container" style="margin-bottom: 24px;">
                       <img src="/images/073f40_f4742cecc7e54e27b34dff2a13d800d3_mv2.jpeg" style="width: 100%; max-width: 100%; height: auto; display: block;" alt="Image" loading="lazy">
