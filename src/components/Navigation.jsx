@@ -68,8 +68,9 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
 
         // Ensure all key static pages are present from fallbacks if not in CMS
         const pathsInFetched = new Set(filtered.map(p => p.path));
+        const labelsInFetched = new Set(filtered.map(p => p.navLabel));
         FALLBACK_PAGES.forEach(fb => {
-          if (!pathsInFetched.has(fb.path)) {
+          if (!pathsInFetched.has(fb.path) && !labelsInFetched.has(fb.navLabel)) {
             merged.push(fb);
           }
         });
