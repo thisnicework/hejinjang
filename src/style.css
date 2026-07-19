@@ -56,7 +56,7 @@ ul {
 .header {
   position: fixed;
   top: 12px;
-  left: calc(max((100vw - 980px) / 2, 0px) + 20px);
+  left: 20px;
   z-index: 100;
   padding: 0;
 }
@@ -81,7 +81,7 @@ ul {
 .nav {
   position: fixed;
   top: 181px;
-  left: calc(max((100vw - 980px) / 2, 0px) + 66px);
+  left: 66px;
   z-index: 90;
   padding: 0;
 }
@@ -258,7 +258,7 @@ ul {
 .description-text {
   position: fixed;
   top: 310px;
-  left: calc(max((100vw - 980px) / 2, 0px) + 617px);
+  left: 767px;
   max-width: 468px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 16px;
@@ -292,6 +292,20 @@ ul {
   box-sizing: border-box;
   word-break: break-word;
   overflow-wrap: break-word;
+}
+
+/* Prevent double margins, padding, and width constraints when layout classes are nested */
+.content-page .content-page,
+.works-detail-page .works-detail-page,
+.content-page .works-detail-page,
+.works-detail-page .content-page {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
 }
 
 
