@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getAllPages } from '../sanity';
+import logoImg from '../assets/logo.png';
 
 // Hardcoded fallback list matching the original menu structure
 const FALLBACK_PAGES = [
@@ -107,7 +108,7 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
       {/* Header */}
       <header className="header" id="header">
         <a href="/" className="logo" onClick={(e) => handleLinkClick(e, '/')}>
-          <img src="/src/assets/logo.png" alt="He Jin Jang Dance" className="logo-img" />
+          <img src={logoImg} alt="He Jin Jang Dance" className="logo-img" />
         </a>
         
         {/* Mobile Menu Toggle */}
