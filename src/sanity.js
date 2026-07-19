@@ -1,7 +1,7 @@
 import { createClient } from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
 
-const projectId = import.meta.env.VITE_SANITY_PROJECT_ID || 'dummy_id';
+const projectId = import.meta.env.VITE_SANITY_PROJECT_ID || 'dummy-id';
 const dataset = import.meta.env.VITE_SANITY_DATASET || 'production';
 const apiVersion = '2023-05-03';
 
@@ -27,7 +27,7 @@ export function urlFor(source) {
  * Sanity에서는 GROQ 쿼리를 사용하여 데이터를 가져옵니다.
  */
 export async function getPageData(path) {
-  if (projectId === 'dummy_id') return null;
+  if (projectId === 'dummy-id') return null;
   try {
     const query = `*[_type == "page" && path == $path][0]{
       title,
@@ -63,7 +63,7 @@ export async function getPageData(path) {
 
 /** 모든 페이지 목록 가져오기 */
 export async function getAllPages() {
-  if (projectId === 'dummy_id') return [];
+  if (projectId === 'dummy-id') return [];
   try {
     const query = `*[_type == "page"] | order(navOrder asc){
       title,
