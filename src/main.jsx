@@ -28,6 +28,34 @@ function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
+  // Handle accordion toggles inside raw fallback HTML (event delegation)
+  useEffect(() => {
+    const handleGlobalClick = (e) => {
+      const toggle = e.target.closest('.accordion-toggle');
+      if (toggle) {
+        e.preventDefault();
+        const content = toggle.nextElementSibling;
+        if (content && content.classList.contains('accordion-content')) {
+          const isOpen = content.style.display === 'block';
+          content.style.display = isOpen ? 'none' : 'block';
+          toggle.classList.toggle('expanded', !isOpen);
+          
+          const text = toggle.textContent;
+          if (text.includes('+')) {
+            toggle.textContent = text.replace('+', '−');
+          } else if (text.includes('−')) {
+            toggle.textContent = text.replace('−', '+');
+          } else if (text.includes('-')) {
+            toggle.textContent = text.replace('-', '+');
+          }
+        }
+      }
+    };
+
+    document.addEventListener('click', handleGlobalClick);
+    return () => document.removeEventListener('click', handleGlobalClick);
+  }, []);
+
   // Fetch page content from Sanity when path changes
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to top on navigation

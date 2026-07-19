@@ -2,39 +2,56 @@ import React, { useState, useEffect } from 'react';
 import { getAllPages } from '../sanity';
 import logoImg from '../assets/logo.png';
 
-// Hardcoded fallback list matching the original menu structure
+// Reconstructed menu pages list from hejinjang.com
 const FALLBACK_PAGES = [
-  { title: "About", path: "/about-bio", navCategory: "about", navLabel: "About", navOrder: 0 },
-  { title: "Unseaming. (2021-2025)", path: "/unseaming-2021-2025", navCategory: "works-selected", navLabel: "Unseaming. (2021-2025)", navOrder: 1 },
-  { title: "Slow Carnival World (2023-ongoing)", path: "/slow-carnival-world-2023", navCategory: "works-selected", navLabel: "Slow Carnival World (2023-ongoing)", navOrder: 2 },
-  { title: "I Bet You'd Put That On (2022)", path: "/i-bet-you-d-put-that-on-2022", navCategory: "works-selected", navLabel: "I Bet You'd Put That On (2022)", navOrder: 3 },
-  { title: "You Cannot Disinvite X-being (2021)", path: "/you-cannot-disinvite-x-being-2021", navCategory: "works-selected", navLabel: "You Cannot Disinvite X-being (2021)", navOrder: 4 },
-  { title: "the flowing. (2021-23)", path: "/the-flowing-2021-23", navCategory: "works-selected", navLabel: "the flowing. (2021-23)", navOrder: 5 },
-  { title: "Microhabitat Body: Last Words (2020)", path: "/microhabitat-body-last-words-2020", navCategory: "works-selected", navLabel: "Microhabitat Body: Last Words (2020)", navOrder: 6 },
+  { title: "About", path: "/about-bio", navCategory: "about", navLabel: "About", navOrder: 10 },
   
-  { title: "2019 꿈꾼꿈-곳", path: "/dreams-dreamt-place-2019", navCategory: "works-archive", navLabel: "2019 꿈꾼꿈-곳", navOrder: 7 },
-  { title: "2017 전시: 감기긁기걷기", path: "/exhibition-catching-a-cold-2017", navCategory: "works-archive", navLabel: "2017 전시: 감기긁기걷기", navOrder: 8 },
-  { title: "2015 The artist is absent", path: "/the-artist-is-absent-2015", navCategory: "works-archive", navLabel: "2015 The artist is absent", navOrder: 9 },
-  { title: "2015 당인리-Dance for 1", path: "/dangin-ri-dance-for-1-2015", navCategory: "works-archive", navLabel: "2015 당인리-Dance for 1", navOrder: 10 },
-  { title: "2015 당인리-BODYLAND", path: "/dangin-ri-bodyland-2015", navCategory: "works-archive", navLabel: "2015 당인리-BODYLAND", navOrder: 11 },
-  { title: "2014 Ethical goodbyes", path: "/ethical-goodbyes-2014", navCategory: "works-archive", navLabel: "2014 Ethical goodbyes", navOrder: 12 },
-  { title: "2013-14 Tantalizingly Empathetic", path: "/tantalizingly-empathetic-2013-2014", navCategory: "works-archive", navLabel: "2013-14 Tantalizingly Empathetic", navOrder: 13 },
-  { title: "2014 Uncanny of the Uncanny", path: "/uncanny-of-the-uncanny-2014", navCategory: "works-archive", navLabel: "2014 Uncanny of the Uncanny", navOrder: 14 },
-  { title: "2013 Practice of Being Together", path: "/practice-of-being-together-2013", navCategory: "works-archive", navLabel: "2013 Practice of Being Together", navOrder: 15 },
-  { title: "2013 We will all be dreaming", path: "/we-will-all-be-dreaming-2013", navCategory: "works-archive", navLabel: "2013 We will all be dreaming", navOrder: 16 },
-  { title: "2013 Of the presence of “us-ness”", path: "/of-the-presence-of-us-ness-2013", navCategory: "works-archive", navLabel: "2013 Of the presence of “us-ness”", navOrder: 17 },
-  { title: "2012 Practice of Cost-effectiveness", path: "/practice-of-cost-effectiveness-2012", navCategory: "works-archive", navLabel: "2012 Practice of Cost-effectiveness", navOrder: 18 },
-  { title: "2011 Movement Study on No to self-editing", path: "/movement-study-on-no-to-self-editing-2011", navCategory: "works-archive", navLabel: "2011 Movement Study on No to self-editing", navOrder: 19 },
-  { title: "2011 De-re-pair", path: "/de-re-pair-2011", navCategory: "works-archive", navLabel: "2011 De-re-pair", navOrder: 20 },
-  { title: "2010 Dear Silence", path: "/dear-silence-2010", navCategory: "works-archive", navLabel: "2010 Dear Silence", navOrder: 21 },
-  { title: "2018 협업 Piece with gaps", path: "/piece-with-gaps-2018", navCategory: "works-archive", navLabel: "2018 협업 Piece with gaps", navOrder: 22 },
-  { title: "View Full Archive →", path: "/archive", navCategory: "works-archive", navLabel: "View Full Archive →", navOrder: 23 },
+  // Selected Works
+  { title: "Soft Rehearsal for Fugitive Gathering", path: "/softrehearsalforfugitivegathering", navCategory: "works-selected", navLabel: "Soft Rehearsal for Fugitive Gathering", navOrder: 30 },
+  { title: "Slow Carnival World (2023-ongoing)", path: "/slow-carnival-world-2023", navCategory: "works-selected", navLabel: "Slow Carnival World (2023-ongoing)", navOrder: 31 },
+  { title: "I Bet You’d Put That On (2022)", path: "/i-bet-you-d-put-that-on-2022", navCategory: "works-selected", navLabel: "I Bet You’d Put That On (2022)", navOrder: 32 },
+  { title: "You Cannot Disinvite X-being (2021)", path: "/you-cannot-disinvite-x-being-2021", navCategory: "works-selected", navLabel: "You Cannot Disinvite X-being (2021)", navOrder: 33 },
+  { title: "the flowing. (2021-23)", path: "/the-flowing-2021-23", navCategory: "works-selected", navLabel: "the flowing. (2021-23)", navOrder: 34 },
+  { title: "Microhabitat Body: Last Words (2020)", path: "/microhabitat-body-last-words-2020", navCategory: "works-selected", navLabel: "Microhabitat Body: Last Words (2020)", navOrder: 35 },
+  
+  // Archive
+  { title: "Latent in Pre-Chaos (2024)", path: "/복제-slow-carnival-world-2023-recent", navCategory: "works-archive", navLabel: "Latent in Pre-Chaos (2024)", navOrder: 40 },
+  { title: "Whirling Skin (2024)", path: "/복제-latent-in-pre-chaos-2024", navCategory: "works-archive", navLabel: "Whirling Skin (2024)", navOrder: 41 },
+  { title: "Porous Research (2023)", path: "/porous-research-2023", navCategory: "works-archive", navLabel: "Porous Research (2023)", navOrder: 42 },
+  { title: "Weekly Weakly: Performance (2020)", path: "/weekly-weakly-2020", navCategory: "works-archive", navLabel: "Weekly Weakly: Performance (2020)", navOrder: 43 },
+  { title: "Weekly Weakly: Exhibition (2020)", path: "/exhibition-weekly-weakly-2020", navCategory: "works-archive", navLabel: "Weekly Weakly: Exhibition (2020)", navOrder: 44 },
+  { title: "Microhabitat Body (2018)", path: "/microhabitat-body-2018", navCategory: "works-archive", navLabel: "Microhabitat Body (2018)", navOrder: 45 },
+  { title: "living without (      ) (2017)", path: "/living-without-2017", navCategory: "works-archive", navLabel: "living without (      ) (2017)", navOrder: 46 },
+  { title: "Drifting Body (2015-17)", path: "/drifting-body-2015-17", navCategory: "works-archive", navLabel: "Drifting Body (2015-17)", navOrder: 47 },
+  { title: "migrant-self the speed of a door (2012)", path: "/migrant-self-the-speed-of-a-door-2012-16", navCategory: "works-archive", navLabel: "migrant-self the speed of a door (2012)", navOrder: 48 },
+  { title: "Silence Replaced: (2009-12)", path: "/silence-replaced-2009-12", navCategory: "works-archive", navLabel: "Silence Replaced: (2009-12)", navOrder: 49 },
+  { title: "Do Not Lean On Door (2008-09)", path: "/do-not-lean-on-door-2008-09", navCategory: "works-archive", navLabel: "Do Not Lean On Door (2008-09)", navOrder: 50 },
+  { title: "Open Skin Inscribed (2008)", path: "/open-skin-inscribed-2008", navCategory: "works-archive", navLabel: "Open Skin Inscribed (2008)", navOrder: 51 },
 
-  { title: "Teaching Bio", path: "/teaching-bio", navCategory: "teaching", navLabel: "Teaching Bio", navOrder: 24 },
-  { title: "View All Workshops →", path: "/workshops", navCategory: "teaching", navLabel: "View All Workshops →", navOrder: 25 },
+  // Collective Works
+  { title: "Navigating Uncertain.. (2023-ongoing)", path: "/navigating-uncertain-terrain-with-generosity-2023", navCategory: "works-collective", navLabel: "Navigating Uncertain.. (2023-ongoing)", navOrder: 60 },
+  { title: "We Need 9 Dance Songs, Seriously (2023)", path: "/we-need-9-dance-songs-seriously-2023", navCategory: "works-collective", navLabel: "We Need 9 Dance Songs, Seriously (2023)", navOrder: 61 },
+  { title: "Ghost Shower (2020-21)", path: "/ghost-shower-2020-21", navCategory: "works-collective", navLabel: "Ghost Shower (2020-21)", navOrder: 62 },
+  { title: "Judson Drama (2020)", path: "/judson-drama-2020", navCategory: "works-collective", navLabel: "Judson Drama (2020)", navOrder: 63 },
+  { title: "Entanglement Residency (2020)", path: "/entanglement-residency-2020", navCategory: "works-collective", navLabel: "Entanglement Residency (2020)", navOrder: 64 },
+  { title: "Mirror Neuron Salon (2017)", path: "/mirror-neuron-salon-2017", navCategory: "works-collective", navLabel: "Mirror Neuron Salon (2017)", navOrder: 65 },
+  { title: "Available (2011)", path: "/available-2011", navCategory: "works-collective", navLabel: "Available (2011)", navOrder: 66 },
 
-  { title: "Press", path: "/press-review", navCategory: "press", navLabel: "Press", navOrder: 26 },
-  { title: "Contact", path: "/contact", navCategory: "contact", navLabel: "Contact", navOrder: 27 },
+  // Teaching
+  { title: "Teaching Bio", path: "/teaching-bio", navCategory: "teaching", navLabel: "Teaching Bio", navOrder: 70 },
+  { title: "Franklin Method Workshop & 1:1 Session", path: "/franklin-method-workshop-session", navCategory: "teaching", navLabel: "Franklin Method Workshop & 1:1 Session", navOrder: 71 },
+  { title: "Movement Class: Dance with Fascia & Biom", path: "/movement-class-dance-with-fascia-biom", navCategory: "teaching", navLabel: "Movement Class: Dance with Fascia & Biom", navOrder: 72 },
+  { title: "Workshop: Making (it) Work", path: "/workshop-making-it-work", navCategory: "teaching", navLabel: "Workshop: Making (it) Work", navOrder: 73 },
+  { title: "Visceral Body Workshop for Visual Artist", path: "/visceral-body-workshop-for-visual-artist", navCategory: "teaching", navLabel: "Visceral Body Workshop for Visual Artist", navOrder: 74 },
+  { title: "Workshop: Weekly Weakly", path: "/workshop-weekly-weakly", navCategory: "teaching", navLabel: "Workshop: Weekly Weakly", navOrder: 75 },
+
+  // Writing
+  { title: "Book Publication", path: "/book-publication", navCategory: "writing", navLabel: "Book Publication", navOrder: 80 },
+  { title: "Contributed Articles", path: "/복제-contributed-articles", navCategory: "writing", navLabel: "Contributed Articles", navOrder: 81 },
+
+  // Other static pages
+  { title: "Press", path: "/press-review", navCategory: "press", navLabel: "Press", navOrder: 90 },
+  { title: "Contact", path: "/contact", navCategory: "contact", navLabel: "Contact", navOrder: 100 },
 ];
 
 export default function Navigation({ currentPath, onNavigate, isHome, isMobileOpen, setIsMobileOpen }) {
@@ -46,19 +63,13 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
     async function loadPages() {
       const fetched = await getAllPages();
       if (fetched && fetched.length > 0) {
-        // filter out documents set to 'none' category
         const filtered = fetched.filter(p => p.navCategory !== 'none');
         const merged = [...filtered];
 
-        // Ensure key static pages (about, press, contact, archive, workshops) are present
+        // Ensure all key static pages are present from fallbacks if not in CMS
         const pathsInFetched = new Set(filtered.map(p => p.path));
         FALLBACK_PAGES.forEach(fb => {
-          if (!pathsInFetched.has(fb.path) && 
-              (fb.navCategory === 'about' || 
-               fb.navCategory === 'press' || 
-               fb.navCategory === 'contact' || 
-               fb.path === '/archive' || 
-               fb.path === '/workshops')) {
+          if (!pathsInFetched.has(fb.path)) {
             merged.push(fb);
           }
         });
@@ -74,22 +85,30 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
   const aboutPage = pages.find(p => p.navCategory === 'about') || { path: '/about-bio', navLabel: 'About' };
   const worksSelected = pages.filter(p => p.navCategory === 'works-selected');
   const worksArchive = pages.filter(p => p.navCategory === 'works-archive');
+  const worksCollective = pages.filter(p => p.navCategory === 'works-collective');
   const teachingPages = pages.filter(p => p.navCategory === 'teaching');
+  const writingPages = pages.filter(p => p.navCategory === 'writing');
   const pressPage = pages.find(p => p.navCategory === 'press') || { path: '/press-review', navLabel: 'Press' };
   const contactPage = pages.find(p => p.navCategory === 'contact') || { path: '/contact', navLabel: 'Contact' };
 
   // Auto-expand dropdown accordion depending on active URL path
   useEffect(() => {
-    const isWorksPath = worksSelected.some(p => p.path === currentPath) || 
-                        worksArchive.some(p => p.path === currentPath) || 
-                        currentPath === '/archive';
-    const isTeachingPath = teachingPages.some(p => p.path === currentPath) || 
-                           currentPath === '/workshops';
+    const isSel = worksSelected.some(p => p.path === currentPath);
+    const isArc = worksArchive.some(p => p.path === currentPath);
+    const isCol = worksCollective.some(p => p.path === currentPath);
+    const isTeach = teachingPages.some(p => p.path === currentPath);
+    const isWrit = writingPages.some(p => p.path === currentPath);
 
-    if (isWorksPath) {
-      setActiveDropdown('works');
-    } else if (isTeachingPath) {
+    if (isSel) {
+      setActiveDropdown('selected');
+    } else if (isArc) {
+      setActiveDropdown('archive');
+    } else if (isCol) {
+      setActiveDropdown('collective');
+    } else if (isTeach) {
       setActiveDropdown('teaching');
+    } else if (isWrit) {
+      setActiveDropdown('writing');
     }
   }, [currentPath, pages]);
 
@@ -127,6 +146,7 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
       {/* Navigation */}
       <nav className={`nav ${activeDropdown ? 'has-active-submenu' : ''}`} id="nav">
         <ul className="nav-list">
+          {/* About */}
           <li className="nav-item">
             <a 
               href={aboutPage.path} 
@@ -137,19 +157,19 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
             </a>
           </li>
           
-          <li className={`nav-item has-dropdown ${activeDropdown === 'works' ? 'accordion-open' : ''}`}>
+          {/* Selected Works */}
+          <li className={`nav-item has-dropdown ${activeDropdown === 'selected' ? 'accordion-open' : ''}`}>
             <a 
               href="#" 
-              className={`nav-link ${activeDropdown === 'works' ? 'submenu-open' : ''}`}
+              className={`nav-link ${activeDropdown === 'selected' ? 'submenu-open' : ''}`}
               onClick={(e) => {
                 e.preventDefault();
-                toggleDropdown('works');
+                toggleDropdown('selected');
               }}
             >
-              Works <span className="menu-arrow">{activeDropdown === 'works' ? '−' : '+'}</span>
+              Selected Works <span className="menu-arrow">{activeDropdown === 'selected' ? '−' : '+'}</span>
             </a>
             <ul className="dropdown">
-              <li className="dropdown-section-title">Selected Works</li>
               {worksSelected.map((p, idx) => (
                 <li key={`sel-${idx}`}>
                   <a 
@@ -161,8 +181,22 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
                   </a>
                 </li>
               ))}
-              
-              <li className="dropdown-section-title divider">Archive</li>
+            </ul>
+          </li>
+
+          {/* Archive */}
+          <li className={`nav-item has-dropdown ${activeDropdown === 'archive' ? 'accordion-open' : ''}`}>
+            <a 
+              href="#" 
+              className={`nav-link ${activeDropdown === 'archive' ? 'submenu-open' : ''}`}
+              onClick={(e) => {
+                e.preventDefault();
+                toggleDropdown('archive');
+              }}
+            >
+              Archive <span className="menu-arrow">{activeDropdown === 'archive' ? '−' : '+'}</span>
+            </a>
+            <ul className="dropdown">
               {worksArchive.map((p, idx) => (
                 <li key={`arc-${idx}`}>
                   <a 
@@ -176,7 +210,35 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
               ))}
             </ul>
           </li>
+
+          {/* Collective Works */}
+          <li className={`nav-item has-dropdown ${activeDropdown === 'collective' ? 'accordion-open' : ''}`}>
+            <a 
+              href="#" 
+              className={`nav-link ${activeDropdown === 'collective' ? 'submenu-open' : ''}`}
+              onClick={(e) => {
+                e.preventDefault();
+                toggleDropdown('collective');
+              }}
+            >
+              Collective Works <span className="menu-arrow">{activeDropdown === 'collective' ? '−' : '+'}</span>
+            </a>
+            <ul className="dropdown">
+              {worksCollective.map((p, idx) => (
+                <li key={`col-${idx}`}>
+                  <a 
+                    href={p.path} 
+                    className={currentPath === p.path ? 'active' : ''} 
+                    onClick={(e) => handleLinkClick(e, p.path)}
+                  >
+                    {p.navLabel || p.title || 'Untitled'}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
           
+          {/* Teaching */}
           <li className={`nav-item has-dropdown ${activeDropdown === 'teaching' ? 'accordion-open' : ''}`}>
             <a 
               href="#" 
@@ -202,7 +264,35 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
               ))}
             </ul>
           </li>
+
+          {/* Writing */}
+          <li className={`nav-item has-dropdown ${activeDropdown === 'writing' ? 'accordion-open' : ''}`}>
+            <a 
+              href="#" 
+              className={`nav-link ${activeDropdown === 'writing' ? 'submenu-open' : ''}`}
+              onClick={(e) => {
+                e.preventDefault();
+                toggleDropdown('writing');
+              }}
+            >
+              Writing <span className="menu-arrow">{activeDropdown === 'writing' ? '−' : '+'}</span>
+            </a>
+            <ul className="dropdown">
+              {writingPages.map((p, idx) => (
+                <li key={`writ-${idx}`}>
+                  <a 
+                    href={p.path} 
+                    className={currentPath === p.path ? 'active' : ''} 
+                    onClick={(e) => handleLinkClick(e, p.path)}
+                  >
+                    {p.navLabel || p.title || 'Untitled'}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
           
+          {/* Press */}
           <li className="nav-item">
             <a 
               href={pressPage.path} 
@@ -213,6 +303,7 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
             </a>
           </li>
           
+          {/* Contact */}
           <li className="nav-item">
             <a 
               href={contactPage.path} 
@@ -227,3 +318,4 @@ export default function Navigation({ currentPath, onNavigate, isHome, isMobileOp
     </>
   );
 }
+
