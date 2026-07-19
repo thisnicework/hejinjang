@@ -1,168 +1,17 @@
-import './style.css';
-
 // ============================================
-// WebGL Transparent Video Player
-// Decodes the packed video (RGB top, Alpha bottom)
+// 기존 바닐라 JS HTML 콘텐츠 백업 (Vite -> React 전환용 Fallback)
+// Sanity CMS에 데이터가 등록되지 않았을 때 기존 사이트 콘텐츠를 100% 원본 그대로 표시합니다.
 // ============================================
-function initWebGLVideo() {
-  const canvas = document.getElementById('three-canvas');
-  const video = document.getElementById('three-video');
-  if (!canvas || !video) return;
+import React from 'react';
 
-  const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
-  if (!gl) return;
-
-  // Fix resolution: set internal canvas size to match the video's RGB portion
-  // The video is 678x1440, RGB is the top 678x720
-  const width = 678;
-  const height = 720;
-  
-  // Apply device pixel ratio for sharp rendering on high-DPI (Retina) displays
-  const dpr = window.devicePixelRatio || 1;
-  canvas.width = width * dpr;
-  canvas.height = height * dpr;
-  gl.viewport(0, 0, canvas.width, canvas.height);
-
-  // Enable alpha blending
-  gl.enable(gl.BLEND);
-  gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
-
-  const vsSource = `
-    attribute vec2 position;
-    varying vec2 vUv;
-    void main() {
-      vUv = position * 0.5 + 0.5;
-      // Flip Y since WebGL coordinates start from bottom-left
-      vUv.y = 1.0 - vUv.y;
-      gl_Position = vec4(position, 0.0, 1.0);
-    }
-  `;
-
-  const fsSource = `
-    precision mediump float;
-    uniform sampler2D u_texture;
-    varying vec2 vUv;
-    void main() {
-      vec2 rgbUv = vec2(vUv.x, vUv.y * 0.5);
-      vec2 alphaUv = vec2(vUv.x, vUv.y * 0.5 + 0.5);
-      
-      vec3 rgb = texture2D(u_texture, rgbUv).rgb;
-      float alpha = texture2D(u_texture, alphaUv).r;
-      
-      gl_FragColor = vec4(rgb * alpha, alpha);
-    }
-  `;
-
-  function createShader(gl, type, source) {
-    const shader = gl.createShader(type);
-    gl.shaderSource(shader, source);
-    gl.compileShader(shader);
-    return shader;
-  }
-
-  const vertexShader = createShader(gl, gl.VERTEX_SHADER, vsSource);
-  const fragmentShader = createShader(gl, gl.FRAGMENT_SHADER, fsSource);
-
-  const program = gl.createProgram();
-  gl.attachShader(program, vertexShader);
-  gl.attachShader(program, fragmentShader);
-  gl.linkProgram(program);
-  gl.useProgram(program);
-
-  const buffer = gl.createBuffer();
-  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
-  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
-    -1.0, -1.0,
-     1.0, -1.0,
-    -1.0,  1.0,
-    -1.0,  1.0,
-     1.0, -1.0,
-     1.0,  1.0
-  ]), gl.STATIC_DRAW);
-
-  const positionLocation = gl.getAttribLocation(program, 'position');
-  gl.enableVertexAttribArray(positionLocation);
-  gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
-
-  const texture = gl.createTexture();
-  gl.bindTexture(gl.TEXTURE_2D, texture);
-  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
-  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
-  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
-
-  function render() {
-    if (video.readyState >= video.HAVE_CURRENT_DATA) {
-      gl.bindTexture(gl.TEXTURE_2D, texture);
-      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, video);
-      
-      // Clear the canvas
-      gl.clearColor(0, 0, 0, 0);
-      gl.clear(gl.COLOR_BUFFER_BIT);
-      
-      gl.drawArrays(gl.TRIANGLES, 0, 6);
-    }
-    requestAnimationFrame(render);
-  }
-
-  // Handle video playback
-  video.addEventListener('play', () => {
-    requestAnimationFrame(render);
-  });
-  
-  // Force play if it was already playing
-  if (!video.paused && video.readyState >= video.HAVE_CURRENT_DATA) {
-    requestAnimationFrame(render);
-  }
-
-  // Attempt autoplay
-  const playPromise = video.play();
-  if (playPromise !== undefined) {
-    playPromise.catch(() => {
-      // Auto-play was prevented
-      // Adding a click listener as fallback
-      document.body.addEventListener('click', () => video.play(), { once: true });
-    });
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  initWebGLVideo();
-  // Call init on mutations too in case router reloads the canvas
-  const observer = new MutationObserver(() => {
-    if (!document.getElementById('three-canvas').getAttribute('data-initialized')) {
-      document.getElementById('three-canvas').setAttribute('data-initialized', 'true');
-      initWebGLVideo();
-    }
-  });
-  observer.observe(document.body, { childList: true, subtree: true });
-
-  // Global event delegation for accordion toggles
-  document.body.addEventListener('click', (e) => {
-    if (e.target && e.target.classList.contains('accordion-toggle')) {
-      const content = e.target.nextElementSibling;
-      if (content && content.classList.contains('accordion-content')) {
-        const isHidden = content.style.display === 'none';
-        content.style.display = isHidden ? 'block' : 'none';
-        e.target.textContent = isHidden ? '한국어 숨기기 -' : '한국어 보기 +';
-      }
-    }
-  });
-});
-
-// ============================================
-// Single Page Application (SPA) Router
-// Dynamically rendering subpages on hejinjang.com
-// ============================================
-
-const routes = {
+export const fallbackRoutesHtml = {
   '/': {
     title: 'Home | He Jin Jang Dance',
     render: () => ''
   },
   '/about-bio': {
     title: 'About | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page" style="padding: 40px 0;">
         <div style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
           <p style="font-size: 15px; text-align: justify; margin-bottom: 24px; line-height: 1.6;">
@@ -206,7 +55,7 @@ const routes = {
   },
   '/unseaming-2021-2025': {
     title: 'Unseaming. | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page works-detail-page" style="padding: 40px 20px; max-width: 800px; margin: 0 auto;">
         <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">Unseaming. (2021-2025)<br>흐르는. (Ver. 2025)</h1>
         
@@ -301,7 +150,7 @@ const routes = {
   },
   '/alchemic-empathy-2026': {
     title: 'Alchemic Empathy | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page works-detail-page" style="padding: 40px 20px; max-width: 800px; margin: 0 auto;">
         <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 20px;">Alchemic Empathy (2026)<br>연금술적 공감</h1>
         
@@ -351,7 +200,7 @@ const routes = {
 
   '/contact': {
     title: 'Contact | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page" style="padding: 40px 40px; margin-top: 40px;">
         <h2 style="font-size: 20px; font-weight: bold; margin-bottom: 30px;">He Jin Jang Dance</h2>
         <p style="font-size: 15px; margin-bottom: 20px; line-height: 1.8;">
@@ -364,7 +213,7 @@ const routes = {
   },
           '/press-review': {
     title: 'Press | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="press-page">
         <h1 class="press-title">Press Reviews</h1>
         <div class="press-grid">
@@ -470,7 +319,7 @@ const routes = {
   },
   '/post/2023년-유화정-평론가-투명인간이-되든-춤을-추든': {
     title: 'Slow Carnival World, 2023, Hwahung Yu (Critic) / 2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Slow Carnival World, 2023, Hwahung Yu (Critic) / 2023년, <투명인간이 되든, 춤을 추든>, 유화정 평론가</h1>
         <div class="about-section">
@@ -510,7 +359,7 @@ const routes = {
   },
   '/post/복제-2023년-『춤웹진』-2월호-한석진-무용학자-당신이-그런-것을-입게-될-줄-알았어-dance-webzine-february-lssue-2023-sukjin': {
     title: 'Dance Webzine, February lssue, 2023, Sukjin Han (Dance Theorist), I bet you’d put that on / 2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어> | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Dance Webzine, February lssue, 2023, Sukjin Han (Dance Theorist), I bet you’d put that on / 2023년 『춤웹진』 2월호, 한석진 무용학자, <당신이 그런 것을 입게 될 줄 알았어></h1>
         <div class="about-section">
@@ -550,7 +399,7 @@ const routes = {
   },
   '/post/복제-투명인간이-되든-춤을-추든': {
     title: 'Dance Magazine MOMM, January Issue, 2023, I bet you’d put that on, Sunghye Park (Critic) / 2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Dance Magazine MOMM, January Issue, 2023, I bet you’d put that on, Sunghye Park (Critic) / 2023년『월간잡지 몸』1월호, <당신이 그런 것을 입게 될 줄 알았어> ,박성혜 평론가</h1>
         <div class="about-section">
@@ -590,7 +439,7 @@ const routes = {
   },
   '/post/2023년-『아트신』-1월호-김민관-평론가-당신이-그런-것을-입게-될-줄-알았어': {
     title: 'Art Scene, January lssue, I bet you’d put that on, 2023, Mingwan Kim (Critic) /『아트신』 1월호, <당신이 그런 것을 입게 될 줄 알았어>, 2023년, 김민관 평론가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Art Scene, January lssue, I bet you’d put that on, 2023, Mingwan Kim (Critic) /『아트신』 1월호, <당신이 그런 것을 입게 될 줄 알았어>, 2023년, 김민관 평론가</h1>
         <div class="about-section">
@@ -630,7 +479,7 @@ const routes = {
   },
   '/post/당신은x-being을-초대하지-않을-수-없다': {
     title: 'Art Scene, January lssue, You cannot disinvite x-being, 2022, Mingwan Kim (Critic) /『아트신』 1월호, <당신은 x-being을 초대하지 않을 수 없다> 2022년, 김민관 평론가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Art Scene, January lssue, You cannot disinvite x-being, 2022, Mingwan Kim (Critic) /『아트신』 1월호, <당신은 x-being을 초대하지 않을 수 없다> 2022년, 김민관 평론가</h1>
         <div class="about-section">
@@ -671,7 +520,7 @@ const routes = {
   },
   '/post/2021년-신빛나리-드라마터그-당신은-x-being을-초대하지-않을-수-없다': {
     title: 'You cannot disinvite x-being, 2021, Bittnarie Shin (Dramaturgy) / <당신은 x-being을 초대하지 않을 수 없다>, 2021년, 신빛나리 드라마터그 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">You cannot disinvite x-being, 2021, Bittnarie Shin (Dramaturgy) / <당신은 x-being을 초대하지 않을 수 없다>, 2021년, 신빛나리 드라마터그</h1>
         <div class="about-section">
@@ -711,7 +560,7 @@ const routes = {
   },
   '/post/2021년-『월간잡지-몸』-11월호-김남수-안무비평-흐르는': {
     title: 'Dance Magazine MOMM,  November Issue, the flowing. , 2021, Namsoo Kim (Critic) /『월간잡지 몸』11월호, <흐르는. >, 2021년, 김남수 안무비평가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Dance Magazine MOMM,  November Issue, the flowing. , 2021, Namsoo Kim (Critic) /『월간잡지 몸』11월호, <흐르는. >, 2021년, 김남수 안무비평가</h1>
         <div class="about-section">
@@ -751,7 +600,7 @@ const routes = {
   },
   '/post/2021년-조형빈-평론가-흐르는': {
     title: 'Hyungbin Jo (Critic), 2021, the flowing. / <흐르는. > , 2021년, 조형빈 평론가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Hyungbin Jo (Critic), 2021, the flowing. / <흐르는. > , 2021년, 조형빈 평론가</h1>
         <div class="about-section">
@@ -791,7 +640,7 @@ const routes = {
   },
   '/post/2021년-『춤과-사람들』-이봉헌-기자-대체된-침묵': {
     title: 'Dance and People, 2020, silence replaced: , Bongheon Lee (Journalist) / 『춤과 사람들』, <대체된 침묵: >, 2021년, 이봉헌 기자 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Dance and People, 2020, silence replaced: , Bongheon Lee (Journalist) / 『춤과 사람들』, <대체된 침묵: >, 2021년, 이봉헌 기자</h1>
         <div class="about-section">
@@ -831,7 +680,7 @@ const routes = {
   },
   '/post/2020년-『뉴욕일보』-정은실-기자-위클리-위-클리': {
     title: 'The New York Ilbo, Weekly Weakly, 2020, Eunsil Jung (Journalist) /『뉴욕일보』, <위클리 위-클리>, 2020년, 정은실 기자 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">The New York Ilbo, Weekly Weakly, 2020, Eunsil Jung (Journalist) /『뉴욕일보』, <위클리 위-클리>, 2020년, 정은실 기자</h1>
         <div class="about-section">
@@ -871,7 +720,7 @@ const routes = {
   },
   '/post/2018년-현지예-드라마터그-미소서식지-몸': {
     title: 'Microhabitat Body, 2018, Ziyea Hyun (Dramaturgy), / <미소서식지 몸>, 2018년, 현지예 드라마터그 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Microhabitat Body, 2018, Ziyea Hyun (Dramaturgy), / <미소서식지 몸>, 2018년, 현지예 드라마터그</h1>
         <div class="about-section">
@@ -911,7 +760,7 @@ const routes = {
   },
   '/post/2016년-『춤웹진』-방희망-평론가-이주하는-자아-문의-속도': {
     title: 'Dance Webzine, migrant-self the speed of a door, 2016, Heemang Bang (Critic) / 2016년『춤웹진』, <이주하는 자아, 문의 속도> , 방희망 평론가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Dance Webzine, migrant-self the speed of a door, 2016, Heemang Bang (Critic) / 2016년『춤웹진』, <이주하는 자아, 문의 속도> , 방희망 평론가</h1>
         <div class="about-section">
@@ -951,7 +800,7 @@ const routes = {
   },
   '/post/2015년-『춤웹진』-이윤숙-이주하는-자아-문의-속도': {
     title: 'Dance Webzine, migrant-self the speed of a door, 2015, Yoonsook Lee / 2015년 『춤웹진』, <이주하는 자아 문의 속도> , 이윤숙 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Dance Webzine, migrant-self the speed of a door, 2015, Yoonsook Lee / 2015년 『춤웹진』, <이주하는 자아 문의 속도> , 이윤숙</h1>
         <div class="about-section">
@@ -991,7 +840,7 @@ const routes = {
   },
   '/post/2015년-『new-york-live-arts-context-notes』-제스-발바갈로-평론가-이주하는-자아-문의-속도': {
     title: 'NEW YORK LIVE ARTS CONTEXT NOTES, migrant-self the speed of a door, 2015, 제스 바바갈로 (Critic) / 2015년 『New York Live Arts Context Notes』, <이주하는 자아 문의 속도>, 제스 발바갈로 평론가 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">NEW YORK LIVE ARTS CONTEXT NOTES, migrant-self the speed of a door, 2015, 제스 바바갈로 (Critic) / 2015년 『New York Live Arts Context Notes』, <이주하는 자아 문의 속도>, 제스 발바갈로 평론가</h1>
         <div class="about-section">
@@ -1031,7 +880,7 @@ const routes = {
   },
   '/post/2008년-미국-『indy-week』-바이론-우즈-평론가': {
     title: 'U.S Indy week, July 2008, Byron Woods (Critic) / 2008년 미국 『Indy Week』, 바이론 우즈 평론가 / | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">U.S Indy week, July 2008, Byron Woods (Critic) / 2008년 미국 『Indy Week』, 바이론 우즈 평론가 /</h1>
         <div class="about-section">
@@ -1071,7 +920,7 @@ const routes = {
   },
   '/post/인터뷰-모음': {
     title: 'Interview / 인터뷰 모음 | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <h1 class="press-title" style="font-size: 20px; font-weight: bold; margin-bottom: 40px;">Interview / 인터뷰 모음</h1>
         <div class="about-section">
@@ -1136,7 +985,7 @@ const routes = {
 ,
   '/archive': {
     title: 'Archive | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page works-detail-page" style="padding: 40px 20px; max-width: 800px; margin: 0 auto;">
         <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 50px; text-align: center;">Archive (2008 - 2026)</h1>
         <ul style="list-style: none; padding: 0;">
@@ -1160,7 +1009,7 @@ const routes = {
   },
   '/workshops': {
     title: 'Workshops | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page works-detail-page" style="padding: 40px 20px; max-width: 800px; margin: 0 auto;">
         <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 50px; text-align: center;">Workshops</h1>
         <ul style="list-style: none; padding: 0;">
@@ -1175,7 +1024,7 @@ const routes = {
   },
   '/slow-carnival-world-2023': {
     title: 'Slow Carnival World (2023-ongoing) | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span class="color_37 wixui-rich-text__text"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Slow Carnival World&nbsp;</span>(2023 - ongoing)</span><br class="wixui-rich-text__text">
 <span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text">투명인간이 되든, 춤을 추든</span></span></span></h6></div>
@@ -1228,7 +1077,7 @@ const routes = {
   },
   '/the-flowing-2021-23': {
     title: 'the flowing. (2021-23) | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <div class="original-title-block" style="margin-bottom: 40px;">
   <h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;">
@@ -1336,7 +1185,7 @@ const routes = {
   },
   '/microhabitat-body-2018': {
     title: 'Microhabitat Body (2018) | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text">Microhabitat Body&nbsp;</span></span></span></span></span><span style="font-size:25px;" class="wixui-rich-text__text"><span style="color:#000000;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2018)<br class="wixui-rich-text__text">
 미소서식지 몸 (2018)&nbsp;</span></span></span></span></h6></div>
@@ -1391,7 +1240,7 @@ const routes = {
   },
   '/i-bet-you-d-put-that-on-2022': {
     title: 'I Bet You’d Put That On (2022) | He Jin Jang Dance',
-    render: () => `
+    html: `
       <div class="content-page">
         <div class="original-title-block" style="margin-bottom: 40px;"><h6 class="font_6 wixui-rich-text__text" style="font-size:25px; text-align:center;"><span style="font-size:25px;" class="wixui-rich-text__text"><span class="color_37 wixui-rich-text__text"><span style="font-style:italic;" class="wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">I Bet You’d Put That On </span></span></span></span></span><span style="font-size:25px;" class="wixui-rich-text__text"><span class="color_37 wixui-rich-text__text"><span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">(2022)&nbsp;</span></span><br class="wixui-rich-text__text">
 <span style="font-family:wfont_fa2639_b36572e3503346f5964dd41f14a281d3,wf_b36572e3503346f5964dd41f1,orig_noto_sans_kr_semibold;" class="wixui-rich-text__text"><span style="letter-spacing:-0.03em;" class="wixui-rich-text__text">당신이 그런 것을 입게 될 줄 알았어&nbsp;</span></span></span></span></h6></div>
@@ -1477,73 +1326,75 @@ const routes = {
   },
   '/dreams-dreamt-place-2019': {
     title: '2019 꿈꾼꿈-곳 | He Jin Jang Dance',
-    render: () => renderGenericWork('/dreams-dreamt-place-2019')
+    isGeneric: true, path: "/dreams-dreamt-place-2019"
   },
   '/exhibition-catching-a-cold-2017': {
     title: '2017 전시: 감기긁기걷기 | He Jin Jang Dance',
-    render: () => renderGenericWork('/exhibition-catching-a-cold-2017')
+    isGeneric: true, path: "/exhibition-catching-a-cold-2017"
   },
   '/the-artist-is-absent-2015': {
     title: '2015 The artist is absent | He Jin Jang Dance',
-    render: () => renderGenericWork('/the-artist-is-absent-2015')
+    isGeneric: true, path: "/the-artist-is-absent-2015"
   },
   '/dangin-ri-dance-for-1-2015': {
     title: '2015 당인리-Dance for 1 | He Jin Jang Dance',
-    render: () => renderGenericWork('/dangin-ri-dance-for-1-2015')
+    isGeneric: true, path: "/dangin-ri-dance-for-1-2015"
   },
   '/dangin-ri-bodyland-2015': {
     title: '2015 당인리-BODYLAND | He Jin Jang Dance',
-    render: () => renderGenericWork('/dangin-ri-bodyland-2015')
+    isGeneric: true, path: "/dangin-ri-bodyland-2015"
   },
   '/ethical-goodbyes-2014': {
     title: '2014 Ethical goodbyes | He Jin Jang Dance',
-    render: () => renderGenericWork('/ethical-goodbyes-2014')
+    isGeneric: true, path: "/ethical-goodbyes-2014"
   },
   '/tantalizingly-empathetic-2013-2014': {
     title: '2013-14 Tantalizingly Empathetic | He Jin Jang Dance',
-    render: () => renderGenericWork('/tantalizingly-empathetic-2013-2014')
+    isGeneric: true, path: "/tantalizingly-empathetic-2013-2014"
   },
   '/uncanny-of-the-uncanny-2014': {
     title: '2014 Uncanny of the Uncanny | He Jin Jang Dance',
-    render: () => renderGenericWork('/uncanny-of-the-uncanny-2014')
+    isGeneric: true, path: "/uncanny-of-the-uncanny-2014"
   },
   '/practice-of-being-together-2013': {
     title: '2013 Practice of Being Together | He Jin Jang Dance',
-    render: () => renderGenericWork('/practice-of-being-together-2013')
+    isGeneric: true, path: "/practice-of-being-together-2013"
   },
   '/we-will-all-be-dreaming-2013': {
     title: '2013 We will all be dreaming | He Jin Jang Dance',
-    render: () => renderGenericWork('/we-will-all-be-dreaming-2013')
+    isGeneric: true, path: "/we-will-all-be-dreaming-2013"
   },
   '/of-the-presence-of-us-ness-2013': {
     title: '2013 Of the presence of “us-ness” | He Jin Jang Dance',
-    render: () => renderGenericWork('/of-the-presence-of-us-ness-2013')
+    isGeneric: true, path: "/of-the-presence-of-us-ness-2013"
   },
   '/practice-of-cost-effectiveness-2012': {
     title: '2012 Practice of Cost-effectiveness | He Jin Jang Dance',
-    render: () => renderGenericWork('/practice-of-cost-effectiveness-2012')
+    isGeneric: true, path: "/practice-of-cost-effectiveness-2012"
   },
   '/movement-study-on-no-to-self-editing-2011': {
     title: '2011 Movement Study on No to self-editing | He Jin Jang Dance',
-    render: () => renderGenericWork('/movement-study-on-no-to-self-editing-2011')
+    isGeneric: true, path: "/movement-study-on-no-to-self-editing-2011"
   },
   '/de-re-pair-2011': {
     title: '2011 De-re-pair | He Jin Jang Dance',
-    render: () => renderGenericWork('/de-re-pair-2011')
+    isGeneric: true, path: "/de-re-pair-2011"
   },
   '/dear-silence-2010': {
     title: '2010 Dear Silence | He Jin Jang Dance',
-    render: () => renderGenericWork('/dear-silence-2010')
+    isGeneric: true, path: "/dear-silence-2010"
   },
   '/piece-with-gaps-2018': {
     title: '2018 협업 Piece with gaps | He Jin Jang Dance',
-    render: () => renderGenericWork('/piece-with-gaps-2018')
+    isGeneric: true, path: "/piece-with-gaps-2018"
   },
 };
 
+
+
 // Common generic template for other selected works/archives
-function renderGenericWork(path) {
-  const cleanTitle = path.substring(1).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+export function renderGenericWork(pathStr) {
+  const cleanTitle = pathStr.substring(1).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
   return `
     <div class="content-page">
       <div class="about-section">
@@ -1560,182 +1411,43 @@ function renderGenericWork(path) {
   `;
 }
 
-function route() {
-  let path = window.location.pathname;
-  try {
-    path = decodeURIComponent(path);
-  } catch (e) {
-    // ignore
-  }
-  path = path.replace(/\/+/g, '/');
+export function renderFallbackRoute(path) {
+  let route = fallbackRoutesHtml[path];
   
-  let page = routes[path];
-  if (!page) {
-    // Try to match by ignoring encoding differences
-    const matchedKey = Object.keys(routes).find(key => {
+  if (!route) {
+    // Try encoding/decoding match fallback
+    const matchedKey = Object.keys(fallbackRoutesHtml).find(key => {
       try {
         return decodeURIComponent(key) === path || key === window.location.pathname;
       } catch (e) {
         return key === path;
       }
     });
-    if (matchedKey) page = routes[matchedKey];
+    if (matchedKey) route = fallbackRoutesHtml[matchedKey];
   }
 
-  if (!page) {
-    page = {
-      title: 'Project | He Jin Jang Dance',
-      render: () => renderGenericWork(path)
-    };
+  if (!route) {
+    return (
+      <div 
+        dangerouslySetInnerHTML={{ __html: renderGenericWork(path) }} 
+      />
+    );
   }
 
-  // Update Title
-  document.title = page.title;
+  // Set page title
+  document.title = route.title || 'He Jin Jang Dance';
 
-  // Render HTML
-  const container = document.getElementById('page-content');
-  if (container) {
-    container.innerHTML = page.render();
+  if (route.isGeneric) {
+    return (
+      <div 
+        dangerouslySetInnerHTML={{ __html: renderGenericWork(route.path) }} 
+      />
+    );
   }
 
-  // Toggle WebGL canvas visibility
-  const canvasContainer = document.getElementById('canvas-container');
-  if (canvasContainer) {
-    if (path === '/') {
-      canvasContainer.style.opacity = '1';
-      canvasContainer.style.pointerEvents = 'auto';
-    } else {
-      canvasContainer.style.opacity = '0';
-      canvasContainer.style.pointerEvents = 'none';
-    }
-  }
-
-  // Hide list bar (nav) on all pages except Home
-  const nav = document.getElementById('nav');
-  const isHome = (path === '/');
-  if (nav) {
-    if (isHome) {
-      nav.classList.remove('non-home-nav');
-    } else {
-      nav.classList.add('non-home-nav');
-    }
-    // Ensure no inline style overrides our CSS
-    nav.style.display = '';
-  }
-
-  // Adjust padding when nav is hidden
-  const contentPages = document.querySelectorAll('.content-page, .upcoming-page, .contact-page, .press-page');
-  contentPages.forEach(el => {
-    if (isHome) {
-      el.classList.remove('nav-hidden');
-    } else {
-      el.classList.add('nav-hidden');
-    }
-  });
-
-  // Update active state in navigation
-  document.querySelectorAll('.nav-link, .dropdown a').forEach(link => {
-    link.classList.remove('active');
-    if (link.getAttribute('href') === path) {
-      link.classList.add('active');
-    }
-  });
-
-  // Re-bind dynamically rendered data-link clicks (if any)
-  bindLinks();
-
-  // Initialize scroll animations for the new content
-  initScrollAnimations();
-
-  // Scroll to top
-  window.scrollTo(0, 0);
+  return (
+    <div 
+      dangerouslySetInnerHTML={{ __html: route.html }} 
+    />
+  );
 }
-
-// Intercept Link Clicks for SPA Transition
-function bindLinks() {
-  document.querySelectorAll('a[data-link]').forEach(link => {
-    // Prevent multiple event listeners
-    if (link.dataset.bound) return;
-    link.dataset.bound = 'true';
-
-    link.addEventListener('click', e => {
-      e.preventDefault();
-      const targetPath = link.getAttribute('href');
-      if (targetPath && targetPath !== window.location.pathname) {
-        window.history.pushState(null, '', targetPath);
-        route();
-      }
-    });
-  });
-}
-
-// Listen to navigation events
-window.addEventListener('popstate', route);
-
-function setupMobileNav() {
-  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-  const body = document.body;
-
-  if (mobileMenuBtn) {
-    mobileMenuBtn.addEventListener('click', () => {
-      body.classList.toggle('mobile-nav-open');
-    });
-  }
-
-  // Handle Accordion for Dropdowns on mobile
-  const dropdownParents = document.querySelectorAll('.has-dropdown');
-  dropdownParents.forEach(parent => {
-    const link = parent.querySelector('.nav-link');
-    if (link) {
-      link.addEventListener('click', (e) => {
-        if (window.innerWidth <= 900) {
-          e.preventDefault();
-          parent.classList.toggle('accordion-open');
-        }
-      });
-    }
-  });
-
-  // Close mobile menu when ANY nav link is clicked
-  const allNavLinks = document.querySelectorAll('.nav-link, .dropdown li a');
-  allNavLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      // Do not close if it's a dropdown parent link and we are expanding the accordion
-      if (window.innerWidth <= 900) {
-        if (link.classList.contains('nav-link') && link.closest('.has-dropdown')) {
-          // If it's the parent, the accordion logic handles it. Just return.
-          return;
-        }
-        body.classList.remove('mobile-nav-open');
-      }
-    });
-  });
-}
-
-function initScrollAnimations() {
-  const elements = document.querySelectorAll('.content-page p, .content-page img, .about-section p, .about-section img');
-  
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, {
-    threshold: 0.1,
-    rootMargin: "0px 0px -50px 0px"
-  });
-
-  elements.forEach(el => {
-    el.classList.add('fade-in-up');
-    observer.observe(el);
-  });
-}
-
-// Initialize Router
-document.addEventListener('DOMContentLoaded', () => {
-  route();
-  bindLinks();
-  setupMobileNav();
-});

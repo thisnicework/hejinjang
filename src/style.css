@@ -87,7 +87,14 @@ ul {
 }
 
 @media (min-width: 901px) {
-  .nav.non-home-nav {
+  .nav {
+    max-height: calc(100vh - 240px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .nav::-webkit-scrollbar {
     display: none;
   }
 }
@@ -120,50 +127,88 @@ ul {
   opacity: 0.55;
 }
 
-/* Dropdown (sub-menu) — appears to the RIGHT of parent */
+/* ============================================
+   Navigation Dropdowns — Inline Accordion
+   ============================================ */
 .has-dropdown {
   position: relative;
 }
 
 .dropdown {
-  position: absolute;
-  left: 100%;
+  position: relative;
+  left: 0;
   top: 0;
-  /* Aligns exactly with the bounding box top of the parent nav-link */
-  width: 380px;
-  padding-left: 30px;
-  background-color: transparent;
-  list-style: none;
+  width: 100%;
+  padding-left: 15px;
+  max-height: 0;
+  overflow: hidden;
   opacity: 0;
   visibility: hidden;
-  transform: translateX(-10px);
-  transition: all 0.3s ease;
+  transition: max-height 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.3s ease, visibility 0.3s;
+  background-color: transparent;
   pointer-events: none;
-  z-index: 95;
+  list-style: none;
 }
 
-.has-dropdown:hover>.dropdown {
+.has-dropdown.accordion-open > .dropdown {
+  max-height: 1500px;
   opacity: 1;
   visibility: visible;
-  transform: translateX(0);
   pointer-events: auto;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 .dropdown li a {
   font-family: 'Gothic A1', sans-serif;
-  font-size: 15px;
-  line-height: 21px;
-  height: 38px;
+  font-size: 14px;
+  line-height: 22px;
+  min-height: 34px;
   font-weight: 500;
   display: flex;
   align-items: center;
-  padding: 0;
-  color: #000000;
+  padding: 4px 0;
+  color: #1a1a1a;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.dropdown li a:hover,
+.dropdown li a.active {
+  color: #FF00CB;
 }
 
 .dropdown li a:hover {
+  padding-left: 3px;
+}
+
+.dropdown-section-title {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #888888;
+  letter-spacing: 0.05em;
+  padding: 10px 0 4px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.dropdown-section-title.divider {
+  border-top: 1px dashed rgba(0, 0, 0, 0.08);
+  margin-top: 8px;
+  padding-top: 12px;
+}
+
+.menu-arrow {
+  display: inline-block;
+  font-size: 13px;
+  color: #999;
+  margin-left: 6px;
+  font-family: monospace;
+}
+
+.submenu-open .menu-arrow {
   color: #FF00CB;
 }
 
@@ -769,41 +814,15 @@ ul {
     height: auto;
   }
 
-  /* Dropdown as Accordion */
+  /* Dropdown as Accordion Override for Mobile */
   .dropdown {
-    position: relative;
-    left: 0;
-    width: 100%;
-    transform: none;
     padding-left: 20px;
-    max-height: 0;
-    overflow: hidden;
-    opacity: 1;
-    visibility: visible;
-    transition: max-height 0.4s ease;
-    background-color: transparent;
-    pointer-events: none;
-  }
-
-  .has-dropdown.accordion-open>.dropdown {
-    max-height: 600px;
-    pointer-events: auto;
   }
 
   .dropdown li a {
     font-size: 16px;
-    height: 40px;
-  }
-
-  /* Override hover for mobile */
-  .has-dropdown:hover>.dropdown {
-    max-height: 0;
-    pointer-events: none;
-  }
-
-  .has-dropdown.accordion-open:hover>.dropdown {
-    max-height: 600px;
-    pointer-events: auto;
+    min-height: 40px;
+    padding: 8px 0;
   }
 
   /* Page Content */
@@ -908,14 +927,13 @@ ul {
   pointer-events: none;
 }
 
-/* Navigation Hidden state for Subpages */
+/* Desktop Work Detail Page Alignment */
 @media (min-width: 901px) {
-
-  .content-page.nav-hidden,
-  .contact-page.nav-hidden,
-  .press-page.nav-hidden,
-  .upcoming-page.nav-hidden {
-    padding-left: 40px !important;
+  .works-detail-page {
+    margin-left: calc(max((100vw - 980px) / 2, 0px) + 231px) !important;
+    margin-right: auto !important;
+    max-width: 649px !important;
+    padding-top: 181px !important;
   }
 }
 
