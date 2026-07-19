@@ -14,12 +14,14 @@ export default defineConfig({
     structureTool({
       structure: (S) =>
         S.list()
+          .id('root')
           .title('콘텐츠 관리')
           .items([
             S.listItem()
               .title('소개 (About)')
               .child(
                 S.documentList()
+                  .id('about')
                   .title('About')
                   .schemaType('page')
                   .filter('_type == "page" && navCategory == "about"')
@@ -28,6 +30,7 @@ export default defineConfig({
               .title('주요 작품 (Selected Works)')
               .child(
                 S.documentList()
+                  .id('works-selected')
                   .title('Selected Works')
                   .schemaType('page')
                   .filter('_type == "page" && navCategory == "works-selected"')
@@ -36,6 +39,7 @@ export default defineConfig({
               .title('아카이브 작품 (Archive Works)')
               .child(
                 S.documentList()
+                  .id('works-archive')
                   .title('Archive Works')
                   .schemaType('page')
                   .filter('_type == "page" && navCategory == "works-archive"')
@@ -44,6 +48,7 @@ export default defineConfig({
               .title('교육 (Teaching)')
               .child(
                 S.documentList()
+                  .id('teaching')
                   .title('Teaching')
                   .schemaType('page')
                   .filter('_type == "page" && navCategory == "teaching"')
@@ -52,6 +57,7 @@ export default defineConfig({
               .title('언론 및 리뷰 (Press & Reviews)')
               .child(
                 S.documentList()
+                  .id('press-reviews')
                   .title('Press & Reviews')
                   .schemaType('page')
                   .filter('_type == "page" && (navCategory == "press" || navCategory == "none" || path == "/press-review")')
@@ -60,6 +66,7 @@ export default defineConfig({
               .title('연락처 (Contact)')
               .child(
                 S.documentList()
+                  .id('contact')
                   .title('Contact')
                   .schemaType('page')
                   .filter('_type == "page" && navCategory == "contact"')
@@ -68,6 +75,7 @@ export default defineConfig({
               .title('기타 페이지 (Other Pages)')
               .child(
                 S.documentList()
+                  .id('other')
                   .title('Other Pages')
                   .schemaType('page')
                   .filter('_type == "page" && !(navCategory in ["about", "works-selected", "works-archive", "teaching", "press", "contact", "none"])')
